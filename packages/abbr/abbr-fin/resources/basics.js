@@ -3,5 +3,6 @@ export const  basics = [
   [/cash flow/gi, 'c flow'],
   [/equity/gi, 'eqt'],
   [/activities/gi, ''],
-  [/return on/gi, 'ro']
+  [/return on/gi, 'ro'],
+  [/return on equity/gi, 'roe']
 ]

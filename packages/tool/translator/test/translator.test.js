@@ -1,5 +1,5 @@
-import { Translator } from '../src/translator/Translator'
-import { logger, says } from '@spare/logger'
+import { Translator } from '../src/Translator'
+import { says } from '@spare/logger'
 
 const dict = [
   [/e/g, 'a'],
@@ -8,6 +8,6 @@ const dict = [
 
 const translator = new Translator(dict)
 
-translator.trans('hello') |> says['hello']
+translator.parse('hello') |> says['hello']
 
-translator.trans('Los Angeles') |> says['Los Angeles']
+translator.parse('Los Angeles') |> says['Los Angeles']

@@ -3,10 +3,10 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 const makeReplaceable = dict => Object.defineProperty(dict, Symbol.replace, {
-  value(word) {
+  value(word, after) {
     for (let [curr, proj] of this) word = word.replace(curr, proj);
 
-    return word.trim();
+    return after ? after(word) : word;
   },
 
   configurable: true,
@@ -37,8 +37,8 @@ class Translator {
     return new Translator(dict);
   }
 
-  trans(word) {
-    return word.replace(this.dict);
+  parse(word, after) {
+    return word.replace(this.dict, after);
   }
 
   reboot(dict) {

@@ -1,5 +1,5 @@
 import { makeReplaceable } from './makeReplaceable'
-import { sortKeysByLength } from '../../utils/sortKeysByLength'
+import { sortKeysByLength } from '../utils/sortKeysByLength'
 
 export class Translator {
   constructor (dictionary) {
@@ -11,7 +11,7 @@ export class Translator {
     return new Translator(dict)
   }
 
-  trans (word) { return word.replace(this.dict) }
+  parse (word, after) { return word.replace(this.dict, after) }
 
   reboot (dict) { return dict ? (this.dict = (dict|> makeReplaceable), this) : this }
 }

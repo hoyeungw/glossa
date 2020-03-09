@@ -1,5 +1,5 @@
 {
-  "name": "@glossa/translate-fin-ntes",
+  "name": "@glossa/i18n-fin-ntes",
   "version": "0.0.0",
   "description": "Glossaries",
   "main": "dist/index.cjs.js",

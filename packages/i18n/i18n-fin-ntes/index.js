@@ -3,7 +3,7 @@ import { incomes } from './resources/incomes'
 import { cashflows } from './resources/cashflows'
 import { basics } from './resources/basics'
 
-export const Raw = {
+export const ChsToEng = {
   balances,
   incomes,
   cashflows,

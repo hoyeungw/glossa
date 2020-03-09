@@ -1,3 +1,3 @@
-export { makeReplaceable } from './src/translator/makeReplaceable'
-export { translate } from './src/translator/translate'
-export { Translator } from './src/translator/Translator'
+export { makeReplaceable } from './src/makeReplaceable'
+export { translate } from './src/translate'
+export { Translator } from './src/Translator'
