@@ -6,6 +6,10 @@ const cashflows = ['报告日期', '销售商品_提供劳务收到的现金', '
 
 const basics = ['报告日期', '基本每股收益', '每股净资产', '每股经营活动产生的现金流量净额', '主营业务收入', '主营业务利润', '营业利润', '投资收益', '营业外收支净额', '利润总额', '净利润', '净利润', '经营活动产生的现金流量净额', '现金及现金等价物净增加额', '总资产', '流动资产', '总负债', '流动负债', '股东权益不含少数股东权益', '净资产收益率加权'];
 
+// [(.*?)] 仅去掉括号本身
+// \(.*?\) 去掉括号及括号内的任意字符
+const bannerReplacer = tx => String(tx).replace(/( )|\(.*?\)/g, '').replace(/(、)|：|:|\(/g, '_').trim();
+
 const Raw = {
   balances,
   incomes,
@@ -13,4 +17,4 @@ const Raw = {
   basics
 };
 
-export { Raw, balances, basics, cashflows, incomes };
+export { Raw, balances, bannerReplacer, basics, cashflows, incomes };
