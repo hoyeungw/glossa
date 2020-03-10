@@ -1,20 +1,18 @@
 import { balances } from './resources/balances'
 import { incomes } from './resources/incomes'
 import { cashflows } from './resources/cashflows'
-import { basics } from './resources/basics'
+import { enterpriseValues } from './resources/enterpriseValues'
 
-export const Raw = {
+export const ChsToEng = {
   balances,
   incomes,
   cashflows,
-  basics
+  enterpriseValues
 }
 
 export {
   balances,
   incomes,
   cashflows,
-  basics,
+  enterpriseValues,
 }
-export { bannerReplacer } from './src/bannerReplacer'
-
