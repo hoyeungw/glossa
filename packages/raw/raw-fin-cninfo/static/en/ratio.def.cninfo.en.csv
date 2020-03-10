@@ -1,0 +1,109 @@
+英文名称,中文名称,类型,说明
+SECCODE,Stock Code,varchar(10),
+SECNAME,Stock Abbr,varchar(100),
+ORGNAME,Company Name,varchar(100),
+REPORTPD,Reporting Period,date,"March 31, June 30, September 30, and December 31 are respective signifiers of 1Q Report, Semi-annual Report, 3Q Report and Annual Report."
+STARTDATE,Start Date,date,
+ENDDATE,End Date,date,
+CONSOTYPE,Statement Type,varchar(200),Including Consolidated Statements for Current Reporting Period and Consolidated Statements for Last Reporting Period. Please refer to Table PUBLIC0006 where f001v='071' for more information.
+SOURCE,Data Source,varchar(200),"Including Prospectus, Listing Announcement, Periodic Report, Preliminary Earnings Estimate and Other Announcements, etc. Please refer to Table PUBLIC0006 where f001v='033' for more information."
+F001N,EPS,"decimal(14,6)",
+F002N,Basic EPS,"decimal(14,6)",
+F003N,Diluted EPS,"decimal(14,6)",
+F004N,EPS after Deducting Non-recurring Gains and Losses,"decimal(14,6)",
+F005N,Retained Profit per Share,"decimal(12,4)",
+F006N,NAV per Share,"decimal(12,4)",NAV/Total Shares
+F007N,Capital Reserve per Share,"decimal(12,4)",Capital Reserve/Total Shares
+F008N,Operating Margin,"decimal(10,3)",Operating Profit/Operating Income*100
+F009N,Operating Tax Ratio,"decimal(10,3)",Operating Tax/Operating Income*100
+F010N,Operating Cost Ratio,"decimal(10,3)",Operating Cost/Operating Income*100
+F011N,Return on Equity (ROE),"decimal(10,3)",Net Profit/Total Shareholders' Equity*100
+F012N,Return on Investment (ROI),"decimal(10,3)",Investment Income/(Transactional Financial Assets+Available-for-sale Financial Assets+Held-to-maturity Investment+Long-term Equity Investment)*100
+F013N,Return on Total Assets (ROA),"decimal(10,3)",Net Profit/[(Opening Total Assets+Closing Total Assets)/2]*100
+F014N,Net Profit Margin,"decimal(15,3)",Net Profit/Operating Income*100
+F015N,Administrative Expenses Ratio,"decimal(15,3)",Administrative Expenses/Operating Income*100
+F016N,Financial Expenses Ratio,"decimal(15,3)",Financial Expenses/Operating Income*100
+F017N,Profit to Cost Ratio,"decimal(15,3)",Total Profit/Total Cost*100
+F018N,"Finance, Admin and Operating Expenses to Operating Income Ratio","decimal(15,3)",(Financial Expenses+Administrative Expenses+ Operating Expenses)/Operating Income*100
+F019N,Receivables Turnover,"decimal(10,3)",Operating Income/[(Opening Accounts Receivable+Closing Accounts Receivable)/2]
+F020N,Inventory Turnover,"decimal(10,3)",Operating Cost/[(Opening Inventory+Closing Inventory)/2]
+F021N,Working Capital Turnover,"decimal(10,3)",Operating Income/{[(Opening Current Assets-Opening Current Liabilities)+(Closing Current Assets-Closing Current Liabilities)]/2}
+F022N,Total Assets Turnover,"decimal(10,3)",Operating Income/[(Opening Total Assets+Closing Total Assets)/2]
+F023N,Fixed Assets Turnover,"decimal(10,3)",Operating Income/[(Opening Fixed Assets+Closing Fixed Assets)/2]
+F024N,Days’ Sales in Accounts Receivable,int(7),360/Receivables Turnover
+F025N,Days in Inventory,int(7),360/Inventory Turnover
+F026N,Current Assets Turnover,"decimal(10,3)",Operating Income/[(Opening Current Assets+Closing Current Assets)/2]
+F027N,Days’ Sales in Current Assets,int(7),360/Current Assets Turnover
+F028N,Days’ Sales in Total Assets,int(7),360/Total Assets Turnover
+F029N,Equity Turnover,"decimal(10,3)",Operating Income/[(Opening Shareholders' Equity+Closing Shareholders' Equity)/2]
+F030N,Current Assets Ratio,"decimal(10,3)",Current Assets/Total Assets*100
+F031N,Monetary Fund Ratio,"decimal(10,3)",Monetary Fund/Current Assets*100
+F032N,Transactional Financial Assets Ratio,"decimal(10,3)",Short-term Investment/Current Assets*100
+F033N,Inventory Ratio,"decimal(10,3)",Inventory/Current Assets*100
+F034N,Fixed Assets Ratio,"decimal(10,3)",Fixed Assets/Total Assets*100
+F035N,Current Liability to Non-current Liability Ratio,"decimal(15,3)",Current Liability/Non-current Liability*100
+F036N,Equity Ratio,"decimal(10,3)",Total Liabilities/Shareholders' Equity*100
+F037N,Net Assets Ratio,"decimal(10,3)",Net Assets/Total Assets*100
+F038N,Asset Liability Ratio,"decimal(10,3)",Total Liabilities/Total Assets*100
+F039N,Current Ratio,"decimal(10,3)",Current Assets/Current Liabilities
+F040N,Quick Ratio,"decimal(10,3)",(Current Assets-Inventory)/Current Liabilities
+F041N,Cash Ratio,"decimal(10,3)",Monetary Fund/Current Liabilities*100
+F042N,Working Capital,"decimal(18,2)",Current Assets-Current Liabilities
+F043N,Non-current Liability Ratio,"decimal(10,3)",(Non-current Liabilities/Total Liabilities)*100
+F044N,Current Liability Ratio,"decimal(10,3)",Current Liabilities/Total Liabilities*100
+F045N,Conservative Quick Ratio,"decimal(10,3)",(Monetary Fund+Transactional Financial Assets+Notes Receivable+Accounts Receivable+Other Receivables)/Current Liabilities
+F046N,Debts to Tangible Assets Ratio,"decimal(10,3)",Current Liabilities/(Shareholders' Equity-Intangible Assets)
+F047N,Operating Income Growth Rate,"decimal(10,3)",(Current-period Operating Income/Prior-period Operating Income-1)*100
+F048N,Net Profit Growth Rate,"decimal(15,3)",(Current-period Net Profit/Prior-period Net Profit-1)*100
+F049N,Net Assets Growth Rate,"decimal(10,3)",(Closing Shareholders' Equity/Opening Shareholders' Equity-1)*100
+F050N,Fixed Assets Growth Rate,"decimal(10,3)",(Closing Fixed Assets/Opening Fixed Assets-1)*100
+F051N,Total Assets Growth Rate,"decimal(10,3)",(Closing Total Assets/Opening Total Assets-1)*100
+F052N,Investment Income Growth Rate,"decimal(15,3)",(Current-period Investment Income/Prior-period Investment Income-1)*100
+F053N,Operating Profit Growth Rate,"decimal(10,3)",(Current-period Operating Profit/Prior-period Operating Profit-1)*100
+F054N,Cash Flow per Share,"decimal(10,3)",Net Cash Flow/Total Shares
+F055N,Operating Cash Flow per Share,"decimal(10,3)",Operating Net Cash Flow/Total Shares
+F056N,Operating Net Cash Flow to Current Liability Ratio,"decimal(10,3)",Operating Net Cash Flow*100/Current Liabilities
+F057N,Operating Net Cash Flow to Total Liability Ratio,"decimal(10,3)",Operating Net Cash Flow*100/Total Liabilities
+F058N,Operating Net Cash Flow to Net Profit Ratio,"decimal(10,3)",Operating Net Cash Flow*100/Net Profit
+F059N,Operating Income Cash Coverage,"decimal(10,3)",Operating Net Cash Flow*100/Operating Income
+F060N,Operating Net Cash Flow to Total Assets Ratio,"decimal(10,3)",Operating Net Cash Flow*100/Total Assets
+F061N,Operating Income,"decimal(18,2)",
+F062N,Operating Cost,"decimal(18,2)",
+F063N,Sales Expenses,"decimal(18,2)",
+F064N,Administrative Expenses,"decimal(18,2)",
+F065N,Financial Expenses,"decimal(18,2)",
+F066N,"Total of Financial, Administrative and Operating Expenses","decimal(18,2)",
+F067N,Net Income from Changes in Fair Value,"decimal(18,2)",
+F068N,Investment Income,"decimal(18,2)",
+F069N,Operating Profit,"decimal(18,2)",
+F070N,Net Non-Operating Income and Expenditures,"decimal(18,2)",
+F071N,Total Profit,"decimal(18,2)",
+F072N,Net Profit,"decimal(18,2)",
+F073N,Net Profit Attributable to the Parent Company Owners,"decimal(18,2)",
+F074N,Net Profit after Deducting Non-recurring Gains and Losses,"decimal(18,2)",
+F075N,Total Non-recurring Gains and Losses,"decimal(18,2)",
+F076N,Net Cash Flow from Operating Activities,"decimal(18,2)",
+F077N,Net Cash Flow from Investing Activities,"decimal(18,2)",
+F078N,Net Cash Flow from Financing Activities,"decimal(18,2)",
+F079N,Net Increase in Cash and Cash Equivalents,"decimal(18,2)",
+F080N,Monetary Fund,"decimal(18,2)",
+F081N,Transactional Financial Assets,"decimal(18,2)",
+F082N,Accounts Receivable,"decimal(18,2)",
+F083N,Inventory,"decimal(18,2)",
+F084N,Total Current Assets,"decimal(18,2)",
+F085N,Investment Properties,"decimal(18,2)",
+F086N,Goodwill,"decimal(18,2)",
+F087N,Fixed Assets,"decimal(18,2)",
+F088N,Total Non-current Assets,"decimal(18,2)",
+F089N,Total Assets,"decimal(18,2)",
+F090N,Total Current Liabilities,"decimal(18,2)",
+F091N,Total Non-current Liabilities,"decimal(18,2)",
+F092N,Total Liabilities,"decimal(18,2)",
+F093N,Share Capital,"decimal(18,2)",
+F094N,Capital Reserve,"decimal(18,2)",
+F095N,Surplus Reserve,"decimal(18,2)",
+F096N,Treasury Stocks,"decimal(18,2)",
+F097N,Retained Profit,"decimal(18,2)",
+F098N,Equity Attributable to the Parent Company Owners,"decimal(18,2)",
+F099N,Minority Interests,"decimal(18,2)",
+F100N,Total Shareholders' Equity,"decimal(18,2)",

@@ -1,0 +1,934 @@
+{
+  "zh": [
+    [
+      "证券简称",
+      ""
+    ],
+    [
+      "证券代码",
+      ""
+    ],
+    [
+      "机构名称",
+      ""
+    ],
+    [
+      "公告日期",
+      ""
+    ],
+    [
+      "截止日期",
+      ""
+    ],
+    [
+      "报告年度",
+      ""
+    ],
+    [
+      "合并类型编码",
+      ""
+    ],
+    [
+      "合并类型",
+      ""
+    ],
+    [
+      "报表来源编码",
+      ""
+    ],
+    [
+      "报表来源",
+      ""
+    ],
+    [
+      "货币资金",
+      "单位：元"
+    ],
+    [
+      "结算备付金",
+      "单位：元"
+    ],
+    [
+      "拆出资金",
+      "单位：元"
+    ],
+    [
+      "以公允价值计量且其变动计入当期损益的金融资产(20190322弃用)",
+      "单位：元"
+    ],
+    [
+      "衍生金融资产",
+      "单位：元"
+    ],
+    [
+      "应收票据",
+      "单位：元"
+    ],
+    [
+      "应收账款",
+      "单位：元"
+    ],
+    [
+      "预付款项",
+      "单位：元"
+    ],
+    [
+      "应收保费",
+      "单位：元"
+    ],
+    [
+      "应收分保账款",
+      "单位：元"
+    ],
+    [
+      "应收分保合同准备金",
+      "单位：元"
+    ],
+    [
+      "其中：应收利息",
+      "单位：元"
+    ],
+    [
+      "其中：应收股利",
+      "单位：元"
+    ],
+    [
+      "其他应收款",
+      "单位：元"
+    ],
+    [
+      "应收关联公司款",
+      "单位：元"
+    ],
+    [
+      "买入返售金融资产",
+      "单位：元"
+    ],
+    [
+      "存货",
+      "单位：元"
+    ],
+    [
+      "其中：消耗性生物资产",
+      "单位：元"
+    ],
+    [
+      "划分为持有待售的资产",
+      "单位：元"
+    ],
+    [
+      "发放贷款及垫款-流动资产",
+      "单位：元"
+    ],
+    [
+      "一年内到期的非流动资产",
+      "单位：元"
+    ],
+    [
+      "交易性金融资产",
+      "单位：元"
+    ],
+    [
+      "应收票据及应收账款",
+      "单位：元"
+    ],
+    [
+      "合同资产",
+      "单位：元"
+    ],
+    [
+      "其他流动资产",
+      "单位：元"
+    ],
+    [
+      "流动资产合计",
+      "单位：元"
+    ],
+    [
+      "发放贷款及垫款-非流动资产",
+      "单位：元"
+    ],
+    [
+      "可供出售金融资产",
+      "单位：元"
+    ],
+    [
+      "持有至到期投资",
+      "单位：元"
+    ],
+    [
+      "长期应收款",
+      "单位：元"
+    ],
+    [
+      "长期股权投资",
+      "单位：元"
+    ],
+    [
+      "投资性房地产",
+      "单位：元"
+    ],
+    [
+      "固定资产",
+      "单位：元"
+    ],
+    [
+      "在建工程",
+      "单位：元"
+    ],
+    [
+      "工程物资",
+      "单位：元"
+    ],
+    [
+      "固定资产清理",
+      "单位：元"
+    ],
+    [
+      "生产性生物资产",
+      "单位：元"
+    ],
+    [
+      "油气资产",
+      "单位：元"
+    ],
+    [
+      "无形资产",
+      "单位：元"
+    ],
+    [
+      "开发支出",
+      "单位：元"
+    ],
+    [
+      "商誉",
+      "单位：元"
+    ],
+    [
+      "长期待摊费用",
+      "单位：元"
+    ],
+    [
+      "递延所得税资产",
+      "单位：元"
+    ],
+    [
+      "债权投资",
+      "单位：元"
+    ],
+    [
+      "其他债权投资",
+      "单位：元"
+    ],
+    [
+      "其他权益工具投资",
+      "单位：元"
+    ],
+    [
+      "其他非流动金融资产",
+      "单位：元"
+    ],
+    [
+      "其他非流动资产",
+      "单位：元"
+    ],
+    [
+      "非流动资产合计",
+      "单位：元"
+    ],
+    [
+      "资产总计",
+      "单位：元"
+    ],
+    [
+      "短期借款",
+      "单位：元"
+    ],
+    [
+      "向中央银行借款",
+      "单位：元"
+    ],
+    [
+      "吸收存款及同业存放",
+      "单位：元"
+    ],
+    [
+      "拆入资金",
+      "单位：元"
+    ],
+    [
+      "以公允价值计量且其变动计入当期损益的金融负债（20190322弃用）",
+      "单位：元"
+    ],
+    [
+      "衍生金融负债",
+      "单位：元"
+    ],
+    [
+      "应付票据",
+      "单位：元"
+    ],
+    [
+      "应付账款",
+      "单位：元"
+    ],
+    [
+      "预收款项",
+      "单位：元"
+    ],
+    [
+      "卖出回购金融资产款",
+      "单位：元"
+    ],
+    [
+      "应付手续费及佣金",
+      "单位：元"
+    ],
+    [
+      "应付职工薪酬",
+      "单位：元"
+    ],
+    [
+      "应交税费",
+      "单位：元"
+    ],
+    [
+      "其中：应付利息",
+      "单位：元"
+    ],
+    [
+      "其中：应付股利",
+      "单位：元"
+    ],
+    [
+      "其他应付款",
+      "单位：元"
+    ],
+    [
+      "应付关联公司款",
+      "单位：元"
+    ],
+    [
+      "应付分保账款",
+      "单位：元"
+    ],
+    [
+      "保险合同准备金",
+      "单位：元"
+    ],
+    [
+      "代理买卖证券款",
+      "单位：元"
+    ],
+    [
+      "代理承销证券款",
+      "单位：元"
+    ],
+    [
+      "划分为持有待售的负债",
+      "单位：元"
+    ],
+    [
+      "一年内到期的非流动负债",
+      "单位：元"
+    ],
+    [
+      "预计负债-流动负债",
+      "单位：元"
+    ],
+    [
+      "递延收益-流动负债",
+      "单位：元"
+    ],
+    [
+      "交易性金融负债",
+      "单位：元"
+    ],
+    [
+      "应付票据及应付账款",
+      "单位：元"
+    ],
+    [
+      "合同负债",
+      "单位：元"
+    ],
+    [
+      "其他流动负债",
+      "单位：元"
+    ],
+    [
+      "流动负债合计",
+      "单位：元"
+    ],
+    [
+      "长期借款",
+      "单位：元"
+    ],
+    [
+      "应付债券",
+      "单位：元"
+    ],
+    [
+      "其中：优先股-非流动负债",
+      "单位：元"
+    ],
+    [
+      "永续债-非流动负债",
+      "单位：元"
+    ],
+    [
+      "长期应付款",
+      "单位：元"
+    ],
+    [
+      "长期应付职工薪酬",
+      "单位：元"
+    ],
+    [
+      "专项应付款",
+      "单位：元"
+    ],
+    [
+      "预计负债",
+      "单位：元"
+    ],
+    [
+      "递延收益-非流动负债",
+      "单位：元"
+    ],
+    [
+      "递延所得税负债",
+      "单位：元"
+    ],
+    [
+      "其他非流动负债",
+      "单位：元"
+    ],
+    [
+      "非流动负债合计",
+      "单位：元"
+    ],
+    [
+      "负债合计",
+      "单位：元"
+    ],
+    [
+      "实收资本（或股本）",
+      "单位：元"
+    ],
+    [
+      "其他权益工具",
+      "单位：元"
+    ],
+    [
+      "其中：优先股-所有者权益",
+      "单位：元"
+    ],
+    [
+      "永续债-所有者权益",
+      "单位：元"
+    ],
+    [
+      "资本公积",
+      "单位：元"
+    ],
+    [
+      "减：库存股",
+      "单位：元"
+    ],
+    [
+      "其他综合收益",
+      "单位：元"
+    ],
+    [
+      "专项储备",
+      "单位：元"
+    ],
+    [
+      "盈余公积",
+      "单位：元"
+    ],
+    [
+      "一般风险准备",
+      "单位：元"
+    ],
+    [
+      "未分配利润",
+      "单位：元"
+    ],
+    [
+      "外币报表折算价差",
+      "单位：元"
+    ],
+    [
+      "归属于母公司所有者权益",
+      "单位：元"
+    ],
+    [
+      "少数股东权益",
+      "单位：元"
+    ],
+    [
+      "非正常经营项目收益调整",
+      "单位：元"
+    ],
+    [
+      "所有者权益（或股东权益）合计",
+      "单位：元"
+    ],
+    [
+      "负债和所有者（或股东权益）合计",
+      "单位：元"
+    ],
+    [
+      "备注",
+      ""
+    ],
+    [
+      "应收款项融资",
+      "2019年8月新增"
+    ],
+    [
+      "使用权资产",
+      "2019年8月新增"
+    ],
+    [
+      "租赁负债",
+      "2019年8月新增"
+    ]
+  ],
+  "en": [
+    [
+      "Stock Code",
+      ""
+    ],
+    [
+      "Stock Abbr",
+      ""
+    ],
+    [
+      "Company Name",
+      ""
+    ],
+    [
+      "Announcement Date",
+      ""
+    ],
+    [
+      "Reporting Period",
+      "March 31, June 30, September 30, and December 31 are respective signifiers of 1Q Report, Semi-annual Report, 3Q Report and Annual Report."
+    ],
+    [
+      "End Date",
+      ""
+    ],
+    [
+      "Statement Type",
+      "Including Consolidated Statements for Current Reporting Period, Consolidated Statements for Last Reporting Period, Statements of the Parent Company for Current Reporting Period and Statements of the Parent Company for Last Reporting Period. Please refer to Table PUBLIC0006 where f001v='071' for more information."
+    ],
+    [
+      "Data Source",
+      "Including Prospectus, Listing Announcement, Periodic Report, Preliminary Earnings Estimate and Other Announcements, etc. Please refer to Table PUBLIC0006 where f001v='033' for more information."
+    ],
+    [
+      "Monetary Fund",
+      ""
+    ],
+    [
+      "Balance with Clearing Companies",
+      ""
+    ],
+    [
+      "Loans to Banks and Other Financial Institutions",
+      ""
+    ],
+    [
+      "Transactional Financial Assets",
+      ""
+    ],
+    [
+      "Derivative Financial Assets",
+      ""
+    ],
+    [
+      "Notes Receivable",
+      ""
+    ],
+    [
+      "Accounts Receivable",
+      ""
+    ],
+    [
+      "Prepayments",
+      ""
+    ],
+    [
+      "Insurance Premiums Receivable",
+      ""
+    ],
+    [
+      "Reinsurance Premiums Receivable",
+      ""
+    ],
+    [
+      "Reinsurance Contract Reserves Receivable",
+      ""
+    ],
+    [
+      "Other Accounts Receivables",
+      ""
+    ],
+    [
+      "Accounts Receivable from Related Companies",
+      ""
+    ],
+    [
+      "Interest Receivable",
+      ""
+    ],
+    [
+      "Dividend Receivable",
+      ""
+    ],
+    [
+      "Financial Assets Purchased under Resale Agreements",
+      ""
+    ],
+    [
+      "Inventory",
+      ""
+    ],
+    [
+      "Of Which: Consumptive Biological Assets",
+      ""
+    ],
+    [
+      "Loans and Advances to Customers - Current Assets",
+      ""
+    ],
+    [
+      "Assets Classified as Available-for-sale",
+      ""
+    ],
+    [
+      "Non-current Assets Due Within One Year",
+      ""
+    ],
+    [
+      "Other Current Assets",
+      ""
+    ],
+    [
+      "Total Current Assets",
+      ""
+    ],
+    [
+      "Loans and Advances to Customers - Non-current Assets",
+      ""
+    ],
+    [
+      "Available-for-sale Financial Assets",
+      ""
+    ],
+    [
+      "Held-to-maturity Investment",
+      ""
+    ],
+    [
+      "Long-term Accounts Receivable",
+      ""
+    ],
+    [
+      "Long-term Equity Investment",
+      ""
+    ],
+    [
+      "Investment Properties",
+      ""
+    ],
+    [
+      "Fixed Assets",
+      ""
+    ],
+    [
+      "Construction in Progress",
+      ""
+    ],
+    [
+      "Project Materials",
+      ""
+    ],
+    [
+      "Disposal of Fixed Assets",
+      ""
+    ],
+    [
+      "Productive Biological Assets",
+      ""
+    ],
+    [
+      "Oil and Gas Assets",
+      ""
+    ],
+    [
+      "Intangible Assets",
+      ""
+    ],
+    [
+      "Development Expenditures",
+      ""
+    ],
+    [
+      "Goodwill",
+      ""
+    ],
+    [
+      "Long-term Deferred Expenses",
+      ""
+    ],
+    [
+      "Deferred Income Tax Assets",
+      ""
+    ],
+    [
+      "Other Non-Current Assets",
+      ""
+    ],
+    [
+      "Total Non-Current Assets",
+      ""
+    ],
+    [
+      "Total Assets",
+      ""
+    ],
+    [
+      "Short-term Loans",
+      ""
+    ],
+    [
+      "Borrowings from Central Bank",
+      ""
+    ],
+    [
+      "Customer Deposits and Due to Banks and Others",
+      ""
+    ],
+    [
+      "Placements from Banks and Other Financial Institutions",
+      ""
+    ],
+    [
+      "Transactional Financial Liabilities",
+      ""
+    ],
+    [
+      "Derivative Financial Liabilities",
+      ""
+    ],
+    [
+      "Notes Payable",
+      ""
+    ],
+    [
+      "Accounts Payable",
+      ""
+    ],
+    [
+      "Advances from Customers",
+      ""
+    ],
+    [
+      "Financial Assets Sold under Repurchase Agreements",
+      ""
+    ],
+    [
+      "Fees and Commissions Payable",
+      ""
+    ],
+    [
+      "Payroll Payable",
+      ""
+    ],
+    [
+      "Taxes Payable",
+      ""
+    ],
+    [
+      "Interest Payable",
+      ""
+    ],
+    [
+      "Dividend Payable",
+      ""
+    ],
+    [
+      "Other Payables",
+      ""
+    ],
+    [
+      "Accounts Payable to Related Companies",
+      ""
+    ],
+    [
+      "Reinsurance Premiums Payable",
+      ""
+    ],
+    [
+      "Insurance Contract Reserves",
+      ""
+    ],
+    [
+      "Customer Brokerage Deposits",
+      ""
+    ],
+    [
+      "Securities Underwriting Brokerage Deposits",
+      ""
+    ],
+    [
+      "Liabilities Classified as Available-for-sale",
+      ""
+    ],
+    [
+      "Non-current Liabilities Due Within One Year",
+      ""
+    ],
+    [
+      "Deferred Income- Current Liabilities",
+      ""
+    ],
+    [
+      "Estimated Liabilities- Current Liabilities",
+      ""
+    ],
+    [
+      "Other Current Liabilities",
+      ""
+    ],
+    [
+      "Total Current Liabilities",
+      ""
+    ],
+    [
+      "Long-term Loans",
+      ""
+    ],
+    [
+      "Bonds Payable",
+      ""
+    ],
+    [
+      "Of Which: Preferred Stock - Non-current Liabilities",
+      ""
+    ],
+    [
+      "Perpetual Bond - Non-current Liabilities",
+      ""
+    ],
+    [
+      "Long-term Payables",
+      ""
+    ],
+    [
+      "Long-term Payroll Payable",
+      ""
+    ],
+    [
+      "Special Payables",
+      ""
+    ],
+    [
+      "Estimated Liabilities",
+      ""
+    ],
+    [
+      "Deferred Income - Non-current Liabilities",
+      ""
+    ],
+    [
+      "Deferred Income Tax Liabilities",
+      ""
+    ],
+    [
+      "Other Non-current Liabilities",
+      ""
+    ],
+    [
+      "Total Non-current Liabilities",
+      ""
+    ],
+    [
+      "Total Liabilities",
+      ""
+    ],
+    [
+      "Paid-in Capital (or Share Capital)",
+      ""
+    ],
+    [
+      "Other Equity Instruments",
+      ""
+    ],
+    [
+      "Of Which: Preferred Stock - Owners' Equity",
+      ""
+    ],
+    [
+      "Perpetual Bond - Owners' Equity",
+      ""
+    ],
+    [
+      "Capital Reserve",
+      ""
+    ],
+    [
+      "Less: Treasury Stocks",
+      ""
+    ],
+    [
+      "Other Comprehensive Income",
+      ""
+    ],
+    [
+      "Special Reserve",
+      ""
+    ],
+    [
+      "Surplus Reserve",
+      ""
+    ],
+    [
+      "General Risk Reserve",
+      ""
+    ],
+    [
+      "Retained Profit",
+      ""
+    ],
+    [
+      "Equity Attributable to the Parent Company Owners",
+      ""
+    ],
+    [
+      "Minority Interests",
+      ""
+    ],
+    [
+      "Foreign Currency Translation Differences",
+      ""
+    ],
+    [
+      "Adjustment to Abnormal Operation Income",
+      ""
+    ],
+    [
+      "Total Shareholders' Equity",
+      ""
+    ],
+    [
+      "Total Liabilities and Shareholders' Equity",
+      ""
+    ]
+  ]
+}
