@@ -1,11 +1,10 @@
 export const  cashflows = [
-  [/depreciation/gi, 'deprec'],
-  [/cash flow/gi, 'cf'],
-  [/subtotal of cash inflow from/gi, 'cin'],
-  [/subtotal of cash outflow from/gi, 'cout'],
-  [/increase (in|of)/gi, 'incr'],
-  [/decrease (in|of)/gi, 'decr'],
+  [/cash/gi,'c'],
+  [/receiv(ed|able(s?))? from/gi,'fr'],
+  [/paid( for)?( to)?/gi,'pd'],
+  [/(goods)\s[a-zA-Z]+/gi,'gd'],
+  [/activities/gi, ''],
   [/equivalents/gi, 'eqv'],
-  [/amortization/gi, 'amort'],
-  [/activities/gi, '']
+  [/subtotal of cash inflow from/gi, 'cin'],
+  [/subtotal of cash outflow from/gi, 'cout']
 ]

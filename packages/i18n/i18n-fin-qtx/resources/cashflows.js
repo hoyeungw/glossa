@@ -61,7 +61,7 @@ export const cashflows=[
   ],
   [
     "投资活动现金流入小计",
-    "cashin flows from investment activities"
+    "cash inflows from investment activities"
   ],
   [
     "购建固定资产_无形资产和其他长期资产支付的现金",
