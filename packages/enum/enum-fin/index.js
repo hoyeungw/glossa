@@ -5,4 +5,14 @@ export {
   CASHFLOWS,
   BASICS,
   ENT_VALUES
-} from './resources/enums'
+} from './resources/reports'
+
+export {
+  SYMBOL,
+  CODE,
+  DATE,
+  SECTOR,
+  CONCEPT,
+  INDUSTRY,
+  AREA,
+} from './resources/fields'
