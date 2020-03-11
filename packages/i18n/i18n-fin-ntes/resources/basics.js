@@ -17,5 +17,5 @@ export const basics = [
   ['总负债', 'total liabilities'],
   ['流动负债', 'current liabilities'],
   ['股东权益不含少数股东权益', 'shareholders\' equity wo minority'],
-  ['净资产收益率加权', 'return on equity weighted'],
+  ['净资产收益率加权', 'weighted return on equity'],
 ]

@@ -1,4 +1,6 @@
 export const
+  SYMBOL = 'symbol',
+  DATE = 'date',
   GENERALS = 'generals',
   BALANCES = 'balances',
   CASHFLOWS = 'cashflows',
