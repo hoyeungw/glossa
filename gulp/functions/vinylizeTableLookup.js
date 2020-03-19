@@ -13,7 +13,7 @@ export const vinylizeTableLookup = async function () {
   /** @type {string} */ const field = this.field
   /** @type {string} */ const filename = this.filename || wordsToPascal([key, 'to', field]).join('')
 
-  const entries = table.lookupTable(key, field, false)
+  const entries = Object.entries(table.lookupTable(key, field))
   const vinylBuffer = await vinylize(
     filename + '.js',
     `export const ${filename} = `,
