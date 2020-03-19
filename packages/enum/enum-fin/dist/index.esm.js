@@ -7,10 +7,15 @@ const GENERALS = 'generals',
 
 const SYMBOL = 'symbol',
       CODE = 'code',
+      NAME = 'name',
       DATE = 'date',
       SECTOR = 'sector',
       CONCEPT = 'concept',
       INDUSTRY = 'industry',
-      AREA = 'area';
+      AREA = 'area',
+      CHS = 'chs',
+      ENG = 'eng',
+      WEIGHT = 'weight',
+      EXCHANGE = 'exchange';
 
-export { AREA, BALANCES, BASICS, CASHFLOWS, CODE, CONCEPT, DATE, ENT_VALUES, GENERALS, INCOMES, INDUSTRY, SECTOR, SYMBOL };
+export { AREA, BALANCES, BASICS, CASHFLOWS, CHS, CODE, CONCEPT, DATE, ENG, ENT_VALUES, EXCHANGE, GENERALS, INCOMES, INDUSTRY, NAME, SECTOR, SYMBOL, WEIGHT };

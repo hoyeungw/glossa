@@ -1,0 +1,62 @@
+{
+  "name": "@glossa/index-fin-hs300",
+  "version": "0.0.15",
+  "description": "A crawler",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://192.168.31.196:4873"
+  },
+  "scripts": {
+    "pub": "npm publish",
+    "test": "node -r @babel/register test/index-fin-hs300.test.index.js"
+  },
+  "dependencies": {
+    "@acq/acq": "^0.1.7",
+    "@analys/crostab": "^0.1.4",
+    "@analys/enum-pivot-mode": "^0.1.3",
+    "@analys/enum-tabular-types": "^0.1.2",
+    "@analys/table": "^0.1.4",
+    "@aryth/comparer": "^0.1.0",
+    "@cliche/ratio": "^0.0.4",
+    "@cliche/to-percent": "^0.0.4",
+    "@spare/enum-encodings": "^0.2.0",
+    "@spare/logger": "^0.2.0",
+    "@spare/phrasing": "^0.2.0",
+    "@spare/verse": "^0.2.0",
+    "@typen/num-strict": "^0.0.3",
+    "@typen/typ": "^0.0.3",
+    "@vect/object-init": "^0.1.15",
+    "@vect/vector-init": "^0.1.17",
+    "iconv-lite": "^0.5.1",
+    "naivecsv": "^0.0.39",
+    "ora": "^4.0.3",
+    "xlsx": "^0.15.6"
+  },
+  "devDependencies": {
+    "typen": "^0.1.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoyeungw/glossa.git"
+  },
+  "keywords": [
+    "crawler",
+    "spider"
+  ],
+  "author": {
+    "name": "Hoyeung Wong",
+    "email": "hoyeungw@outlook.com",
+    "url": "https://github.com/hoyeungw"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hoyeungw/glossa.git"
+  },
+  "homepage": "https://github.com/hoyeungw/glossa#readme",
+  "gitHead": "aa01cf9129e029a587e99da23529e0d9374e1fc3"
+}

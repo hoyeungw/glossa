@@ -10,9 +10,14 @@ export {
 export {
   SYMBOL,
   CODE,
+  NAME,
   DATE,
   SECTOR,
   CONCEPT,
   INDUSTRY,
   AREA,
+  CHS,
+  ENG,
+  WEIGHT,
+  EXCHANGE
 } from './resources/fields'

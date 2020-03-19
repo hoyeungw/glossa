@@ -89,7 +89,7 @@ export const balances=[
   ],
   [
     "固定资产清理",
-    "fixed assets clean up"
+    "fixed assets cleanDest up"
   ],
   [
     "生产性生物资产",

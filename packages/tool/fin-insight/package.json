@@ -1,0 +1,54 @@
+{
+  "name": "@glossa/fin-insight",
+  "version": "0.0.15",
+  "description": "A crawler",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://192.168.31.196:4873"
+  },
+  "scripts": {
+    "pub": "npm publish",
+    "test": "node -r @babel/register test/fin-insight.test.index.js"
+  },
+  "dependencies": {
+    "@analys/enum-pivot-mode": "^0.1.3",
+    "@analys/table": "^0.1.4",
+    "@analys/table-merge": "^0.1.4",
+    "@aryth/comparer": "^0.1.0",
+    "@aryth/histo": "^0.1.1",
+    "@aryth/math": "^0.1.0",
+    "@aryth/rank-column": "^0.1.0",
+    "@glossa/enum-fin": "^0.0.5",
+    "@analys/crostab": "^0.1.4",
+    "@spare/logger": "^0.2.0",
+    "@typen/num-strict": "^0.0.3",
+    "@analys/enum-mutabilities": "^0.1.2"
+  },
+  "devDependencies": {
+    "typen": "^0.1.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoyeungw/glossa.git"
+  },
+  "keywords": [
+    "crawler",
+    "spider"
+  ],
+  "author": {
+    "name": "Hoyeung Wong",
+    "email": "hoyeungw@outlook.com",
+    "url": "https://github.com/hoyeungw"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hoyeungw/glossa.git"
+  },
+  "homepage": "https://github.com/hoyeungw/glossa#readme",
+  "gitHead": "aa01cf9129e029a587e99da23529e0d9374e1fc3"
+}
