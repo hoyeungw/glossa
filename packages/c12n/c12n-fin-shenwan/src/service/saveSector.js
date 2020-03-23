@@ -8,7 +8,7 @@ import { ACCUM } from '@analys/enum-pivot-mode'
 import { wind } from '@vect/object-init'
 import { SectorCn } from '../SectorCn'
 
-const FOLDER = './packages/financial/c12n-fin-shenwan/src/assets'
+const FOLDER = './packages/financial/fin-c12n-shenwan/src/assets'
 const CODE = 'code', NAME = 'name', SECTOR = 'c_name', FLAG = 'flag'
 
 export const saveSector = async (source = 'sina') => {

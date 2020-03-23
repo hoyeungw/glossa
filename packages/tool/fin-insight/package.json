@@ -25,7 +25,7 @@
     "@aryth/math": "^0.1.0",
     "@aryth/rank-column": "^0.1.0",
     "@glossa/enum-fin": "^0.0.7",
-    "@spare/logger": "^0.2.0",
+    "@spare/logger": "^0.3.7",
     "@typen/num-strict": "^0.0.3"
   },
   "devDependencies": {

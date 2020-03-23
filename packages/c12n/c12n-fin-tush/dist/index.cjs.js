@@ -2,12 +2,6 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-var iconvLite = require('iconv-lite');
-var naivecsv = require('naivecsv');
-var acq = require('@acq/acq');
-var enumTabularTypes = require('@analys/enum-tabular-types');
-var enumEncodings = require('@spare/enum-encodings');
-
 const CodeToArea = {
   '300001': '山东',
   '300002': '北京',
@@ -3857,41 +3851,5 @@ const AreaToCode = {
   '海南': ['601969', '600515', '000793', '600221', '000566', '300630', '002320', '600259', '000657', '000572', '000567', '601118', '002693', '600759', '000505', '002596', '300086', '600238', '000955', '000886', '000571', '000735', '000585', '603069', '600209', '600555', '002865', '000503', '000613', '300189', '600896']
 };
 
-const base = 'http://file.tushare.org/tsdata/all.csv';
-
-const fields = ['code', 'name', ['industry', 'sector'], 'area', ['timeToMarket', 'est'], //上市日期
-'pe', 'pb', //市净率
-['outstanding', 'ots'], //流通股本
-'totals', 'rev', ['profit', 'pft'], 'gpr', 'npr', ['totalAssets', 'ast'], ['liquidAssets', 'curAst'], ['fixedAssets', 'fixAst'], ['esp', 'eps'], 'bvps', //每股净资
-'holders'];
-
-/**
- * @typedef {string|number} str
- * @typedef {{field:*,filter:function}} Filter
- */
-
-class C12nTs {
-  static async dailySectors({
-    format = enumTabularTypes.TABLE
-  } = {}) {
-    return await acq.Acq.tabular({
-      title: 'dailySectors',
-      url: base,
-      prep: buffer => {
-        const text = iconvLite.decode(buffer, enumEncodings.GBK);
-        return naivecsv.NaiveCsv.toTable(text);
-      },
-      configs: {
-        responseType: enumEncodings.ARRAYBUFFER
-      },
-      fields,
-      from: enumTabularTypes.TABLE,
-      to: format
-    });
-  }
-
-}
-
 exports.AreaToCodes = AreaToCode;
-exports.C12nTs = C12nTs;
 exports.CodeToArea = CodeToArea;

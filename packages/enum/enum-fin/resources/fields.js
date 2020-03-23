@@ -7,6 +7,7 @@ export const
   CONCEPT = 'concept',
   INDUSTRY = 'industry',
   AREA = 'area',
+  EST = 'est',
   CHS = 'chs',
   ENG = 'eng',
   WEIGHT = 'weight',

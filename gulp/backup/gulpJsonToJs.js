@@ -1,6 +1,6 @@
 import through from 'through2' // through2 is a thin wrapper around node transform streams
 import { dashedToCamel } from '@spare/string'
-import { fname } from '@repsi/c12n-fin-shenwan/utils/fname'
+import { fname } from '@repsi/fin-c12n-shenwan/utils/fname'
 
 const FN_REG = /^[\w$]+$/
 

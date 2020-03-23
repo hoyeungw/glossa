@@ -5,7 +5,7 @@ import size from 'gulp-size'
 import { deco, DecoTable, says } from '@spare/logger'
 import { Table } from '@analys/table'
 import { TABLE } from '@analys/enum-tabular-types'
-import { HS300, insightHS300 } from '@repsi/index-fin-hs300'
+import { HS300, insightHS300 } from '@glossa/index-fin-hs300'
 
 const BASE = 'packages/index/index-fin-hs300'
 const RAW = 'IndexHS300.json'

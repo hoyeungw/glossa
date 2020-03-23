@@ -1,16 +1,16 @@
 import gulp from 'gulp'
-import { buildHs300 } from './gulp/tasks/gulpfile.prep.hs300'
-import { buildShenwan } from './gulp/tasks/gulpfile.prep.shenwan'
-import { buildSina } from './gulp/tasks/gulpfile.prep.sina'
-import { buildConcepts } from './gulp/tasks/gulpfile.prep.concepts'
-import { buildAreas } from './gulp/tasks/gulpfile.prep.areas'
+import { buildHs300 } from './gulp/tasks/fin-c12n/gulpfile.prep.hs300'
+import { buildShenwan } from './gulp/tasks/fin-c12n/gulpfile.prep.shenwan'
+import { buildSina } from './gulp/tasks/fin-c12n/gulpfile.prep.sina'
+import { buildConcepts } from './gulp/tasks/fin-c12n/gulpfile.prep.concepts'
+import { buildTush } from './gulp/tasks/fin-c12n/gulpfile.prep.tush'
 
 export {
   buildHs300,
   buildSina,
   buildShenwan,
   buildConcepts,
-  buildAreas
+  buildTush
 }
 
 export default gulp.series(
@@ -18,5 +18,5 @@ export default gulp.series(
   buildSina,
   buildShenwan,
   buildConcepts,
-  buildAreas
+  buildTush
 )

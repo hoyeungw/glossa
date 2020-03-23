@@ -16,6 +16,7 @@ export {
   CONCEPT,
   INDUSTRY,
   AREA,
+  EST,
   CHS,
   ENG,
   WEIGHT,
