@@ -16,7 +16,7 @@ export {
 export default gulp.series(
   buildHs300,
   buildSina,
-  buildShenwan,
   buildConcepts,
-  buildTush
+  buildTush,
+  // buildShenwan,
 )

@@ -12,7 +12,7 @@ import { CHS, CODE, ENG, WEIGHT } from '../../constants/fields'
 import { Insight } from '../../functions/Insight'
 import { greyNowTime } from '../../utils/waitOra'
 import { TableLookup } from '@flua/table-gulp'
-import { VERSE_CONFIG } from '../../functions/readValue'
+import { makeVerseConfig } from '../../functions/readValue'
 
 const BASE = 'packages/index/index-fin-hs300'
 const RAW = 'IndexHS300.json'
@@ -49,12 +49,12 @@ export const buildHs300 = gulp.series(
   TableConcat(table),
   Insight({ filename: RAW, table: table, insight: FinInsight.hs300Insight }),
   gulp.parallel(
-    TableLookup({ table, key: CODE, field: CHS, dest: DEST, config: VERSE_CONFIG }),
-    TableLookup({ table, key: CODE, field: ENG, dest: DEST, config: VERSE_CONFIG }),
-    TableLookup({ table, key: CODE, field: WEIGHT, dest: DEST, config: VERSE_CONFIG }),
-    TableLookup({ table, key: CODE, field: SECTOR, dest: DEST, config: VERSE_CONFIG }),
-    TableLookup({ table, key: CODE, field: SECTOR + 'Sina', dest: DEST, config: VERSE_CONFIG }),
-    TableLookup({ table, key: CODE, field: CONCEPT, dest: DEST, config: VERSE_CONFIG }),
-    TableLookup({ table, key: CODE, field: AREA, dest: DEST, config: VERSE_CONFIG }),
+    TableLookup({ table, key: CODE, field: CHS, dest: DEST, config: makeVerseConfig() }),
+    TableLookup({ table, key: CODE, field: ENG, dest: DEST, config: makeVerseConfig() }),
+    TableLookup({ table, key: CODE, field: WEIGHT, dest: DEST, config: makeVerseConfig() }),
+    TableLookup({ table, key: CODE, field: SECTOR, dest: DEST, config: makeVerseConfig() }),
+    TableLookup({ table, key: CODE, field: SECTOR + 'Sina', dest: DEST, config: makeVerseConfig() }),
+    TableLookup({ table, key: CODE, field: CONCEPT, dest: DEST, config: makeVerseConfig() }),
+    TableLookup({ table, key: CODE, field: AREA, dest: DEST, config: makeVerseConfig() }),
   )
 )

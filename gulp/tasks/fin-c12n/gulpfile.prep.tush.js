@@ -7,7 +7,7 @@ import { Table } from '@analys/table'
 import { AssignTable } from '@flua/gulp-init'
 import { Clean } from '@flua/clean'
 import { TableChips, TableLookup } from '@flua/table-gulp'
-import { VERSE_CONFIG } from '../../functions/readValue'
+import { makeVerseConfig } from '../../functions/readValue'
 import { delogger } from '@spare/logger'
 
 const BASE = 'packages/c12n/c12n-fin-tush'
@@ -25,8 +25,8 @@ export const buildTush = gulp.series(
   Insight({ filename: RAW, table: table, insight: FinInsight.tsInsight }),
   checkTable,
   gulp.parallel(
-    TableLookup({ table, key: CODE, field: AREA, dest: DEST, config: VERSE_CONFIG }),
-    TableLookup({ table, key: CODE, field: EST, dest: DEST, config: VERSE_CONFIG }),
-    TableChips({ table, key: AREA, field: CODE, dest: DEST, config: VERSE_CONFIG }),
+    TableLookup({ table, key: CODE, field: AREA, dest: DEST, config: makeVerseConfig() }),
+    TableLookup({ table, key: CODE, field: EST, dest: DEST, config: makeVerseConfig() }),
+    TableChips({ table, key: AREA, field: CODE, dest: DEST, config: makeVerseConfig() }),
   )
 )

@@ -16,6 +16,13 @@ export function readValue (x) {
   return quoteString(x.toString())
 }
 
+export const makeVerseConfig = () => {
+  return {
+    objectify: true,
+    read: readValue,
+    keyRead: readValue
+  }
+}
 export const VERSE_CONFIG = {
   objectify: true,
   read: readValue,

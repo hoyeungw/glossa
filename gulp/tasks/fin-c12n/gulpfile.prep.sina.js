@@ -6,7 +6,7 @@ import { Insight } from '../../functions/Insight'
 import { AssignTable } from '@flua/gulp-init'
 import { Clean } from '@flua/clean'
 import { TableChips, TableLookup } from '@flua/table-gulp'
-import { VERSE_CONFIG } from '../../functions/readValue'
+import { makeVerseConfig } from '../../functions/readValue'
 
 const BASE = 'packages/c12n/c12n-fin-sina'
 const RAW = 'Sectors.json'
@@ -20,9 +20,9 @@ export const buildSina = gulp.series(
   AssignTable({ target: table, src: SRC, filename: RAW }),
   Insight({ filename: RAW, table: table, insight: FinInsight.sectorInsight }),
   gulp.parallel(
-    TableLookup({ table, key: CODE, field: CHS, dest: DEST, config: VERSE_CONFIG }),
-    TableChips({ table, key: CODE, field: SECTOR, dest: DEST, config: VERSE_CONFIG }),
-    TableChips({ table, key: SECTOR, field: CODE, dest: DEST, config: VERSE_CONFIG }),
+    TableLookup({ table, key: CODE, field: CHS, dest: DEST, config: makeVerseConfig() }),
+    TableChips({ table, key: CODE, field: SECTOR, dest: DEST, config: makeVerseConfig() }),
+    TableChips({ table, key: SECTOR, field: CODE, dest: DEST, config: makeVerseConfig() }),
   )
 )
 

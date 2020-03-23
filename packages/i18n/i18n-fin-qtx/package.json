@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/hoyeungw/glossa#readme",
   "dependencies": {
-    "@analys/table": "^0.1.4",
+    "@analys/table": "^0.1.5",
     "@spare/string": "^0.3.7"
   },
   "gitHead": "32d6ac944e6d229e152c73fbd1209f907c435379"
