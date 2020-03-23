@@ -2,7 +2,7 @@ export const generals = [
   [/ {2}/g, ' '],
   [/the/g, ''],
   [/bank/gi, 'bk'],
-  [/key/gi, 'fr'],
+  [/from/gi, 'fr'],
   [/other/gi, 'o'],
   [/sales/gi, 'sa'],
   [/to be/gi, 'tb'],
