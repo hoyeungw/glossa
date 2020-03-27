@@ -6,7 +6,7 @@ const balances = [[/monetary/gi, 'monet'], [/biological/gi, 'bio'], [/account(s?
 
 const incomes = [[/diluted/gi, 'dil'], [/margin/gi, 'mrg'], [/associate(s?)/gi, 'asso'], [/joint venture(s?)/gi, 'jv'], [/surcharge(s?)/gi, 'surc'], [/earnings before/gi, 'eb'], [/earnings per share/gi, 'eps']];
 
-const cashflows = [[/cash/gi, 'c'], [/activities/gi, ''], [/equivalents/gi, 'eqv'], [/paid( for)?( to)?/gi, 'pd'], [/(goods)\s[a-zA-Z]+/gi, 'gd'], [/receiv(ed|able(s?))? from/gi, 'fr'], [/subtotal of cash inflow from/gi, 'cin'], [/subtotal of cash outflow from/gi, 'cout']];
+const cashflows = [[/cash/gi, 'c'], [/activities/gi, ''], [/equivalents/gi, 'eqv'], [/paid( for)?( to)?/gi, 'pd'], [/(goods)\s[a-zA-Z]+/gi, 'gd'], [/receiv(ed|able(s?)) from/gi, 'fr'], [/subtotal of cash inflow from/gi, 'cin'], [/subtotal of cash outflow from/gi, 'cout']];
 
 const basics = [[/basic/gi, ''], [/activities/gi, ''], [/return on/gi, 'ro'], [/( ?)per share/gi, 'ps'], [/return on equity/gi, 'roe']];
 

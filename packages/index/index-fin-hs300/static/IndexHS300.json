@@ -1,1 +1,2413 @@
-{"head":["date","code","weight","chs","eng","exchange"],"rows":[["2020-02-28","600000","0.96","浦发银行","Shanghai Pudong Development Bank Co Ltd","SHH"],["2020-02-28","600004","0.12","白云机场","Guangzhou Baiyun International Airport Co Ltd","SHH"],["2020-02-28","600009","0.48","上海机场","Shanghai International Airport Co Ltd","SHH"],["2020-02-28","600010","0.2","包钢股份","Inner Mongolia Baotou Steel Union Co Ltd","SHH"],["2020-02-28","600011","0.16","华能国际","Huaneng Power International Inc","SHH"],["2020-02-28","600015","0.32","华夏银行","Hua Xia Bank Co Ltd","SHH"],["2020-02-28","600016","1.07","民生银行","China Minsheng Banking Corp Ltd","SHH"],["2020-02-28","600018","0.16","上港集团","Shanghai International Port (Group) Co Ltd","SHH"],["2020-02-28","600019","0.35","宝钢股份","Baoshan Iron &Steel Co Ltd","SHH"],["2020-02-28","600023","0.11","浙能电力","Zhejiang Zheneng Electric Power Co., Ltd.","SHH"],["2020-02-28","600025","0.05","华能水电","HuanengLancang River Hydropower Inc.","SHH"],["2020-02-28","600027","0.08","华电国际","Huadian Power International Corporation Ltd","SHH"],["2020-02-28","600028","0.46","中国石化","China Petroleum & Chemical Corporation","SHH"],["2020-02-28","600029","0.19","南方航空","China Southern Airlines Co Ltd","SHH"],["2020-02-28","600030","1.39","中信证券","CITIC Securities Co Ltd","SHH"],["2020-02-28","600031","0.78","三一重工","Sany Heavy Industry Co Ltd","SHH"],["2020-02-28","600036","2.66","招商银行","China Merchants Bank Co Ltd","SHH"],["2020-02-28","600038","0.09","中直股份","AVIC Helicopter Co.,Ltd.","SHH"],["2020-02-28","600048","0.87","保利地产","Poly Developments and Holdings Group Co., Ltd.","SHH"],["2020-02-28","600050","0.39","中国联通","China United Network Communications Co Ltd","SHH"],["2020-02-28","600061","0.17","国投资本","SDIC Capital Co., Ltd","SHH"],["2020-02-28","600066","0.15","宇通客车","Zhengzhou Yutong Bus Co Ltd","SHH"],["2020-02-28","600068","0.14","葛洲坝","China Gezhouba Group Co Ltd","SHH"],["2020-02-28","600085","0.11","同仁堂","Beijing Tongrentang Co Ltd","SHH"],["2020-02-28","600089","0.17","特变电工","TBEA Co Ltd","SHH"],["2020-02-28","600100","0.16","同方股份","Tsinghua Tongfang Co Ltd","SHH"],["2020-02-28","600104","0.59","上汽集团","SAIC Motor Co Ltd","SHH"],["2020-02-28","600109","0.18","国金证券","Sinolink Securities Co. Ltd.","SHH"],["2020-02-28","600111","0.15","北方稀土","China Northern Rare Earth (Group) High-Tech Co.,Ltd","SHH"],["2020-02-28","600115","0.15","东方航空","China Eastern Airlines Corp Ltd","SHH"],["2020-02-28","600118","0.15","中国卫星","China Spacesat Co Ltd","SHH"],["2020-02-28","600153","0.08","建发股份","Xiamen C&D Inc","SHH"],["2020-02-28","600170","0.11","上海建工","Shanghai Construction Co Ltd","SHH"],["2020-02-28","600176","0.15","中国巨石","CHINA JUSHI CO., LTD.","SHH"],["2020-02-28","600177","0.17","雅戈尔","Youngor Group Co Ltd","SHH"],["2020-02-28","600183","0.27","生益科技","Shengyi Technology Co.,Ltd.","SHH"],["2020-02-28","600188","0.06","兖州煤业","Yanzhou Coal Mining Co Ltd","SHH"],["2020-02-28","600196","0.2","复星医药","Shanghai Fosun Pharmaceutical (Group) Co Ltd","SHH"],["2020-02-28","600208","0.1","新湖中宝","Xinhu Zhongbao Co Ltd","SHH"],["2020-02-28","600219","0.12","南山铝业","Shandong Nanshan Aluminium Co., Ltd.","SHH"],["2020-02-28","600221","0.15","海航控股","Hainan Airlines Holding Co., Ltd.","SHH"],["2020-02-28","600233","0.06","圆通速递","YTO Express Group Co.,Ltd.","SHH"],["2020-02-28","600271","0.2","航天信息","Aisino Co.,Ltd","SHH"],["2020-02-28","600276","1.96","恒瑞医药","Jiangsu Hengrui Medicine Co Ltd","SHH"],["2020-02-28","600297","0.1","广汇汽车","China Grand Automotive Services Co., Ltd.","SHH"],["2020-02-28","600299","0.02","安迪苏","Bluestar Adisseo Company","SHH"],["2020-02-28","600309","0.56","万华化学","Wanhua Chemical Group Co., Ltd.","SHH"],["2020-02-28","600332","0.14","白云山","GUANGZHOU BAIYUNSHAN PHARMACEUTICAL HOLDINGS COMPANY LIMITED","SHH"],["2020-02-28","600340","0.21","华夏幸福","China Fortune Land Development Co., Ltd.","SHH"],["2020-02-28","600346","0.24","恒力石化","Hengli Petrochemical Co.,Ltd.","SHH"],["2020-02-28","600352","0.25","浙江龙盛","Zhejiang Longsheng Group Co Ltd","SHH"],["2020-02-28","600362","0.11","江西铜业","Jiangxi Copper Co Ltd","SHH"],["2020-02-28","600369","0.11","西南证券","Southwest Securities Co Ltd","SHH"],["2020-02-28","600372","0.06","中航电子","CHINA AVIONICS SYSTEMS CO.,LTD.","SHH"],["2020-02-28","600383","0.24","金地集团","Gemdale Corporation","SHH"],["2020-02-28","600390","0.03","五矿资本","Minmetals Capital Company Limited","SHH"],["2020-02-28","600398","0.07","海澜之家","Heilan Home Co.,Ltd","SHH"],["2020-02-28","600406","0.35","国电南瑞","NARI Technology Co., Ltd.","SHH"],["2020-02-28","600436","0.27","片仔癀","Zhangzhou Pientzehuang Pharmaceutical Co Ltd","SHH"],["2020-02-28","600438","0.25","通威股份","Tongwei Co Ltd","SHH"],["2020-02-28","600482","0.09","中国动力","China Shipbuilding Industry Group Power Co.,Ltd","SHH"],["2020-02-28","600487","0.17","亨通光电","Hengtong Optic-Electric Co.,Ltd","SHH"],["2020-02-28","600489","0.11","中金黄金","Zhongjin Gold Co Ltd","SHH"],["2020-02-28","600498","0.16","烽火通信","Fiberhome Telecommunication Technologies Co Ltd","SHH"],["2020-02-28","600516","0.12","方大炭素","Fangda Carbon New Material Co.,Ltd","SHH"],["2020-02-28","600519","4","贵州茅台","Kweichow Moutai Co Ltd","SHH"],["2020-02-28","600522","0.16","中天科技","Jiangsu Zhongtian Technologies Co Ltd","SHH"],["2020-02-28","600535","0.11","天士力","TASLY PHARMACEUTICAL GROUP CO.,LTD","SHH"],["2020-02-28","600547","0.27","山东黄金","Shandong Gold-Mining Co Ltd","SHH"],["2020-02-28","600566","0.06","济川药业","HUBEI JUMPCAN PHARMACEUTICAL CO., LTD.","SHH"],["2020-02-28","600570","0.47","恒生电子","Hundsun Technologies Inc.","SHH"],["2020-02-28","600583","0.1","海油工程","Offshore Oil Engineering Co Ltd","SHH"],["2020-02-28","600585","0.83","海螺水泥","Anhui Conch Cement Co Ltd","SHH"],["2020-02-28","600588","0.44","用友网络","Yonyou Network Technology Co., Ltd.","SHH"],["2020-02-28","600606","0.16","绿地控股","Greenland Holdings Corporation Limited","SHH"],["2020-02-28","600637","0.16","东方明珠","Shanghai Oriental Pearl Media Co., Ltd.","SHH"],["2020-02-28","600655","0.08","豫园股份","SHANGHAI YUYUAN TOURIST MART (GROUP) CO., LTD.","SHH"],["2020-02-28","600660","0.25","福耀玻璃","Fuyao Glass Industry Group Co.,Ltd","SHH"],["2020-02-28","600663","0.08","陆家嘴","Shanghai Lujiazui Finance and Trade Zone Development Co Ltd","SHH"],["2020-02-28","600674","0.12","川投能源","Sichuan Chuantou Energy Co Ltd","SHH"],["2020-02-28","600690","0.47","海尔智家","Haier Smart Home Co., Ltd.","SHH"],["2020-02-28","600703","0.46","三安光电","Sanan Optoelectronics Co.,Ltd","SHH"],["2020-02-28","600705","0.17","中航资本","AVIC CAPITAL CO.,LTD.","SHH"],["2020-02-28","600733","0.07","北汽蓝谷","BAIC BluePark New Energy Technology Co.,Ltd","SHH"],["2020-02-28","600741","0.34","华域汽车","HUAYU Automotive Systems Company Limited","SHH"],["2020-02-28","600760","0.09","中航沈飞","AVIC SHENYANG AIRCRAFT COMPANY LIMITED","SHH"],["2020-02-28","600795","0.19","国电电力","GD Power Development Co Ltd","SHH"],["2020-02-28","600809","0.17","山西汾酒","Shanxi Xinghuacun Fen Wine Factory Co Ltd","SHH"],["2020-02-28","600816","0.05","安信信托","Anxin Trust Co., Ltd","SHH"],["2020-02-28","600837","0.87","海通证券","Haitong Securities Company Limited","SHH"],["2020-02-28","600848","0.06","上海临港","Shanghai Lingang Holdings Corporation Limited","SHH"],["2020-02-28","600867","0.12","通化东宝","Tonghua Dongbao Pharmaceutical Co.,Ltd.","SHH"],["2020-02-28","600886","0.19","国投电力","SDIC Power Holdings Co.,Ltd.","SHH"],["2020-02-28","600887","1.33","伊利股份","Inner Mongolia Yili Industrial Group Co Ltd","SHH"],["2020-02-28","600893","0.16","航发动力","AVIC AVIATION ENGINE CORPORATION PLC.","SHH"],["2020-02-28","600900","1.13","长江电力","China Yangtze Power Co Ltd","SHH"],["2020-02-28","600919","0.44","江苏银行","Bank of Jiangsu Co., Ltd","SHH"],["2020-02-28","600926","0.13","杭州银行","BANK OF HANGZHOU CO., LTD","SHH"],["2020-02-28","600928","0.02","西安银行","BANK OF XI'AN CO., LTD.","SHH"],["2020-02-28","600958","0.27","东方证券","ORIENT SECURITIES COMPANY LIMITED","SHH"],["2020-02-28","600968","0.04","海油发展","CNOOC Energy Technology & Services Limited","SHH"],["2020-02-28","600977","0.07","中国电影","CHINA FILM CO., LTD.","SHH"],["2020-02-28","600989","0.06","宝丰能源","Ningxia Baofeng Energy Group Co., Ltd.","SHH"],["2020-02-28","600998","0.07","九州通","Jointown Pharmaceutical Group Co Ltd","SHH"],["2020-02-28","600999","0.38","招商证券","China Merchants Securities Co Ltd","SHH"],["2020-02-28","601006","0.32","大秦铁路","Daqin Railway Co Ltd","SHH"],["2020-02-28","601009","0.35","南京银行","Bank of Nanjing Co Ltd","SHH"],["2020-02-28","601012","0.61","隆基股份","Longi Green Energy Technology Co., Ltd.","SHH"],["2020-02-28","601018","0.1","宁波港","Ningbo Port Co Ltd","SHH"],["2020-02-28","601021","0.1","春秋航空","Spring Airlines Co., Ltd.","SHH"],["2020-02-28","601066","0.11","中信建投","China Securities Co., Ltd.","SHH"],["2020-02-28","601088","0.4","中国神华","China Shenhua Energy Co Ltd","SHH"],["2020-02-28","601108","0.21","财通证券","CAITONG SECURITIES CO.,LTD.","SHH"],["2020-02-28","601111","0.17","中国国航","Air China Ltd","SHH"],["2020-02-28","601117","0.13","中国化学","China National Chemical Engineering Co Ltd","SHH"],["2020-02-28","601138","0.23","工业富联","Foxconn Industrial Internet Co., Ltd.","SHH"],["2020-02-28","601155","0.22","新城控股","Future Land Holdings Co., Ltd.","SHH"],["2020-02-28","601162","0.03","天风证券","TIANFENG SECURITIES CO., LTD.","SHH"],["2020-02-28","601166","1.9","兴业银行","Industrial Bank","SHH"],["2020-02-28","601169","0.57","北京银行","Bank of Beijing Co Ltd","SHH"],["2020-02-28","601186","0.33","中国铁建","China Railway Construction Co Ltd","SHH"],["2020-02-28","601198","0.13","东兴证券","DONGXING SECURITIES CO., LTD.","SHH"],["2020-02-28","601211","0.58","国泰君安","Guotai Junan Securities Co., Ltd.","SHH"],["2020-02-28","601212","0.03","白银有色","Baiyin Nonferrous Group Co., Ltd.","SHH"],["2020-02-28","601216","0.07","君正集团","Inner Mongolia Junzheng Energy & Chemical Group Co.,Ltd.","SHH"],["2020-02-28","601225","0.24","陕西煤业","Shaanxi Coal Industry Company Limited","SHH"],["2020-02-28","601229","0.46","上海银行","Bank of Shanghai Co., Ltd.","SHH"],["2020-02-28","601236","0.07","红塔证券","HONGTA SECURITIES CO., LTD.","SHH"],["2020-02-28","601238","0.08","广汽集团","Guangzhou Automobile Group Co., Ltd.","SHH"],["2020-02-28","601288","0.99","农业银行","Agricultural Bank of China Co Ltd","SHH"],["2020-02-28","601298","0.02","青岛港","Qingdao Port International Co., Ltd","SHH"],["2020-02-28","601318","6.35","中国平安","Ping An Insurance (Group) Company of China Ltd","SHH"],["2020-02-28","601319","0.05","中国人保","The People's Insurance Company (Group) of China Limited","SHH"],["2020-02-28","601328","1.08","交通银行","Bank of Communications Co LTD","SHH"],["2020-02-28","601336","0.28","新华保险","New China Life Insurance Co Ltd","SHH"],["2020-02-28","601360","0.07","三六零","360 Security Technology Inc.","SHH"],["2020-02-28","601377","0.24","兴业证券","Industrial Securities Co Ltd","SHH"],["2020-02-28","601390","0.33","中国中铁","China Railway Group Limited","SHH"],["2020-02-28","601398","0.86","工商银行","Industrial and Commercial Bank of China Ltd","SHH"],["2020-02-28","601555","0.17","东吴证券","Soochow Securities Co Ltd","SHH"],["2020-02-28","601577","0.06","长沙银行","BANK OF CHANGSHA CO., LTD.","SHH"],["2020-02-28","601600","0.15","中国铝业","Aluminum Corporation of China Limited","SHH"],["2020-02-28","601601","0.76","中国太保","China Pacific Insurance (Group) Co Ltd","SHH"],["2020-02-28","601607","0.16","上海医药","Shanghai Pharmaceuticals Holding Co.,Ltd","SHH"],["2020-02-28","601618","0.15","中国中冶","Metallurgical Corporation of China Co Ltd","SHH"],["2020-02-28","601628","0.37","中国人寿","China Life Insurance Company Limited","SHH"],["2020-02-28","601633","0.08","长城汽车","Great Wall Motor Co Ltd","SHH"],["2020-02-28","601668","0.85","中国建筑","China State Construction Engineering Co Ltd","SHH"],["2020-02-28","601669","0.25","中国电建","Power Construction Corporation of China,Ltd","SHH"],["2020-02-28","601688","0.62","华泰证券","Huatai Securities Co Ltd","SHH"],["2020-02-28","601698","0.05","中国卫通","China Satellite Communications Co.,Ltd.","SHH"],["2020-02-28","601727","0.12","上海电气","Shanghai Electric Group Co Ltd","SHH"],["2020-02-28","601766","0.47","中国中车","CRRC Corporation Limited","SHH"],["2020-02-28","601788","0.18","光大证券","Everbright Securities Co Ltd","SHH"],["2020-02-28","601800","0.16","中国交建","China Communications Construction Company Limited","SHH"],["2020-02-28","601808","0.07","中海油服","China Oilfield Services Limited","SHH"],["2020-02-28","601818","0.45","光大银行","China Everbright Bank Co Ltd","SHH"],["2020-02-28","601828","0.03","美凯龙","Red Star Macalline Group Corporation Ltd.","SHH"],["2020-02-28","601838","0.11","成都银行","BANK OF CHENGDU CO., LTD.","SHH"],["2020-02-28","601857","0.37","中国石油","PetroChina Co Ltd","SHH"],["2020-02-28","601877","0.22","正泰电器","Zhejiang Chint Electrics Co Ltd","SHH"],["2020-02-28","601878","0.11","浙商证券","ZHESHANG SECURITIES CO., LTD.","SHH"],["2020-02-28","601881","0.1","中国银河","China Galaxy Securities Co., Ltd.","SHH"],["2020-02-28","601888","0.58","中国国旅","China International Travel Service Co Ltd","SHH"],["2020-02-28","601898","0.06","中煤能源","China Coal Energy Co Ltd","SHH"],["2020-02-28","601899","0.43","紫金矿业","Zijin Mining Group Co Ltd","SHH"],["2020-02-28","601901","0.23","方正证券","Founder Securities Co Ltd","SHH"],["2020-02-28","601919","0.12","中远海控","COSCO SHIPPING Holdings Co., Ltd.","SHH"],["2020-02-28","601933","0.25","永辉超市","Yonghui Superstores Co Ltd","SHH"],["2020-02-28","601939","0.33","建设银行","China Construction Bank","SHH"],["2020-02-28","601985","0.22","中国核电","China National Nuclear Power Co.,Ltd.","SHH"],["2020-02-28","601988","0.56","中国银行","Bank of China Ltd","SHH"],["2020-02-28","601989","0.3","中国重工","China Shipbuilding Industry Co Ltd","SHH"],["2020-02-28","601992","0.09","金隅集团","BBMG Corporation","SHH"],["2020-02-28","601997","0.16","贵阳银行","Bank of Guiyang Co.,Ltd.","SHH"],["2020-02-28","601998","0.13","中信银行","China Citic Bank Corporation Limited","SHH"],["2020-02-28","603019","0.22","中科曙光","Dawning Information Industry Co., Ltd.","SHH"],["2020-02-28","603156","0.09","养元饮品","Hebei Yangyuan ZhiHui Beverage Co., Ltd.","SHH"],["2020-02-28","603160","0.32","汇顶科技","Shenzhen Huiding Technology Co., Ltd.","SHH"],["2020-02-28","603259","0.59","药明康德","WuXi AppTec Co., Ltd.","SHH"],["2020-02-28","603260","0.03","合盛硅业","HOSHINE SILICON INDUSTRY CO.,LTD","SHH"],["2020-02-28","603288","0.61","海天味业","Foshan Haitian Flavouring and Food Company Ltd.","SHH"],["2020-02-28","603501","0.23","韦尔股份","Will Semiconductor CO.,Ltd. Shanghai","SHH"],["2020-02-28","603799","0.18","华友钴业","ZHEJIANG HUAYOU COBALT CO., LTD.","SHH"],["2020-02-28","603833","0.11","欧派家居","Oppein Home Group Inc.","SHH"],["2020-02-28","603899","0.12","晨光文具","SHANGHAI M&G STATIONERY INC.","SHH"],["2020-02-28","603986","0.53","兆易创新","GigaDevice Semiconductor (Beijing) Inc.","SHH"],["2020-02-28","603993","0.22","洛阳钼业","China Molybdenum Co., Ltd.","SHH"],["2020-02-28","000001","1.06","平安银行","Ping An Bank Co., Ltd.","SHZ"],["2020-02-28","000002","1.3","万科Ａ","China Vanke Co Ltd","SHZ"],["2020-02-28","000063","0.87","中兴通讯","ZTE Corporation","SHZ"],["2020-02-28","000069","0.2","华侨城Ａ","Shenzhen Overseas Chinese Town Co Ltd","SHZ"],["2020-02-28","000100","0.6","TCL科技","TCL Technology Group Corporation","SHZ"],["2020-02-28","000157","0.25","中联重科","Zoomlion Heavy Industry Science & Technology Co Ltd","SHZ"],["2020-02-28","000166","0.32","申万宏源","Shenwan Hongyuan Group CO., LTD","SHZ"],["2020-02-28","000333","1.94","美的集团","Midea Group CO., LTD","SHZ"],["2020-02-28","000338","0.52","潍柴动力","Wei Chai Power Co Ltd","SHZ"],["2020-02-28","000413","0.12","东旭光电","Dongxu Optoelectronic Technology Co., Ltd.","SHZ"],["2020-02-28","000415","0.05","渤海租赁","Bohai Leasing Co.,Ltd.","SHZ"],["2020-02-28","000423","0.11","东阿阿胶","Shandong Dong-Ee Jiao Co Ltd","SHZ"],["2020-02-28","000425","0.19","徐工机械","XCMG Construction Machinery Co Ltd","SHZ"],["2020-02-28","000538","0.3","云南白药","Yunnan Baiyao Group Co., Ltd.","SHZ"],["2020-02-28","000568","0.41","泸州老窖","Luzhou Lao Jiao Co Ltd","SHZ"],["2020-02-28","000596","0.11","古井贡酒","Anhui Gujing Distillery Co Ltd","SHZ"],["2020-02-28","000625","0.15","长安汽车","Chongqing Changan Automobile Co Ltd","SHZ"],["2020-02-28","000627","0.09","天茂集团","Hubei Biocause Pharmaceutical Co Ltd","SHZ"],["2020-02-28","000629","0.08","攀钢钒钛","Pangang Group Vanadium Titanium & Resources Co., Ltd.","SHZ"],["2020-02-28","000630","0.1","铜陵有色","Tongling Nonferrous Metals Group Co. Ltd","SHZ"],["2020-02-28","000651","2.15","格力电器","Gree Electric Appliances,Inc. of Zhuhai","SHZ"],["2020-02-28","000656","0.12","金科股份","Jinke Property Group Co.,Ltd.","SHZ"],["2020-02-28","000661","0.51","长春高新","Chang Chun High and New Technology Industry (Group) Inc.","SHZ"],["2020-02-28","000671","0.1","阳光城","Sunshine City Group Co., Ltd.","SHZ"],["2020-02-28","000703","0.12","恒逸石化","Hengyi Petrochemical Co Ltd","SHZ"],["2020-02-28","000709","0.07","河钢股份","HESTEEL COMPANY LIMITED","SHZ"],["2020-02-28","000723","0.08","美锦能源","Shanxi Meijin Energy Co.,Ltd.","SHZ"],["2020-02-28","000725","0.88","京东方A","BOE Technology Group Co Ltd","SHZ"],["2020-02-28","000728","0.14","国元证券","Guoyuan Securities Company Limited","SHZ"],["2020-02-28","000768","0.18","中航飞机","Avic Aircraft Co.,Ltd.","SHZ"],["2020-02-28","000776","0.32","广发证券","GF Securities Co., Ltd.","SHZ"],["2020-02-28","000783","0.2","长江证券","Changjiang Securities Company Limited","SHZ"],["2020-02-28","000786","0.16","北新建材","Beijing New Building Materials Public Ltd Co","SHZ"],["2020-02-28","000858","1.77","五 粮 液","Wuliangye Yibin Co Ltd","SHZ"],["2020-02-28","000876","0.39","新 希 望","NEW HOPE LIUHE CO., LTD","SHZ"],["2020-02-28","000895","0.26","双汇发展","Henan Shuanghui Investment & Development Co Ltd","SHZ"],["2020-02-28","000898","0.05","鞍钢股份","Angang Steel Co Ltd","SHZ"],["2020-02-28","000938","0.28","紫光股份","Unisplendour Co., Ltd.","SHZ"],["2020-02-28","000961","0.12","中南建设","Jiangsu Zhongnan Construction Group Co.,Ltd","SHZ"],["2020-02-28","000963","0.13","华东医药","Huadong Medicine Co Ltd","SHZ"],["2020-02-28","001979","0.41","招商蛇口","CHINA MERCHANTS SHEKOU INDUSTRIAL ZONE HOLDINGS CO.,LTD","SHZ"],["2020-02-28","002001","0.23","新和成","Zhejiang NHU Co Ltd","SHZ"],["2020-02-28","002007","0.26","华兰生物","Hualan Biological Engineering INC","SHZ"],["2020-02-28","002008","0.25","大族激光","Han's Laser Technology Industry Group Co., Ltd.","SHZ"],["2020-02-28","002010","0.06","传化智联","Transfar Zhilian Co.,Ltd.","SHZ"],["2020-02-28","002024","0.26","苏宁易购","SUNING.COM CO.,LTD.","SHZ"],["2020-02-28","002027","0.41","分众传媒","Focus Media Information Technology Co., Ltd.","SHZ"],["2020-02-28","002032","0.09","苏泊尔","Zhejiang Supor Co.,Ltd","SHZ"],["2020-02-28","002044","0.27","美年健康","Meinian Onehealth Healthcare Holdings Co., Ltd.","SHZ"],["2020-02-28","002050","0.21","三花智控","ZHEJIANG SANHUA INTELLIGENT CONTROLS CO.,LTD.","SHZ"],["2020-02-28","002081","0.11","金螳螂","Suzhou Gold Mantis Construction Decoration Co Ltd","SHZ"],["2020-02-28","002120","0.15","韵达股份","YUNDA Holding CO., Ltd.","SHZ"],["2020-02-28","002142","0.53","宁波银行","Bank of Ningbo Co Ltd","SHZ"],["2020-02-28","002146","0.11","荣盛发展","Risesun Real Estate Development Co Ltd","SHZ"],["2020-02-28","002153","0.09","石基信息","Beijing Shiji Information Technology Co Ltd","SHZ"],["2020-02-28","002179","0.16","中航光电","AVIC Jonhon Optronic Technology Co.,Ltd.","SHZ"],["2020-02-28","002202","0.22","金风科技","Xinjiang Goldwind Science & Technology Co Ltd","SHZ"],["2020-02-28","002230","0.45","科大讯飞","Iflytek Co.,Ltd.","SHZ"],["2020-02-28","002236","0.26","大华股份","Zhejiang Dahua Technology Co Ltd","SHZ"],["2020-02-28","002241","0.38","歌尔股份","GoerTek Inc","SHZ"],["2020-02-28","002252","0.14","上海莱士","Shanghai RAAS Blood Products Co Ltd","SHZ"],["2020-02-28","002271","0.21","东方雨虹","Beijing Oriental Yuhong Waterproof Technology Co Ltd","SHZ"],["2020-02-28","002294","0.06","信立泰","Shenzhen Salubris Pharmaceuticals Co Ltd","SHZ"],["2020-02-28","002304","0.44","洋河股份","Jiangsu Yanghe Brewery Joint-Stock Co Ltd","SHZ"],["2020-02-28","002311","0.2","海大集团","Guangdong Haid Group Co Ltd","SHZ"],["2020-02-28","002352","0.33","顺丰控股","S.F. Holding Co., Ltd.","SHZ"],["2020-02-28","002410","0.23","广联达","Glodon Software Co Ltd","SHZ"],["2020-02-28","002411","0.06","延安必康","YanAn Bicon Pharmaceutical Listed Company","SHZ"],["2020-02-28","002415","0.99","海康威视","Hangzhou Hikvision Digital Technology Co Ltd","SHZ"],["2020-02-28","002422","0.15","科伦药业","Sichuan Kelun Pharmaceutical Co Ltd","SHZ"],["2020-02-28","002456","0.27","欧菲光","OFILM Group Co., Ltd.","SHZ"],["2020-02-28","002460","0.3","赣锋锂业","Ganfeng Lithium Co Ltd","SHZ"],["2020-02-28","002466","0.21","天齐锂业","Tianqi Lithium Industries, Inc.","SHZ"],["2020-02-28","002468","0.04","申通快递","STO Express Co.,Ltd.","SHZ"],["2020-02-28","002475","1.16","立讯精密","Luxshare Precision Industry Co., Ltd.","SHZ"],["2020-02-28","002493","0.15","荣盛石化","Rongsheng Petro Chemical Co Ltd","SHZ"],["2020-02-28","002508","0.11","老板电器","Hangzhou Robam Appliances Co Ltd","SHZ"],["2020-02-28","002555","0.27","三七互娱","WUHU SANQI INTERACTIVE ENTERTAINMENT NETWORK TECHNOLOGY GROUP CO.,LTD.","SHZ"],["2020-02-28","002558","0.09","巨人网络","Giant Network Group Co., Ltd.","SHZ"],["2020-02-28","002594","0.45","比亚迪","BYD Co Ltd","SHZ"],["2020-02-28","002601","0.12","龙蟒佰利","Lomon Billions Group Co., Ltd.","SHZ"],["2020-02-28","002602","0.24","世纪华通","ZHEJIANG CENTURY HUATONG GROUP CO., LTD","SHZ"],["2020-02-28","002607","0.11","中公教育","Offcn Education Technology Co., Ltd.","SHZ"],["2020-02-28","002624","0.2","完美世界","Perfect World Co., Ltd.","SHZ"],["2020-02-28","002673","0.13","西部证券","WESTERN SECURITIES CO., LTD","SHZ"],["2020-02-28","002714","0.76","牧原股份","Muyuan Foodstuff Co., Ltd","SHZ"],["2020-02-28","002736","0.22","国信证券","GUOSEN SECURITIES CO., LTD.","SHZ"],["2020-02-28","002739","0.1","万达电影","WANDA FILM HOLDING CO., LTD","SHZ"],["2020-02-28","002773","0.07","康弘药业","Chengdu Kanghong Pharmaceutical Group Co., Ltd","SHZ"],["2020-02-28","002841","0.05","视源股份","Guangzhou Shiyuan Electronic Technology Company Limited","SHZ"],["2020-02-28","002916","0.16","深南电路","Shennan Circuits Co., Ltd.","SHZ"],["2020-02-28","002938","0.08","鹏鼎控股","Avary Holding (Shenzhen) Co., Limited","SHZ"],["2020-02-28","002939","0.03","长城证券","CHINA GREAT WALL SECURITIES CO., LTD.","SHZ"],["2020-02-28","002945","0.03","华林证券","ChinaLin Securities Co., Ltd.","SHZ"],["2020-02-28","002958","0.03","青农商行","Qingdao Rural Commercial Bank Corporation","SHZ"],["2020-02-28","300003","0.28","乐普医疗","Lepu Medical Technology (Beijing) Co Ltd","SHZ"],["2020-02-28","300015","0.37","爱尔眼科","Aier Eye Hospital Group Co Ltd","SHZ"],["2020-02-28","300017","0.14","网宿科技","Wangsu Science and Technology Co.,Ltd.","SHZ"],["2020-02-28","300024","0.12","机器人","Siasun Robot & Automation Co Ltd","SHZ"],["2020-02-28","300033","0.2","同花顺","Hithink Royalflush Information Network Co.,Ltd.","SHZ"],["2020-02-28","300059","0.7","东方财富","East Money Information Co Ltd","SHZ"],["2020-02-28","300070","0.14","碧水源","Beijing Originwater Technology Co Ltd","SHZ"],["2020-02-28","300122","0.22","智飞生物","Chongqing Zhifei Biological Products Co Ltd","SHZ"],["2020-02-28","300124","0.22","汇川技术","Shenzhen Inovance Technology Co Ltd","SHZ"],["2020-02-28","300136","0.29","信维通信","Shenzhen Sunway Communication Co Ltd","SHZ"],["2020-02-28","300142","0.27","沃森生物","Walvax Biotechnology Co Ltd","SHZ"],["2020-02-28","300144","0.18","宋城演艺","SONGCHENG PERFORMANCE DEVELOPMENT CO., LTD.","SHZ"],["2020-02-28","300347","0.3","泰格医药","Hangzhou Tigermed Consulting Co., Ltd.","SHZ"],["2020-02-28","300408","0.19","三环集团","CHAOZHOU THREE-CIRCLE(GROUP)CO.,LTD","SHZ"],["2020-02-28","300413","0.18","芒果超媒","Mango Excellent Media Co., Ltd.","SHZ"],["2020-02-28","300433","0.19","蓝思科技","Lens Technology Co., Ltd.","SHZ"],["2020-02-28","300498","0.91","温氏股份","GUANGDONGWENSFOODSTUFFGROUPCO.,LTD","SHZ"]],"title":"hs300"}
+{
+  "head": [
+    "date",
+    "code",
+    "weight",
+    "chs",
+    "eng",
+    "exchange"
+  ],
+  "rows": [
+    [
+      "2020-02-28",
+      "600000",
+      "0.96",
+      "浦发银行",
+      "Shanghai Pudong Development Bank Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600004",
+      "0.12",
+      "白云机场",
+      "Guangzhou Baiyun International Airport Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600009",
+      "0.48",
+      "上海机场",
+      "Shanghai International Airport Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600010",
+      "0.2",
+      "包钢股份",
+      "Inner Mongolia Baotou Steel Union Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600011",
+      "0.16",
+      "华能国际",
+      "Huaneng Power International Inc",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600015",
+      "0.32",
+      "华夏银行",
+      "Hua Xia Bank Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600016",
+      "1.07",
+      "民生银行",
+      "China Minsheng Banking Corp Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600018",
+      "0.16",
+      "上港集团",
+      "Shanghai International Port (Group) Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600019",
+      "0.35",
+      "宝钢股份",
+      "Baoshan Iron &Steel Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600023",
+      "0.11",
+      "浙能电力",
+      "Zhejiang Zheneng Electric Power Co., Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600025",
+      "0.05",
+      "华能水电",
+      "HuanengLancang River Hydropower Inc.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600027",
+      "0.08",
+      "华电国际",
+      "Huadian Power International Corporation Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600028",
+      "0.46",
+      "中国石化",
+      "China Petroleum & Chemical Corporation",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600029",
+      "0.19",
+      "南方航空",
+      "China Southern Airlines Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600030",
+      "1.39",
+      "中信证券",
+      "CITIC Securities Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600031",
+      "0.78",
+      "三一重工",
+      "Sany Heavy Industry Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600036",
+      "2.66",
+      "招商银行",
+      "China Merchants Bank Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600038",
+      "0.09",
+      "中直股份",
+      "AVIC Helicopter Co.,Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600048",
+      "0.87",
+      "保利地产",
+      "Poly Developments and Holdings Group Co., Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600050",
+      "0.39",
+      "中国联通",
+      "China United Network Communications Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600061",
+      "0.17",
+      "国投资本",
+      "SDIC Capital Co., Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600066",
+      "0.15",
+      "宇通客车",
+      "Zhengzhou Yutong Bus Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600068",
+      "0.14",
+      "葛洲坝",
+      "China Gezhouba Group Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600085",
+      "0.11",
+      "同仁堂",
+      "Beijing Tongrentang Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600089",
+      "0.17",
+      "特变电工",
+      "TBEA Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600100",
+      "0.16",
+      "同方股份",
+      "Tsinghua Tongfang Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600104",
+      "0.59",
+      "上汽集团",
+      "SAIC Motor Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600109",
+      "0.18",
+      "国金证券",
+      "Sinolink Securities Co. Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600111",
+      "0.15",
+      "北方稀土",
+      "China Northern Rare Earth (Group) High-Tech Co.,Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600115",
+      "0.15",
+      "东方航空",
+      "China Eastern Airlines Corp Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600118",
+      "0.15",
+      "中国卫星",
+      "China Spacesat Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600153",
+      "0.08",
+      "建发股份",
+      "Xiamen C&D Inc",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600170",
+      "0.11",
+      "上海建工",
+      "Shanghai Construction Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600176",
+      "0.15",
+      "中国巨石",
+      "CHINA JUSHI CO., LTD.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600177",
+      "0.17",
+      "雅戈尔",
+      "Youngor Group Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600183",
+      "0.27",
+      "生益科技",
+      "Shengyi Technology Co.,Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600188",
+      "0.06",
+      "兖州煤业",
+      "Yanzhou Coal Mining Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600196",
+      "0.2",
+      "复星医药",
+      "Shanghai Fosun Pharmaceutical (Group) Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600208",
+      "0.1",
+      "新湖中宝",
+      "Xinhu Zhongbao Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600219",
+      "0.12",
+      "南山铝业",
+      "Shandong Nanshan Aluminium Co., Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600221",
+      "0.15",
+      "海航控股",
+      "Hainan Airlines Holding Co., Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600233",
+      "0.06",
+      "圆通速递",
+      "YTO Express Group Co.,Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600271",
+      "0.2",
+      "航天信息",
+      "Aisino Co.,Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600276",
+      "1.96",
+      "恒瑞医药",
+      "Jiangsu Hengrui Medicine Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600297",
+      "0.1",
+      "广汇汽车",
+      "China Grand Automotive Services Co., Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600299",
+      "0.02",
+      "安迪苏",
+      "Bluestar Adisseo Company",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600309",
+      "0.56",
+      "万华化学",
+      "Wanhua Chemical Group Co., Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600332",
+      "0.14",
+      "白云山",
+      "GUANGZHOU BAIYUNSHAN PHARMACEUTICAL HOLDINGS COMPANY LIMITED",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600340",
+      "0.21",
+      "华夏幸福",
+      "China Fortune Land Development Co., Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600346",
+      "0.24",
+      "恒力石化",
+      "Hengli Petrochemical Co.,Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600352",
+      "0.25",
+      "浙江龙盛",
+      "Zhejiang Longsheng Group Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600362",
+      "0.11",
+      "江西铜业",
+      "Jiangxi Copper Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600369",
+      "0.11",
+      "西南证券",
+      "Southwest Securities Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600372",
+      "0.06",
+      "中航电子",
+      "CHINA AVIONICS SYSTEMS CO.,LTD.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600383",
+      "0.24",
+      "金地集团",
+      "Gemdale Corporation",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600390",
+      "0.03",
+      "五矿资本",
+      "Minmetals Capital Company Limited",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600398",
+      "0.07",
+      "海澜之家",
+      "Heilan Home Co.,Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600406",
+      "0.35",
+      "国电南瑞",
+      "NARI Technology Co., Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600436",
+      "0.27",
+      "片仔癀",
+      "Zhangzhou Pientzehuang Pharmaceutical Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600438",
+      "0.25",
+      "通威股份",
+      "Tongwei Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600482",
+      "0.09",
+      "中国动力",
+      "China Shipbuilding Industry Group Power Co.,Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600487",
+      "0.17",
+      "亨通光电",
+      "Hengtong Optic-Electric Co.,Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600489",
+      "0.11",
+      "中金黄金",
+      "Zhongjin Gold Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600498",
+      "0.16",
+      "烽火通信",
+      "Fiberhome Telecommunication Technologies Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600516",
+      "0.12",
+      "方大炭素",
+      "Fangda Carbon New Material Co.,Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600519",
+      "4",
+      "贵州茅台",
+      "Kweichow Moutai Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600522",
+      "0.16",
+      "中天科技",
+      "Jiangsu Zhongtian Technologies Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600535",
+      "0.11",
+      "天士力",
+      "TASLY PHARMACEUTICAL GROUP CO.,LTD",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600547",
+      "0.27",
+      "山东黄金",
+      "Shandong Gold-Mining Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600566",
+      "0.06",
+      "济川药业",
+      "HUBEI JUMPCAN PHARMACEUTICAL CO., LTD.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600570",
+      "0.47",
+      "恒生电子",
+      "Hundsun Technologies Inc.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600583",
+      "0.1",
+      "海油工程",
+      "Offshore Oil Engineering Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600585",
+      "0.83",
+      "海螺水泥",
+      "Anhui Conch Cement Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600588",
+      "0.44",
+      "用友网络",
+      "Yonyou Network Technology Co., Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600606",
+      "0.16",
+      "绿地控股",
+      "Greenland Holdings Corporation Limited",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600637",
+      "0.16",
+      "东方明珠",
+      "Shanghai Oriental Pearl Media Co., Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600655",
+      "0.08",
+      "豫园股份",
+      "SHANGHAI YUYUAN TOURIST MART (GROUP) CO., LTD.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600660",
+      "0.25",
+      "福耀玻璃",
+      "Fuyao Glass Industry Group Co.,Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600663",
+      "0.08",
+      "陆家嘴",
+      "Shanghai Lujiazui Finance and Trade Zone Development Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600674",
+      "0.12",
+      "川投能源",
+      "Sichuan Chuantou Energy Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600690",
+      "0.47",
+      "海尔智家",
+      "Haier Smart Home Co., Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600703",
+      "0.46",
+      "三安光电",
+      "Sanan Optoelectronics Co.,Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600705",
+      "0.17",
+      "中航资本",
+      "AVIC CAPITAL CO.,LTD.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600733",
+      "0.07",
+      "北汽蓝谷",
+      "BAIC BluePark New Energy Technology Co.,Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600741",
+      "0.34",
+      "华域汽车",
+      "HUAYU Automotive Systems Company Limited",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600760",
+      "0.09",
+      "中航沈飞",
+      "AVIC SHENYANG AIRCRAFT COMPANY LIMITED",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600795",
+      "0.19",
+      "国电电力",
+      "GD Power Development Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600809",
+      "0.17",
+      "山西汾酒",
+      "Shanxi Xinghuacun Fen Wine Factory Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600816",
+      "0.05",
+      "安信信托",
+      "Anxin Trust Co., Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600837",
+      "0.87",
+      "海通证券",
+      "Haitong Securities Company Limited",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600848",
+      "0.06",
+      "上海临港",
+      "Shanghai Lingang Holdings Corporation Limited",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600867",
+      "0.12",
+      "通化东宝",
+      "Tonghua Dongbao Pharmaceutical Co.,Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600886",
+      "0.19",
+      "国投电力",
+      "SDIC Power Holdings Co.,Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600887",
+      "1.33",
+      "伊利股份",
+      "Inner Mongolia Yili Industrial Group Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600893",
+      "0.16",
+      "航发动力",
+      "AVIC AVIATION ENGINE CORPORATION PLC.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600900",
+      "1.13",
+      "长江电力",
+      "China Yangtze Power Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600919",
+      "0.44",
+      "江苏银行",
+      "Bank of Jiangsu Co., Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600926",
+      "0.13",
+      "杭州银行",
+      "BANK OF HANGZHOU CO., LTD",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600928",
+      "0.02",
+      "西安银行",
+      "BANK OF XI'AN CO., LTD.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600958",
+      "0.27",
+      "东方证券",
+      "ORIENT SECURITIES COMPANY LIMITED",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600968",
+      "0.04",
+      "海油发展",
+      "CNOOC Energy Technology & Services Limited",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600977",
+      "0.07",
+      "中国电影",
+      "CHINA FILM CO., LTD.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600989",
+      "0.06",
+      "宝丰能源",
+      "Ningxia Baofeng Energy Group Co., Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600998",
+      "0.07",
+      "九州通",
+      "Jointown Pharmaceutical Group Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "600999",
+      "0.38",
+      "招商证券",
+      "China Merchants Securities Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601006",
+      "0.32",
+      "大秦铁路",
+      "Daqin Railway Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601009",
+      "0.35",
+      "南京银行",
+      "Bank of Nanjing Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601012",
+      "0.61",
+      "隆基股份",
+      "Longi Green Energy Technology Co., Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601018",
+      "0.1",
+      "宁波港",
+      "Ningbo Port Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601021",
+      "0.1",
+      "春秋航空",
+      "Spring Airlines Co., Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601066",
+      "0.11",
+      "中信建投",
+      "China Securities Co., Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601088",
+      "0.4",
+      "中国神华",
+      "China Shenhua Energy Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601108",
+      "0.21",
+      "财通证券",
+      "CAITONG SECURITIES CO.,LTD.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601111",
+      "0.17",
+      "中国国航",
+      "Air China Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601117",
+      "0.13",
+      "中国化学",
+      "China National Chemical Engineering Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601138",
+      "0.23",
+      "工业富联",
+      "Foxconn Industrial Internet Co., Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601155",
+      "0.22",
+      "新城控股",
+      "Future Land Holdings Co., Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601162",
+      "0.03",
+      "天风证券",
+      "TIANFENG SECURITIES CO., LTD.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601166",
+      "1.9",
+      "兴业银行",
+      "Industrial Bank",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601169",
+      "0.57",
+      "北京银行",
+      "Bank of Beijing Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601186",
+      "0.33",
+      "中国铁建",
+      "China Railway Construction Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601198",
+      "0.13",
+      "东兴证券",
+      "DONGXING SECURITIES CO., LTD.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601211",
+      "0.58",
+      "国泰君安",
+      "Guotai Junan Securities Co., Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601212",
+      "0.03",
+      "白银有色",
+      "Baiyin Nonferrous Group Co., Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601216",
+      "0.07",
+      "君正集团",
+      "Inner Mongolia Junzheng Energy & Chemical Group Co.,Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601225",
+      "0.24",
+      "陕西煤业",
+      "Shaanxi Coal Industry Company Limited",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601229",
+      "0.46",
+      "上海银行",
+      "Bank of Shanghai Co., Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601236",
+      "0.07",
+      "红塔证券",
+      "HONGTA SECURITIES CO., LTD.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601238",
+      "0.08",
+      "广汽集团",
+      "Guangzhou Automobile Group Co., Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601288",
+      "0.99",
+      "农业银行",
+      "Agricultural Bank of China Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601298",
+      "0.02",
+      "青岛港",
+      "Qingdao Port International Co., Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601318",
+      "6.35",
+      "中国平安",
+      "Ping An Insurance (Group) Company of China Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601319",
+      "0.05",
+      "中国人保",
+      "The People's Insurance Company (Group) of China Limited",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601328",
+      "1.08",
+      "交通银行",
+      "Bank of Communications Co LTD",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601336",
+      "0.28",
+      "新华保险",
+      "New China Life Insurance Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601360",
+      "0.07",
+      "三六零",
+      "360 Security Technology Inc.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601377",
+      "0.24",
+      "兴业证券",
+      "Industrial Securities Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601390",
+      "0.33",
+      "中国中铁",
+      "China Railway Group Limited",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601398",
+      "0.86",
+      "工商银行",
+      "Industrial and Commercial Bank of China Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601555",
+      "0.17",
+      "东吴证券",
+      "Soochow Securities Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601577",
+      "0.06",
+      "长沙银行",
+      "BANK OF CHANGSHA CO., LTD.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601600",
+      "0.15",
+      "中国铝业",
+      "Aluminum Corporation of China Limited",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601601",
+      "0.76",
+      "中国太保",
+      "China Pacific Insurance (Group) Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601607",
+      "0.16",
+      "上海医药",
+      "Shanghai Pharmaceuticals Holding Co.,Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601618",
+      "0.15",
+      "中国中冶",
+      "Metallurgical Corporation of China Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601628",
+      "0.37",
+      "中国人寿",
+      "China Life Insurance Company Limited",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601633",
+      "0.08",
+      "长城汽车",
+      "Great Wall Motor Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601668",
+      "0.85",
+      "中国建筑",
+      "China State Construction Engineering Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601669",
+      "0.25",
+      "中国电建",
+      "Power Construction Corporation of China,Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601688",
+      "0.62",
+      "华泰证券",
+      "Huatai Securities Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601698",
+      "0.05",
+      "中国卫通",
+      "China Satellite Communications Co.,Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601727",
+      "0.12",
+      "上海电气",
+      "Shanghai Electric Group Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601766",
+      "0.47",
+      "中国中车",
+      "CRRC Corporation Limited",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601788",
+      "0.18",
+      "光大证券",
+      "Everbright Securities Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601800",
+      "0.16",
+      "中国交建",
+      "China Communications Construction Company Limited",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601808",
+      "0.07",
+      "中海油服",
+      "China Oilfield Services Limited",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601818",
+      "0.45",
+      "光大银行",
+      "China Everbright Bank Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601828",
+      "0.03",
+      "美凯龙",
+      "Red Star Macalline Group Corporation Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601838",
+      "0.11",
+      "成都银行",
+      "BANK OF CHENGDU CO., LTD.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601857",
+      "0.37",
+      "中国石油",
+      "PetroChina Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601877",
+      "0.22",
+      "正泰电器",
+      "Zhejiang Chint Electrics Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601878",
+      "0.11",
+      "浙商证券",
+      "ZHESHANG SECURITIES CO., LTD.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601881",
+      "0.1",
+      "中国银河",
+      "China Galaxy Securities Co., Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601888",
+      "0.58",
+      "中国国旅",
+      "China International Travel Service Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601898",
+      "0.06",
+      "中煤能源",
+      "China Coal Energy Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601899",
+      "0.43",
+      "紫金矿业",
+      "Zijin Mining Group Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601901",
+      "0.23",
+      "方正证券",
+      "Founder Securities Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601919",
+      "0.12",
+      "中远海控",
+      "COSCO SHIPPING Holdings Co., Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601933",
+      "0.25",
+      "永辉超市",
+      "Yonghui Superstores Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601939",
+      "0.33",
+      "建设银行",
+      "China Construction Bank",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601985",
+      "0.22",
+      "中国核电",
+      "China National Nuclear Power Co.,Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601988",
+      "0.56",
+      "中国银行",
+      "Bank of China Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601989",
+      "0.3",
+      "中国重工",
+      "China Shipbuilding Industry Co Ltd",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601992",
+      "0.09",
+      "金隅集团",
+      "BBMG Corporation",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601997",
+      "0.16",
+      "贵阳银行",
+      "Bank of Guiyang Co.,Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "601998",
+      "0.13",
+      "中信银行",
+      "China Citic Bank Corporation Limited",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "603019",
+      "0.22",
+      "中科曙光",
+      "Dawning Information Industry Co., Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "603156",
+      "0.09",
+      "养元饮品",
+      "Hebei Yangyuan ZhiHui Beverage Co., Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "603160",
+      "0.32",
+      "汇顶科技",
+      "Shenzhen Huiding Technology Co., Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "603259",
+      "0.59",
+      "药明康德",
+      "WuXi AppTec Co., Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "603260",
+      "0.03",
+      "合盛硅业",
+      "HOSHINE SILICON INDUSTRY CO.,LTD",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "603288",
+      "0.61",
+      "海天味业",
+      "Foshan Haitian Flavouring and Food Company Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "603501",
+      "0.23",
+      "韦尔股份",
+      "Will Semiconductor CO.,Ltd. Shanghai",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "603799",
+      "0.18",
+      "华友钴业",
+      "ZHEJIANG HUAYOU COBALT CO., LTD.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "603833",
+      "0.11",
+      "欧派家居",
+      "Oppein Home Group Inc.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "603899",
+      "0.12",
+      "晨光文具",
+      "SHANGHAI M&G STATIONERY INC.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "603986",
+      "0.53",
+      "兆易创新",
+      "GigaDevice Semiconductor (Beijing) Inc.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "603993",
+      "0.22",
+      "洛阳钼业",
+      "China Molybdenum Co., Ltd.",
+      "SHH"
+    ],
+    [
+      "2020-02-28",
+      "000001",
+      "1.06",
+      "平安银行",
+      "Ping An Bank Co., Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000002",
+      "1.3",
+      "万科Ａ",
+      "China Vanke Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000063",
+      "0.87",
+      "中兴通讯",
+      "ZTE Corporation",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000069",
+      "0.2",
+      "华侨城Ａ",
+      "Shenzhen Overseas Chinese Town Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000100",
+      "0.6",
+      "TCL科技",
+      "TCL Technology Group Corporation",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000157",
+      "0.25",
+      "中联重科",
+      "Zoomlion Heavy Industry Science & Technology Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000166",
+      "0.32",
+      "申万宏源",
+      "Shenwan Hongyuan Group CO., LTD",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000333",
+      "1.94",
+      "美的集团",
+      "Midea Group CO., LTD",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000338",
+      "0.52",
+      "潍柴动力",
+      "Wei Chai Power Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000413",
+      "0.12",
+      "东旭光电",
+      "Dongxu Optoelectronic Technology Co., Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000415",
+      "0.05",
+      "渤海租赁",
+      "Bohai Leasing Co.,Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000423",
+      "0.11",
+      "东阿阿胶",
+      "Shandong Dong-Ee Jiao Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000425",
+      "0.19",
+      "徐工机械",
+      "XCMG Construction Machinery Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000538",
+      "0.3",
+      "云南白药",
+      "Yunnan Baiyao Group Co., Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000568",
+      "0.41",
+      "泸州老窖",
+      "Luzhou Lao Jiao Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000596",
+      "0.11",
+      "古井贡酒",
+      "Anhui Gujing Distillery Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000625",
+      "0.15",
+      "长安汽车",
+      "Chongqing Changan Automobile Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000627",
+      "0.09",
+      "天茂集团",
+      "Hubei Biocause Pharmaceutical Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000629",
+      "0.08",
+      "攀钢钒钛",
+      "Pangang Group Vanadium Titanium & Resources Co., Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000630",
+      "0.1",
+      "铜陵有色",
+      "Tongling Nonferrous Metals Group Co. Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000651",
+      "2.15",
+      "格力电器",
+      "Gree Electric Appliances,Inc. of Zhuhai",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000656",
+      "0.12",
+      "金科股份",
+      "Jinke Property Group Co.,Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000661",
+      "0.51",
+      "长春高新",
+      "Chang Chun High and New Technology Industry (Group) Inc.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000671",
+      "0.1",
+      "阳光城",
+      "Sunshine City Group Co., Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000703",
+      "0.12",
+      "恒逸石化",
+      "Hengyi Petrochemical Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000709",
+      "0.07",
+      "河钢股份",
+      "HESTEEL COMPANY LIMITED",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000723",
+      "0.08",
+      "美锦能源",
+      "Shanxi Meijin Energy Co.,Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000725",
+      "0.88",
+      "京东方A",
+      "BOE Technology Group Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000728",
+      "0.14",
+      "国元证券",
+      "Guoyuan Securities Company Limited",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000768",
+      "0.18",
+      "中航飞机",
+      "Avic Aircraft Co.,Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000776",
+      "0.32",
+      "广发证券",
+      "GF Securities Co., Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000783",
+      "0.2",
+      "长江证券",
+      "Changjiang Securities Company Limited",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000786",
+      "0.16",
+      "北新建材",
+      "Beijing New Building Materials Public Ltd Co",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000858",
+      "1.77",
+      "五 粮 液",
+      "Wuliangye Yibin Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000876",
+      "0.39",
+      "新 希 望",
+      "NEW HOPE LIUHE CO., LTD",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000895",
+      "0.26",
+      "双汇发展",
+      "Henan Shuanghui Investment & Development Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000898",
+      "0.05",
+      "鞍钢股份",
+      "Angang Steel Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000938",
+      "0.28",
+      "紫光股份",
+      "Unisplendour Co., Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000961",
+      "0.12",
+      "中南建设",
+      "Jiangsu Zhongnan Construction Group Co.,Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "000963",
+      "0.13",
+      "华东医药",
+      "Huadong Medicine Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "001979",
+      "0.41",
+      "招商蛇口",
+      "CHINA MERCHANTS SHEKOU INDUSTRIAL ZONE HOLDINGS CO.,LTD",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002001",
+      "0.23",
+      "新和成",
+      "Zhejiang NHU Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002007",
+      "0.26",
+      "华兰生物",
+      "Hualan Biological Engineering INC",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002008",
+      "0.25",
+      "大族激光",
+      "Han's Laser Technology Industry Group Co., Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002010",
+      "0.06",
+      "传化智联",
+      "Transfar Zhilian Co.,Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002024",
+      "0.26",
+      "苏宁易购",
+      "SUNING.COM CO.,LTD.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002027",
+      "0.41",
+      "分众传媒",
+      "Focus Media Information Technology Co., Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002032",
+      "0.09",
+      "苏泊尔",
+      "Zhejiang Supor Co.,Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002044",
+      "0.27",
+      "美年健康",
+      "Meinian Onehealth Healthcare Holdings Co., Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002050",
+      "0.21",
+      "三花智控",
+      "ZHEJIANG SANHUA INTELLIGENT CONTROLS CO.,LTD.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002081",
+      "0.11",
+      "金螳螂",
+      "Suzhou Gold Mantis Construction Decoration Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002120",
+      "0.15",
+      "韵达股份",
+      "YUNDA Holding CO., Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002142",
+      "0.53",
+      "宁波银行",
+      "Bank of Ningbo Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002146",
+      "0.11",
+      "荣盛发展",
+      "Risesun Real Estate Development Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002153",
+      "0.09",
+      "石基信息",
+      "Beijing Shiji Information Technology Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002179",
+      "0.16",
+      "中航光电",
+      "AVIC Jonhon Optronic Technology Co.,Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002202",
+      "0.22",
+      "金风科技",
+      "Xinjiang Goldwind Science & Technology Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002230",
+      "0.45",
+      "科大讯飞",
+      "Iflytek Co.,Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002236",
+      "0.26",
+      "大华股份",
+      "Zhejiang Dahua Technology Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002241",
+      "0.38",
+      "歌尔股份",
+      "GoerTek Inc",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002252",
+      "0.14",
+      "上海莱士",
+      "Shanghai RAAS Blood Products Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002271",
+      "0.21",
+      "东方雨虹",
+      "Beijing Oriental Yuhong Waterproof Technology Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002294",
+      "0.06",
+      "信立泰",
+      "Shenzhen Salubris Pharmaceuticals Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002304",
+      "0.44",
+      "洋河股份",
+      "Jiangsu Yanghe Brewery Joint-Stock Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002311",
+      "0.2",
+      "海大集团",
+      "Guangdong Haid Group Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002352",
+      "0.33",
+      "顺丰控股",
+      "S.F. Holding Co., Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002410",
+      "0.23",
+      "广联达",
+      "Glodon Software Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002411",
+      "0.06",
+      "延安必康",
+      "YanAn Bicon Pharmaceutical Listed Company",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002415",
+      "0.99",
+      "海康威视",
+      "Hangzhou Hikvision Digital Technology Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002422",
+      "0.15",
+      "科伦药业",
+      "Sichuan Kelun Pharmaceutical Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002456",
+      "0.27",
+      "欧菲光",
+      "OFILM Group Co., Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002460",
+      "0.3",
+      "赣锋锂业",
+      "Ganfeng Lithium Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002466",
+      "0.21",
+      "天齐锂业",
+      "Tianqi Lithium Industries, Inc.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002468",
+      "0.04",
+      "申通快递",
+      "STO Express Co.,Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002475",
+      "1.16",
+      "立讯精密",
+      "Luxshare Precision Industry Co., Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002493",
+      "0.15",
+      "荣盛石化",
+      "Rongsheng Petro Chemical Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002508",
+      "0.11",
+      "老板电器",
+      "Hangzhou Robam Appliances Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002555",
+      "0.27",
+      "三七互娱",
+      "WUHU SANQI INTERACTIVE ENTERTAINMENT NETWORK TECHNOLOGY GROUP CO.,LTD.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002558",
+      "0.09",
+      "巨人网络",
+      "Giant Network Group Co., Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002594",
+      "0.45",
+      "比亚迪",
+      "BYD Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002601",
+      "0.12",
+      "龙蟒佰利",
+      "Lomon Billions Group Co., Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002602",
+      "0.24",
+      "世纪华通",
+      "ZHEJIANG CENTURY HUATONG GROUP CO., LTD",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002607",
+      "0.11",
+      "中公教育",
+      "Offcn Education Technology Co., Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002624",
+      "0.2",
+      "完美世界",
+      "Perfect World Co., Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002673",
+      "0.13",
+      "西部证券",
+      "WESTERN SECURITIES CO., LTD",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002714",
+      "0.76",
+      "牧原股份",
+      "Muyuan Foodstuff Co., Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002736",
+      "0.22",
+      "国信证券",
+      "GUOSEN SECURITIES CO., LTD.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002739",
+      "0.1",
+      "万达电影",
+      "WANDA FILM HOLDING CO., LTD",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002773",
+      "0.07",
+      "康弘药业",
+      "Chengdu Kanghong Pharmaceutical Group Co., Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002841",
+      "0.05",
+      "视源股份",
+      "Guangzhou Shiyuan Electronic Technology Company Limited",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002916",
+      "0.16",
+      "深南电路",
+      "Shennan Circuits Co., Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002938",
+      "0.08",
+      "鹏鼎控股",
+      "Avary Holding (Shenzhen) Co., Limited",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002939",
+      "0.03",
+      "长城证券",
+      "CHINA GREAT WALL SECURITIES CO., LTD.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002945",
+      "0.03",
+      "华林证券",
+      "ChinaLin Securities Co., Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "002958",
+      "0.03",
+      "青农商行",
+      "Qingdao Rural Commercial Bank Corporation",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "300003",
+      "0.28",
+      "乐普医疗",
+      "Lepu Medical Technology (Beijing) Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "300015",
+      "0.37",
+      "爱尔眼科",
+      "Aier Eye Hospital Group Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "300017",
+      "0.14",
+      "网宿科技",
+      "Wangsu Science and Technology Co.,Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "300024",
+      "0.12",
+      "机器人",
+      "Siasun Robot & Automation Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "300033",
+      "0.2",
+      "同花顺",
+      "Hithink Royalflush Information Network Co.,Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "300059",
+      "0.7",
+      "东方财富",
+      "East Money Information Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "300070",
+      "0.14",
+      "碧水源",
+      "Beijing Originwater Technology Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "300122",
+      "0.22",
+      "智飞生物",
+      "Chongqing Zhifei Biological Products Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "300124",
+      "0.22",
+      "汇川技术",
+      "Shenzhen Inovance Technology Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "300136",
+      "0.29",
+      "信维通信",
+      "Shenzhen Sunway Communication Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "300142",
+      "0.27",
+      "沃森生物",
+      "Walvax Biotechnology Co Ltd",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "300144",
+      "0.18",
+      "宋城演艺",
+      "SONGCHENG PERFORMANCE DEVELOPMENT CO., LTD.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "300347",
+      "0.3",
+      "泰格医药",
+      "Hangzhou Tigermed Consulting Co., Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "300408",
+      "0.19",
+      "三环集团",
+      "CHAOZHOU THREE-CIRCLE(GROUP)CO.,LTD",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "300413",
+      "0.18",
+      "芒果超媒",
+      "Mango Excellent Media Co., Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "300433",
+      "0.19",
+      "蓝思科技",
+      "Lens Technology Co., Ltd.",
+      "SHZ"
+    ],
+    [
+      "2020-02-28",
+      "300498",
+      "0.91",
+      "温氏股份",
+      "GUANGDONGWENSFOODSTUFFGROUPCO.,LTD",
+      "SHZ"
+    ]
+  ],
+  "title": "hs300"
+}

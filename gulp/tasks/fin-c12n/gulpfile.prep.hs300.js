@@ -10,9 +10,10 @@ import { Clean } from '@flua/clean'
 import { Table } from '@analys/table'
 import { CHS, CODE, ENG, WEIGHT } from '../../constants/fields'
 import { Insight } from '../../functions/Insight'
-import { greyNowTime } from '../../utils/waitOra'
+import { greyNow } from '@flua/utils'
 import { TableLookup } from '@flua/table-gulp'
 import { makeVerseConfig } from '../../functions/readValue'
+import { cleanEng } from '@glossa/index-fin-hs300/src/cleanEng'
 
 const BASE = 'packages/index/index-fin-hs300'
 const RAW = 'IndexHS300.json'
@@ -21,31 +22,38 @@ const DEST = BASE + '/resources'
 
 const table = new Table()
 
+const TableClean = (table) => {
+  return (async () =>
+      table.mutateColumn('eng', cleanEng)
+  ) |> Rename('clean table')
+}
+
 const TableConcat = (table) => {
   const [SHENWAN, SINA, TUSH] = [says.roster('shenwan'), says.roster('sina'), says.roster('tush')]
   return (async () => {
-    const spn = ora().start('loading ' + SHENWAN)
+    const spn = ora().start(greyNow() + 'loading ' + SHENWAN)
     const codes = table.column(CODE)
     await import('@glossa/c12n-fin-shenwan').then(
       ({ CodeToSectors }) => table.pushColumn(SECTOR, codes.map(x => CodeToSectors[x] ?? []))
     )
-    spn.succeed(greyNowTime() + 'loaded ' + SHENWAN), spn.start('loading ' + SINA)
+    spn.succeed().start(greyNow() + 'loading ' + SINA)
     await import('@glossa/c12n-fin-sina').then(
       ({ CodeToSectors, CodeToConcepts }) => {
         table.pushColumn(SECTOR + 'Sina', codes.map(x => CodeToSectors[x] ?? []))
         table.pushColumn(CONCEPT, codes.map(x => CodeToConcepts[x] ?? []))
       })
-    spn.succeed(greyNowTime() + 'loaded ' + SINA), spn.start('loading ' + TUSH)
+    spn.succeed().start(greyNow() + 'loading ' + TUSH)
     await import('@glossa/c12n-fin-tush').then(
       ({ CodeToArea }) => table.pushColumn(AREA, codes.map(x => CodeToArea[x]))
     )
-    spn.succeed(greyNowTime() + 'loaded ' + TUSH)
+    spn.succeed(greyNow() + 'loaded ' + TUSH)
   }) |> Rename(xr().p('merged').p([SHENWAN, SINA, TUSH] |> deco).p('to table').toString())
 }
 
 export const buildHs300 = gulp.series(
   Clean(DEST),
   AssignTable({ target: table, src: SRC, filename: RAW }),
+  TableClean(table),
   TableConcat(table),
   Insight({ filename: RAW, table: table, insight: FinInsight.hs300Insight }),
   gulp.parallel(

@@ -1,11 +1,11 @@
 import gulp from 'gulp'
-import { CHS, CODE, SECTOR } from '../../constants/fields'
-import { Insight } from '../../functions/Insight'
 import { FinInsight } from '@glossa/fin-insight'
 import { AssignTable } from '@flua/gulp-init'
 import { Clean } from '@flua/clean'
 import { Table } from '@analys/table'
 import { TableChips, TableLookup } from '@flua/table-gulp'
+import { CHS, CODE, SECTOR } from '../../constants/fields'
+import { Insight } from '../../functions/Insight'
 import { makeVerseConfig } from '../../functions/readValue'
 
 const BASE = 'packages/c12n/c12n-fin-sina'
