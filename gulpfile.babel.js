@@ -4,19 +4,21 @@ import { buildShenwan } from './gulp/tasks/fin-c12n/gulpfile.prep.shenwan'
 import { buildSina } from './gulp/tasks/fin-c12n/gulpfile.prep.sina'
 import { buildConcepts } from './gulp/tasks/fin-c12n/gulpfile.prep.concepts'
 import { buildTush } from './gulp/tasks/fin-c12n/gulpfile.prep.tush'
+import { checkOverlap } from './gulp/tasks/fin-c12n/gulpfile.check.overlap'
 
 export {
   buildHs300,
   buildSina,
   buildShenwan,
   buildConcepts,
-  buildTush
+  buildTush,
+  checkOverlap
 }
 
 export default gulp.series(
-  buildHs300,
   buildSina,
   buildConcepts,
   buildTush,
-  // buildShenwan,
+  buildShenwan,
+  buildHs300,
 )

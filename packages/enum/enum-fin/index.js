@@ -14,6 +14,8 @@ export {
   DATE,
   SECTOR,
   CONCEPT,
+  SECTORS,
+  CONCEPTS,
   INDUSTRY,
   AREA,
   EST,

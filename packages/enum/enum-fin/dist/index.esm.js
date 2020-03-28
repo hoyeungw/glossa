@@ -11,6 +11,8 @@ const SYMBOL = 'symbol',
       DATE = 'date',
       SECTOR = 'sector',
       CONCEPT = 'concept',
+      SECTORS = 'sectors',
+      CONCEPTS = 'concepts',
       INDUSTRY = 'industry',
       AREA = 'area',
       EST = 'est',
@@ -19,4 +21,4 @@ const SYMBOL = 'symbol',
       WEIGHT = 'weight',
       EXCHANGE = 'exchange';
 
-export { AREA, BALANCES, BASICS, CASHFLOWS, CHS, CODE, CONCEPT, DATE, ENG, ENT_VALUES, EST, EXCHANGE, GENERALS, INCOMES, INDUSTRY, NAME, SECTOR, SYMBOL, WEIGHT };
+export { AREA, BALANCES, BASICS, CASHFLOWS, CHS, CODE, CONCEPT, CONCEPTS, DATE, ENG, ENT_VALUES, EST, EXCHANGE, GENERALS, INCOMES, INDUSTRY, NAME, SECTOR, SECTORS, SYMBOL, WEIGHT };

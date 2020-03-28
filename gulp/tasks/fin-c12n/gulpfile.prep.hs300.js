@@ -1,19 +1,32 @@
 import gulp from 'gulp'
-import ora from 'ora'
-import { says } from '@palett/says'
-import { FinInsight } from '@glossa/fin-insight'
-import { AREA, CONCEPT, SECTOR } from '@glossa/enum-fin'
-import { deco, xr } from '@spare/logger'
-import { Rename } from '@vect/rename'
-import { AssignTable } from '@flua/gulp-init'
-import { Clean } from '@flua/clean'
-import { Table } from '@analys/table'
-import { CHS, CODE, ENG, WEIGHT } from '../../constants/fields'
-import { Insight } from '../../functions/Insight'
-import { greyNow } from '@flua/utils'
-import { TableLookup } from '@flua/table-gulp'
-import { makeVerseConfig } from '../../functions/readValue'
+import { AREA, CHS, CODE, CONCEPTS, ENG, SECTOR, SECTORS, WEIGHT } from '@glossa/enum-fin'
 import { cleanEng } from '@glossa/index-fin-hs300/src/cleanEng'
+import { FinInsight } from '@glossa/fin-insight'
+import { AssignTable } from '@flua/gulp-init'
+import { TableChips, TableLookup } from '@flua/table-gulp'
+import { DynamicImport } from '@flua/dynamic-import'
+import { Clean } from '@flua/clean'
+import { deca, logger } from '@spare/logger'
+import { Table } from '@analys/table'
+import { Verse } from '@spare/verse'
+import { mapper as mapperObject } from '@vect/object-mapper'
+import { Rename } from '@vect/rename'
+import { OBJECTIFY } from '../../functions/readValue'
+import { Insight } from '../../functions/Insight'
+import {
+  CODE_AREA,
+  CODE_CONCEPTS,
+  CODE_SECTOR,
+  CODE_SECTORS,
+  CONCEPT_CODES,
+  SECTOR_CODES
+} from '../../constants/projections'
+import { MakeTable } from '../../utils/MakeTable'
+import { quote } from '@spare/quote'
+import { vinylize } from '@flua/vinylize'
+import { esvar } from '@flua/utils'
+import { intersect } from '@vect/vector-algebra'
+import { SHENWAN } from '../../constants/sources'
 
 const BASE = 'packages/index/index-fin-hs300'
 const RAW = 'IndexHS300.json'
@@ -21,48 +34,63 @@ const SRC = BASE + '/static'
 const DEST = BASE + '/resources'
 
 const table = new Table()
+const mem = {}
 
-const TableClean = (table) => {
-  return (async () =>
-      table.mutateColumn('eng', cleanEng)
-  ) |> Rename('clean table')
+const MergeTable = (table) => {
+  return (async () => {
+    mem |> deca({ hi: 1 }) |> logger
+    const codes = table.column(CODE)
+    for (let [key, label] of [
+      [CODE_SECTOR, SECTOR],
+      [CODE_SECTORS, SECTORS],
+      [CODE_CONCEPTS, CONCEPTS],
+      [CODE_AREA, AREA],
+    ]) {
+      const dict = mem[key]
+      table.pushColumn(label, codes.map(x => dict[x]))
+    }
+    table.mutateColumn(CODE, x => quote(x))
+    table.mutateColumn(ENG, cleanEng)
+  }) |> Rename('merge table')
 }
 
-const TableConcat = (table) => {
-  const [SHENWAN, SINA, TUSH] = [says.roster('shenwan'), says.roster('sina'), says.roster('tush')]
+const SectorToCodes = ({ label, table, suffix }) => {
   return (async () => {
-    const spn = ora().start(greyNow() + 'loading ' + SHENWAN)
+    const filename = label + (suffix ?? '')
+    const dict = mem[label]
     const codes = table.column(CODE)
-    await import('@glossa/c12n-fin-shenwan').then(
-      ({ CodeToSectors }) => table.pushColumn(SECTOR, codes.map(x => CodeToSectors[x] ?? []))
-    )
-    spn.succeed().start(greyNow() + 'loading ' + SINA)
-    await import('@glossa/c12n-fin-sina').then(
-      ({ CodeToSectors, CodeToConcepts }) => {
-        table.pushColumn(SECTOR + 'Sina', codes.map(x => CodeToSectors[x] ?? []))
-        table.pushColumn(CONCEPT, codes.map(x => CodeToConcepts[x] ?? []))
-      })
-    spn.succeed().start(greyNow() + 'loading ' + TUSH)
-    await import('@glossa/c12n-fin-tush').then(
-      ({ CodeToArea }) => table.pushColumn(AREA, codes.map(x => CodeToArea[x]))
-    )
-    spn.succeed(greyNow() + 'loaded ' + TUSH)
-  }) |> Rename(xr().p('merged').p([SHENWAN, SINA, TUSH] |> deco).p('to table').toString())
+    const o = mapperObject(dict, list => intersect(list, codes))
+    vinylize(filename + '.js',
+      esvar(filename),
+      Verse.object(o, OBJECTIFY.std)
+    ).pipe(gulp.dest(DEST))
+  }) |> Rename('merge table')
 }
 
 export const buildHs300 = gulp.series(
   Clean(DEST),
   AssignTable({ target: table, src: SRC, filename: RAW }),
-  TableClean(table),
-  TableConcat(table),
-  Insight({ filename: RAW, table: table, insight: FinInsight.hs300Insight }),
+  DynamicImport({ target: mem, src: '@glossa/c12n-fin-shenwan', prop: SECTOR_CODES }),
+  DynamicImport({ target: mem, src: '@glossa/c12n-fin-sina', prop: CONCEPT_CODES }),
   gulp.parallel(
-    TableLookup({ table, key: CODE, field: CHS, dest: DEST, config: makeVerseConfig() }),
-    TableLookup({ table, key: CODE, field: ENG, dest: DEST, config: makeVerseConfig() }),
-    TableLookup({ table, key: CODE, field: WEIGHT, dest: DEST, config: makeVerseConfig() }),
-    TableLookup({ table, key: CODE, field: SECTOR, dest: DEST, config: makeVerseConfig() }),
-    TableLookup({ table, key: CODE, field: SECTOR + 'Sina', dest: DEST, config: makeVerseConfig() }),
-    TableLookup({ table, key: CODE, field: CONCEPT, dest: DEST, config: makeVerseConfig() }),
-    TableLookup({ table, key: CODE, field: AREA, dest: DEST, config: makeVerseConfig() }),
-  )
+    SectorToCodes({ label: SECTOR_CODES, table, suffix: SHENWAN }),
+    SectorToCodes({ label: CONCEPT_CODES, table }),
+  ),
+  DynamicImport({ target: mem, src: '@glossa/c12n-fin-tush', prop: CODE_SECTOR }),
+  DynamicImport({ target: mem, src: '@glossa/c12n-fin-shenwan', prop: CODE_SECTORS }),
+  DynamicImport({ target: mem, src: '@glossa/c12n-fin-sina', prop: CODE_CONCEPTS }),
+  DynamicImport({ target: mem, src: '@glossa/c12n-fin-tush', prop: CODE_AREA }),
+  MergeTable(table),
+  Insight({ filename: RAW, table: table, insight: FinInsight.hs300Insight }),
+  MakeTable({ table, dest: DEST, filename: 'table' }),
+  gulp.parallel(
+    TableLookup({ table, key: CODE, field: CHS, dest: DEST, config: OBJECTIFY.std }),
+    TableLookup({ table, key: CODE, field: ENG, dest: DEST, config: OBJECTIFY.std }),
+    TableLookup({ table, key: CODE, field: WEIGHT, dest: DEST, config: OBJECTIFY.loose }),
+    TableLookup({ table, key: CODE, field: SECTORS, dest: DEST, config: OBJECTIFY.std }),
+    TableLookup({ table, key: CODE, field: SECTOR, dest: DEST, config: OBJECTIFY.std }),
+    TableLookup({ table, key: CODE, field: CONCEPTS, dest: DEST, config: OBJECTIFY.std }),
+    TableLookup({ table, key: CODE, field: AREA, dest: DEST, config: OBJECTIFY.std }),
+    TableChips({ table, key: SECTOR, field: CODE, dest: DEST, config: OBJECTIFY.std }),
+  ),
 )

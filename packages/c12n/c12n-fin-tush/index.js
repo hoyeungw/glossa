@@ -1,5 +1,5 @@
-export { CodeToArea as CodeToArea } from './resources/CodeToArea'
-export { AreaToCode as AreaToCodes } from './resources/AreaToCode'
-export { CodeToEst as CodeToEst } from './resources/CodeToEst'
-
+export { CodeToArea } from './resources/CodeToArea'
+export { AreaToCodes } from './resources/AreaToCodes'
+export { CodeToEst } from './resources/CodeToEst'
+export { CodeToSector } from './resources/CodeToSector'
 // export {C12nTs} from './src/C12nTs'

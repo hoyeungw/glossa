@@ -5,6 +5,8 @@ export const
   DATE = 'date',
   SECTOR = 'sector',
   CONCEPT = 'concept',
+  SECTORS = 'sectors',
+  CONCEPTS = 'concepts',
   INDUSTRY = 'industry',
   AREA = 'area',
   EST = 'est',
