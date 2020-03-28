@@ -16,5 +16,6 @@ export {
   cashflows,
   basics,
 }
-export { bannerReplacer } from './src/bannerReplacer'
+
+export { cleanBanner } from './src/cleanBanner'
 

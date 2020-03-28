@@ -1,4 +1,4 @@
-export const cashflows=[
+export const cashflows = [
   [
     "销售商品_提供劳务收到的现金",
     "cash from goods sales or rendering of services"
@@ -61,7 +61,7 @@ export const cashflows=[
   ],
   [
     "投资活动现金流入小计",
-    "cash inflows from investment activities"
+    "cashin flows from investment activities"
   ],
   [
     "购建固定资产_无形资产和其他长期资产支付的现金",

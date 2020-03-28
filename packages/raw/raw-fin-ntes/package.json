@@ -10,6 +10,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "dependencies": {
+    "@glossa/translator": "^0.0.11"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hoyeungw/glossa.git"

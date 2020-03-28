@@ -1,4 +1,4 @@
-export const incomes=[
+export const incomes = [
   [
     "其中_营业收入",
     "operating revenue"

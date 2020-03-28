@@ -1,4 +1,4 @@
-export const enterpriseValues=[
+export const enterpriseValues = [
   [
     "基本每股收益",
     "eps"

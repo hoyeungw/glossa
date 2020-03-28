@@ -1,4 +1,4 @@
-export const balances=[
+export const balances = [
   [
     "货币资金",
     "money funds"
@@ -89,7 +89,7 @@ export const balances=[
   ],
   [
     "固定资产清理",
-    "fixed assets cleanDest up"
+    "fixed assets clean up"
   ],
   [
     "生产性生物资产",

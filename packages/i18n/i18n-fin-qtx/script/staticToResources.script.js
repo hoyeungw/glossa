@@ -3,7 +3,7 @@ import { promises as fsp } from 'fs'
 import { delogger, says } from '@spare/logger'
 import { BALANCES, CASHFLOWS, ENT_VALUES, INCOMES } from '@glossa/enum-fin'
 import { Table } from '@analys/table'
-import { bannerReplacer } from '@glossa/raw-fin-ntes/src/bannerReplacer'
+import { cleanBanner } from '@glossa/raw-fin-ntes/src/cleanBanner'
 import { camelToLowerDashed } from '@spare/string'
 
 ({ cwd: process.cwd(), dir: __dirname, file: __filename }) |> delogger
@@ -22,7 +22,7 @@ const script = async () => {
     const title = SecToReport[secKey]
     const secTable = rawTable
       .filter({ field: 'sec', filter: x => x.startsWith(secKey) }, { mutate: false })
-      .mutateColumn('chs', bannerReplacer)
+      .mutateColumn('chs', cleanBanner)
       .mutateColumn('eng', x => camelToLowerDashed(x, ' '))
     const entries = secTable.select(['chs', 'eng']).rows
     const result = `export const ${title} = ${JSON.stringify(entries, null, '  ')}`
