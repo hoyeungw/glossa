@@ -10,4 +10,4 @@ export { SectorToCodesShenwan } from './resources/SectorToCodesShenwan'
 export { ConceptToCodes } from './resources/ConceptToCodes'
 export { table } from './resources/table'
 
-export { IndexHS300 } from './src/IndexHS300'
+// export { IndexHS300 } from './src/IndexHS300'
