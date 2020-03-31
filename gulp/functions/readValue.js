@@ -7,6 +7,12 @@ export const OBJECTIFY = {
       objectify: true
     }
   },
+  get blank () {
+    return {
+      read: x => x,
+      objectify: true
+    }
+  },
   get loose () {
     return {
       read: DecoPale({ loose: true }),

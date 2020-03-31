@@ -9,6 +9,8 @@ const SYMBOL = 'symbol',
       CODE = 'code',
       NAME = 'name',
       DATE = 'date',
+      START = 'start',
+      END = 'end',
       SECTOR = 'sector',
       CONCEPT = 'concept',
       SECTORS = 'sectors',
@@ -21,4 +23,4 @@ const SYMBOL = 'symbol',
       WEIGHT = 'weight',
       EXCHANGE = 'exchange';
 
-export { AREA, BALANCES, BASICS, CASHFLOWS, CHS, CODE, CONCEPT, CONCEPTS, DATE, ENG, ENT_VALUES, EST, EXCHANGE, GENERALS, INCOMES, INDUSTRY, NAME, SECTOR, SECTORS, SYMBOL, WEIGHT };
+export { AREA, BALANCES, BASICS, CASHFLOWS, CHS, CODE, CONCEPT, CONCEPTS, DATE, END, ENG, ENT_VALUES, EST, EXCHANGE, GENERALS, INCOMES, INDUSTRY, NAME, SECTOR, SECTORS, START, SYMBOL, WEIGHT };

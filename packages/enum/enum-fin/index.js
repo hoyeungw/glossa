@@ -12,6 +12,8 @@ export {
   CODE,
   NAME,
   DATE,
+  START,
+  END,
   SECTOR,
   CONCEPT,
   SECTORS,

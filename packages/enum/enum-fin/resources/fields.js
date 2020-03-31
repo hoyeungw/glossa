@@ -3,6 +3,8 @@ export const
   CODE = 'code',
   NAME = 'name',
   DATE = 'date',
+  START = 'start',
+  END = 'end',
   SECTOR = 'sector',
   CONCEPT = 'concept',
   SECTORS = 'sectors',

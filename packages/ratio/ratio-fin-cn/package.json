@@ -15,7 +15,7 @@
     "test": "node -r @babel/register test/index-fin-hs300.test.index.js"
   },
   "dependencies": {
-    "@acq/acq": "^0.1.7",
+    "@acq/acq": "^0.2.0",
     "@analys/crostab": "^0.1.5",
     "@analys/enum-pivot-mode": "^0.1.5",
     "@analys/enum-tabular-types": "^0.1.5",
