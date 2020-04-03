@@ -1,5 +1,5 @@
 {
-  "name": "@glossa/i18n-fin-qtx",
+  "name": "@glossa/abbr-exchange",
   "version": "0.1.2",
   "description": "Glossaries",
   "main": "dist/index.cjs.js",
@@ -10,8 +10,13 @@
   "publishConfig": {
     "access": "public"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoyeungw/glossa.git"
+  },
   "keywords": [
     "glossary",
+    "exchanges",
     "financial",
     "sse"
   ],
@@ -20,10 +25,5 @@
   "bugs": {
     "url": "https://github.com/hoyeungw/glossa"
   },
-  "homepage": "https://github.com/hoyeungw/glossa#readme",
-  "dependencies": {
-    "@analys/table": "^0.1.5",
-    "@spare/string": "^0.4.7"
-  },
-  "gitHead": "32d6ac944e6d229e152c73fbd1209f907c435379"
+  "homepage": "https://github.com/hoyeungw/glossa#readme"
 }
