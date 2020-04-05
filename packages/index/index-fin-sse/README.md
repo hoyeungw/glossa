@@ -1,4 +1,4 @@
-## @glossa/c12n-fin
+## @glossa/index-fin-sse
 
 ### An crawler
 
