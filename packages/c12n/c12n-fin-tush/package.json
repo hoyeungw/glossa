@@ -1,6 +1,6 @@
 {
   "name": "@glossa/c12n-fin-tush",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A crawler",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
