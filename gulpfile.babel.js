@@ -1,6 +1,6 @@
 import gulp from 'gulp'
-import { buildC12nFin } from './gulp/tasks/fin/c12n-fin/gulpfile.c12n.fin'
-import { buildHs300 } from './gulp/tasks/fin/hs300/gulpfile.prep.hs300'
+import { buildSSE } from './gulp/tasks/index/sse/gulpfile.prep.sse'
+import { buildHs300 } from './gulp/tasks/index/hs300/gulpfile.prep.hs300'
 import { buildShenwan } from './gulp/tasks/fin/shenwan/gulpfile.index'
 import { buildSinaAndConcepts } from './gulp/tasks/fin/sinaAndConcepts/gulpfile.index'
 import { buildTush } from './gulp/tasks/fin/tush/gulpfile.prep.tush'
@@ -8,7 +8,7 @@ import { checkOverlap } from './gulp/tasks/fin/gulpfile.check.overlap'
 import { convertShenwan } from './gulp/tasks/primitive/gulpfile.convert.shenwan'
 
 export {
-  buildC12nFin,
+  buildSSE,
   buildTush,
   buildSinaAndConcepts,
   buildShenwan,
@@ -18,7 +18,7 @@ export {
 }
 
 export default gulp.series(
-  buildC12nFin,
+  buildSSE,
   buildTush,
   buildSinaAndConcepts,
   buildShenwan,

@@ -1,11 +1,11 @@
 import gulp from 'gulp'
-import { initC12ns } from '@glossa/c12n-fin'
+import { initC12ns } from '@glossa/index-fin-sse'
 import { Vinylize } from '@flua/vinylize'
 import { Verse } from '@spare/verse'
 import { esvar } from '@flua/utils'
 import { DecoPale } from '@spare/deco-pale'
 
-const DEST = 'packages/c12n/c12n-fin/static'
+const DEST = 'packages/index/index-fin-sse/static'
 
 const makeTable = async () => {
   const table = await initC12ns()
@@ -15,6 +15,6 @@ const makeTable = async () => {
     .pipe(gulp.dest(DEST))
 }
 
-export const buildC12nFin = gulp.series(
+export const buildSSE = gulp.series(
   makeTable
 )

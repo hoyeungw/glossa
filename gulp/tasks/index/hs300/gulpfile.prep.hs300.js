@@ -83,7 +83,7 @@ export const buildHs300 = gulp.series(
   DynamicImport({ target: mem, src: '@glossa/c12n-fin-tush', prop: CODE_AREA }),
   MergeTable(table),
   Insight({ filename: RAW, table: table, insight: FinInsight.hs300Insight }),
-  MakeTable({ table, dest: DEST, filename: 'Sectors' }),
+  MakeTable({ table, dest: DEST, filename: 'c12ns' }),
   gulp.parallel(
     TableLookup({ table, key: CODE, field: CHS, dest: DEST, config: OBJECTIFY.std }),
     TableLookup({ table, key: CODE, field: ENG, dest: DEST, config: OBJECTIFY.std }),

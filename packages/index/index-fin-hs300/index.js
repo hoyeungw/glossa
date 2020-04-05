@@ -8,6 +8,6 @@ export { CodeToConcepts } from './resources/CodeToConcepts'
 export { SectorToCodes } from './resources/SectorToCodes'
 export { SectorToCodesTush } from './resources/SectorToCodesTush'
 export { ConceptToCodes } from './resources/ConceptToCodes'
-export { Sectors } from './resources/Sectors'
+export { c12ns } from './resources/c12ns'
 
 // export { IndexHS300 } from './src/IndexHS300'
