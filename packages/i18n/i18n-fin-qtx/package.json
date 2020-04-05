@@ -1,6 +1,6 @@
 {
   "name": "@glossa/i18n-fin-qtx",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Glossaries",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/hoyeungw/glossa#readme",
   "dependencies": {
-    "@analys/table": "^0.1.5",
-    "@spare/string": "^0.4.7"
+    "@analys/table": "^0.1.7",
+    "@spare/string": "^0.4.8"
   },
   "gitHead": "32d6ac944e6d229e152c73fbd1209f907c435379"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@glossa/index-fin-hs300",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A crawler",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -16,8 +16,8 @@
   },
   "dependencies": {
     "@acq/acq": "^0.2.0",
-    "@analys/enum-tabular-types": "^0.1.5",
-    "@spare/enum-encodings": "^0.4.7",
+    "@analys/enum-tabular-types": "^0.1.7",
+    "@spare/enum-encodings": "^0.4.8",
     "naivecsv": "^0.0.39",
     "xlsx": "^0.15.6"
   },
