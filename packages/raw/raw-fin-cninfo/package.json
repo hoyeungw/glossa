@@ -1,6 +1,6 @@
 {
   "name": "@glossa/raw-fin-cninfo",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Glossaries",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
