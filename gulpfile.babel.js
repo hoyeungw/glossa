@@ -1,28 +1,26 @@
 import gulp from 'gulp'
-import { buildHs300 } from './gulp/tasks/fin-c12n/gulpfile.prep.hs300'
-import { buildShenwan } from './gulp/tasks/fin-c12n/gulpfile.prep.shenwan'
-import { buildShenwanOfficial } from './gulp/tasks/fin-c12n/gulpfile.prep.shenwan.official'
-import { buildSina } from './gulp/tasks/fin-c12n/gulpfile.prep.sina'
-import { buildConcepts } from './gulp/tasks/fin-c12n/gulpfile.prep.concepts'
-import { buildTush } from './gulp/tasks/fin-c12n/gulpfile.prep.tush'
-import { checkOverlap } from './gulp/tasks/fin-c12n/gulpfile.check.overlap'
+import { buildC12nFin } from './gulp/tasks/fin/c12n-fin/gulpfile.c12n.fin'
+import { buildHs300 } from './gulp/tasks/fin/hs300/gulpfile.prep.hs300'
+import { buildShenwan } from './gulp/tasks/fin/shenwan/gulpfile.index'
+import { buildSinaAndConcepts } from './gulp/tasks/fin/sinaAndConcepts/gulpfile.index'
+import { buildTush } from './gulp/tasks/fin/tush/gulpfile.prep.tush'
+import { checkOverlap } from './gulp/tasks/fin/gulpfile.check.overlap'
 import { convertShenwan } from './gulp/tasks/primitive/gulpfile.convert.shenwan'
 
 export {
-  buildHs300,
-  buildSina,
-  buildShenwan,
-  buildConcepts,
+  buildC12nFin,
   buildTush,
+  buildSinaAndConcepts,
+  buildShenwan,
+  buildHs300,
   checkOverlap,
   convertShenwan,
-  buildShenwanOfficial
 }
 
 export default gulp.series(
-  buildSina,
-  buildConcepts,
+  buildC12nFin,
   buildTush,
+  buildSinaAndConcepts,
   buildShenwan,
   buildHs300,
 )

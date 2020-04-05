@@ -1,21 +1,21 @@
 import gulp from 'gulp'
 import { FinInsight } from '@glossa/fin-insight'
-import { Table } from '@analys/table'
 import { AssignTable } from '@flua/gulp-init'
 import { Clean } from '@flua/clean'
+import { Table } from '@analys/table'
 import { TableChips, TableLookup } from '@flua/table-gulp'
-import { CHS, CODE, SECTOR } from '../../constants/fields'
-import { Insight } from '../../functions/Insight'
-import { OBJECTIFY } from '../../functions/readValue'
+import { CHS, CODE, SECTOR } from '../../../constants/fields'
+import { Insight } from '../../../functions/Insight'
+import { OBJECTIFY } from '../../../functions/readValue'
 
 const BASE = 'packages/c12n/c12n-fin-sina'
-const RAW = 'Sectors.json'
+const RAW = 'Concepts.json'
 const SRC = BASE + '/static'
-const DEST = BASE + '/resources/sectors'
+const DEST = BASE + '/resources/concepts'
 
 const table = new Table()
 
-export const buildSina = gulp.series(
+export const buildConcepts = gulp.series(
   Clean(DEST),
   AssignTable({ target: table, src: SRC, filename: RAW }),
   Insight({ filename: RAW, table: table, insight: FinInsight.sectorInsight }),
@@ -25,4 +25,3 @@ export const buildSina = gulp.series(
     TableChips({ table, key: SECTOR, field: CODE, dest: DEST, config: OBJECTIFY.std }),
   )
 )
-

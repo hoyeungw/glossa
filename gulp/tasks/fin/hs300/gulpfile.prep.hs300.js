@@ -23,11 +23,11 @@ import {
   CODE_SECTORS,
   CONCEPT_CODES,
   SECTOR_CODES
-} from '../../constants/projections'
-import { OBJECTIFY } from '../../functions/readValue'
-import { Insight } from '../../functions/Insight'
-import { MakeTable } from '../../utils/MakeTable'
-import { TUSH } from '../../constants/sources'
+} from '../../../constants/projections'
+import { OBJECTIFY } from '../../../functions/readValue'
+import { Insight } from '../../../functions/Insight'
+import { MakeTable } from '../../../utils/MakeTable'
+import { TUSH } from '../../../constants/sources'
 
 const BASE = 'packages/index/index-fin-hs300'
 const RAW = 'IndexHS300.json'

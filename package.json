@@ -54,6 +54,7 @@
     "@typen/enum-object-types": "^0.0.4",
     "@typen/typ": "^0.0.4",
     "@valjoux/linger": "^0.0.5",
+    "@valjoux/strategies": "^0.0.5",
     "@valjoux/timeout": "^0.0.5",
     "@valjoux/timestamp": "^0.0.5",
     "@vect/object-mapper": "^0.2.0",
