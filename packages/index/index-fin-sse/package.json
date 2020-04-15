@@ -19,7 +19,7 @@
     "url": "git+https://github.com/hoyeungw/glossa.git"
   },
   "dependencies": {
-    "@analys/table": "^0.2.3",
+    "@analys/table": "^0.2.4",
     "@glossa/c12n-fin-shenwan": "^0.1.7",
     "@glossa/c12n-fin-sina": "^0.1.7",
     "@glossa/c12n-fin-tush": "^0.1.7",

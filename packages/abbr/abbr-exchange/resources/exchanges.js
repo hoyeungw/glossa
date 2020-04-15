@@ -9,7 +9,7 @@ export const exchanges = [
   [/change/gi, 'ch'],
   [/price/gi, 'prc'],
   [/total/gi, ''],
-  [/circulat(e|ing) /gi, 'cir'],
+  [/circulat(e|ing)/gi, 'cir'],
   [/capitalization/gi, 'cap'],
   [/turnover/gi, 'tnv'],
   [/in (\d*?) days/gi, (_, n) => `d(${n})`]
