@@ -1,6 +1,6 @@
 {
   "name": "@glossa/raw-fin-ntes",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Glossaries",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -11,7 +11,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@glossa/translator": "^0.1.6"
+    "@glossa/translator": "^0.1.7"
   },
   "repository": {
     "type": "git",
