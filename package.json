@@ -14,10 +14,10 @@
     "watch-specific": "lerna exec --scope=kalorie -- rollup -c ../../../rollup.config.js -w"
   },
   "devDependencies": {
-    "@analys/convert": "^0.2.2",
-    "@analys/crostab": "^0.2.2",
-    "@analys/table": "^0.2.2",
-    "@analys/table-init": "^0.2.2",
+    "@analys/convert": "^0.2.3",
+    "@analys/crostab": "^0.2.3",
+    "@analys/table": "^0.2.3",
+    "@analys/table-init": "^0.2.3",
     "@aryth/distinct-vector": "^0.1.0",
     "@aryth/rand": "^0.1.0",
     "@babel/core": "^7.9.0",
