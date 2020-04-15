@@ -8,8 +8,9 @@ export const exchanges = [
   [/percent/gi, '%'],
   [/change/gi, 'ch'],
   [/price/gi, 'prc'],
-  [/total /gi, 't '],
-  [/market /gi, 'mkt'],
+  [/total/gi, ''],
+  [/circulat(e|ing) /gi, 'cir'],
+  [/capitalization/gi, 'cap'],
   [/turnover/gi, 'tnv'],
   [/in (\d*?) days/gi, (_, n) => `d(${n})`]
 ]

@@ -49,24 +49,34 @@ class Ratios {
   /** @type {number} */
 
   /** @type {number} */
+  // profit
 
   /** @type {number} */
+  // profit
 
   /** @type {number} */
+  // profit
 
   /** @type {number} */
+  // profit
 
   /** @type {number} */
+  // profit
 
   /** @type {number} */
+  // profit
 
   /** @type {number} */
+  // profit
 
   /** @type {number} */
+  // profit
 
   /** @type {number} */
+  // profit
 
   /** @type {number} */
+  // profit
 
   /** @type {number} */
 
@@ -96,7 +106,7 @@ class Ratios {
 
     _defineProperty(this, "accRecv", void 0);
 
-    _defineProperty(this, "fixAst", void 0);
+    _defineProperty(this, "fxAst", void 0);
 
     _defineProperty(this, "intgAst", void 0);
 
@@ -104,7 +114,7 @@ class Ratios {
 
     _defineProperty(this, "rev", void 0);
 
-    _defineProperty(this, "opCost", void 0);
+    _defineProperty(this, "opCosts", void 0);
 
     _defineProperty(this, "opPft", void 0);
 
@@ -156,7 +166,7 @@ class Ratios {
     return (this.monetCap + this.tFa) / this.curLiab;
   }
 
-  dnetIncRatio() {
+  debtRatio() {
     return this.liab / this.ast;
   }
 

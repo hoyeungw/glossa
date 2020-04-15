@@ -1,3 +1,5 @@
+
+
 export class Ratios {
   /** @type {string} */ date
   /** @type {number} */ ast
@@ -11,19 +13,19 @@ export class Ratios {
   /** @type {number} */ monetCap
   /** @type {number} */ tFa
   /** @type {number} */ accRecv
-  /** @type {number} */ fixAst
+  /** @type {number} */ fxAst
   /** @type {number} */ intgAst
   /** @type {number} */ gdw
-  /** @type {number} */ rev
-  /** @type {number} */ opCost
-  /** @type {number} */ opPft
-  /** @type {number} */ saExp
-  /** @type {number} */ mangExp
-  /** @type {number} */ finExp
-  /** @type {number} */ intrExp
-  /** @type {number} */ rdExp
-  /** @type {number} */ pft
-  /** @type {number} */ netInc
+  /** @type {number} */ rev           // profit
+  /** @type {number} */ opCosts       // profit
+  /** @type {number} */ opPft         // profit
+  /** @type {number} */ saExp         // profit
+  /** @type {number} */ mangExp       // profit
+  /** @type {number} */ finExp        // profit
+  /** @type {number} */ intrExp       // profit
+  /** @type {number} */ rdExp         // profit
+  /** @type {number} */ pft           // profit
+  /** @type {number} */ netInc        // profit
   /** @type {number} */ eps
   /** @type {number} */ marketCap
   constructor (balances, profits) {
@@ -38,7 +40,7 @@ export class Ratios {
   currRatio () { return this.curAst / this.curLiab }
   acidRatio () { return (this.curAst - this.invt) / this.curLiab }
   cashRatio () { return (this.monetCap + this.tFa) / this.curLiab }
-  dnetIncRatio () { return this.liab / this.ast }
+  debtRatio () { return this.liab / this.ast }
   intrCovRatio () { return this.netInc / (this.finExp + this.intrExp) }
   equityMultiplier () { return this.ast / this.eqt }
 
@@ -62,3 +64,4 @@ export class Ratios {
   ps () { return this.marketCap / this.rev }
   pb () { return this.marketCap / this.eqt }
 }
+

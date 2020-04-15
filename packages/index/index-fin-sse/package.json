@@ -19,13 +19,13 @@
     "url": "git+https://github.com/hoyeungw/glossa.git"
   },
   "dependencies": {
-    "@analys/table": "^0.1.7",
+    "@analys/table": "^0.2.2",
     "@glossa/c12n-fin-shenwan": "^0.1.6",
     "@glossa/c12n-fin-sina": "^0.1.6",
     "@glossa/c12n-fin-tush": "^0.1.6",
     "@glossa/enum-fin": "^0.1.6",
     "@glossa/index-fin-hs300": "^0.1.6",
-    "@valjoux/convert": "^0.0.5",
+    "@valjoux/convert": "^0.0.6",
     "@vect/entries-unwind": "^0.2.0",
     "@vect/matrix-transpose": "^0.2.0"
   },
