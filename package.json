@@ -52,6 +52,7 @@
     "@spare/enum-encodings": "^0.6.0",
     "@spare/logger": "^0.6.0",
     "@spare/quote": "^0.6.0",
+    "@spare/phrasing": "^0.6.0",
     "@spare/translator": "^0.6.0",
     "@typen/enum-data-types": "^0.1.0",
     "@typen/enum-object-types": "^0.1.0",

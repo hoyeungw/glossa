@@ -2,7 +2,7 @@
 	<img src="media/logo.default.png" />
 </div>
 
-##### :clubs: @glossa, easy to use array, 2d-array, entries and objects
+##### :clubs: @glossa, translations for financial analysis
 
 [![npm version][badge-npm-version]][url-npm]
 [![github commit last][badge-github-last-commit]][url-github]
