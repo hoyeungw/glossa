@@ -1,6 +1,7 @@
-import { makeReplaceable } from './makeReplaceable'
 import { sortKeysByLength } from '../utils/sortKeysByLength'
+import { makeReplaceable }  from './makeReplaceable'
 
+/** @deprecated use @spare/translator instead */
 export class Translator {
   constructor (dictionary) {
     this.dict = dictionary|> makeReplaceable

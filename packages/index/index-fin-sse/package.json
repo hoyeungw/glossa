@@ -19,15 +19,15 @@
     "url": "git+https://github.com/hoyeungw/glossa.git"
   },
   "dependencies": {
-    "@analys/table": "^0.2.4",
+    "@analys/table": "^0.3.0",
     "@glossa/c12n-fin-shenwan": "^0.1.8",
     "@glossa/c12n-fin-sina": "^0.1.8",
     "@glossa/c12n-fin-tush": "^0.1.8",
     "@glossa/enum-fin": "^0.1.8",
     "@glossa/index-fin-hs300": "^0.1.8",
-    "@valjoux/convert": "^0.0.6",
-    "@vect/entries-unwind": "^0.2.0",
-    "@vect/matrix-transpose": "^0.2.0"
+    "@valjoux/convert": "^0.1.0",
+    "@vect/entries-unwind": "^0.2.3",
+    "@vect/matrix-transpose": "^0.2.3"
   },
   "keywords": [
     "crawler",

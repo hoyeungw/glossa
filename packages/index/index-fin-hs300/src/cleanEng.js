@@ -1,4 +1,4 @@
-import { makeReplaceable } from '@glossa/translator'
+import { makeReplaceable } from '@spare/translator'
 import { wordToCap } from '@spare/phrasing'
 import { SP } from '@spare/enum-chars'
 

@@ -1,5 +1,5 @@
 import { Abbr } from '../src/abbr'
-import { Translator } from '@glossa/translator'
+import { Translator } from '@spare/translator'
 import { Raw } from '@glossa/raw-fin-fmp'
 import { decoSamples, says } from '@spare/logger'
 import { mapper } from '@vect/vector-mapper'

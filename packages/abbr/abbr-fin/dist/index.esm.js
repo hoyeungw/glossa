@@ -1,3 +1,5 @@
+import { acquire } from '@vect/vector-merge';
+
 const balances = [[/monetary/gi, 'monet'], [/biological/gi, 'bio'], [/account(s?)/gi, 'acc'], [/development/gi, 'dev'], [/accumulated/gi, 'accum'], [/engineer(ing)?/gi, 'eng'], [/held-to-maturity/gi, 'htm'], [/available-for-sale/gi, 'afs'], [/shareholders('?) equity/gi, 'eqt'], [/construction in progress/gi, 'cip'], [/property, plant (&|and) equipment/gi, 'ppe']];
 
 const incomes = [[/diluted/gi, 'dil'], [/margin/gi, 'mrg'], [/associate(s?)/gi, 'asso'], [/joint venture(s?)/gi, 'jv'], [/surcharge(s?)/gi, 'surc'], [/earnings before/gi, 'eb'], [/earnings per share/gi, 'eps']];
@@ -19,9 +21,9 @@ const AbbrCollection = {
   enterpriseValues: enterpriseValues
 };
 const Abbr = (...topics) => {
-  let dict = generals;
+  let dict = acquire([], generals);
 
-  for (let topic of topics) if (topic in AbbrCollection) dict = dict.concat(AbbrCollection[topic]);
+  for (let topic of topics) if (topic in AbbrCollection) acquire(dict, AbbrCollection[topic]);
 
   return dict.sort(([a], [b]) => String(b).length - String(a).length);
 };

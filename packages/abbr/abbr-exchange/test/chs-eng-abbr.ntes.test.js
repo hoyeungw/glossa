@@ -1,5 +1,5 @@
 import { Abbr } from '../src/abbr'
-import { Translator } from '@glossa/translator'
+import { Translator } from '@spare/translator'
 import { Raw } from '@glossa/raw-fin-ntes'
 import { ChsToEng } from '@glossa/i18n-fin-ntes'
 import { ChsToEng as ChsToEngQtx } from '@glossa/i18n-fin-qtx'

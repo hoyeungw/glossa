@@ -1,7 +1,7 @@
-import { waitSpin } from '@flua/utils'
-import { says } from '@palett/says'
+import { waitSpin }        from '@flua/utils'
+import { says }            from '@palett/says'
 import { deca, DecoTable } from '@spare/logger'
-import { Rename } from '@vect/rename'
+import { Rename }          from '@vect/rename'
 
 export const Insight = ({ filename, table, insight, delay = 1200 } = {}) => {
   return (async () => {

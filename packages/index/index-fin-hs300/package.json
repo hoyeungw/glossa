@@ -16,13 +16,13 @@
   },
   "dependencies": {
     "@acq/acq": "^0.2.0",
-    "@analys/enum-tabular-types": "^0.2.4",
-    "@spare/enum-encodings": "^0.4.13",
-    "naivecsv": "^0.0.39",
-    "xlsx": "^0.15.6"
+    "@analys/enum-tabular-types": "^0.3.0",
+    "@spare/enum-encodings": "^0.6.0",
+    "naivecsv": "^0.1.0",
+    "xlsx": "^0.16.0"
   },
   "devDependencies": {
-    "typen": "^0.1.9"
+    "typen": "^0.2.0"
   },
   "repository": {
     "type": "git",

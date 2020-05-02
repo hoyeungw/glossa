@@ -1,9 +1,10 @@
-import { generals } from '../resources/generals'
-import { balances } from '../resources/balances'
-import { incomes } from '../resources/incomes'
-import { cashflows } from '../resources/cashflows'
-import { basics } from '../resources/basics'
+import { acquire }          from '@vect/vector-merge'
+import { balances }         from '../resources/balances'
+import { basics }           from '../resources/basics'
+import { cashflows }        from '../resources/cashflows'
 import { enterpriseValues } from '../resources/enterpriseValues'
+import { generals }         from '../resources/generals'
+import { incomes }          from '../resources/incomes'
 
 export const AbbrCollection = {
   generals: generals,
@@ -15,10 +16,9 @@ export const AbbrCollection = {
 }
 
 export const Abbr = (...topics) => {
-  let dict = generals
+  let dict = acquire([], generals)
   for (let topic of topics)
     if (topic in AbbrCollection)
-      dict = dict.concat(AbbrCollection[topic])
-  return dict
-    .sort(([a], [b]) => String(b).length - String(a).length)
+      acquire(dict, AbbrCollection[topic])
+  return dict.sort(([a], [b]) => String(b).length - String(a).length)
 }

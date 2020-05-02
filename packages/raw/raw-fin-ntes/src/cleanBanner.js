@@ -1,4 +1,4 @@
-import { makeReplaceable } from '@glossa/translator'
+import { makeReplaceable } from '@spare/translator'
 
 const LEXICON = [
   [/\s+/g, ''],

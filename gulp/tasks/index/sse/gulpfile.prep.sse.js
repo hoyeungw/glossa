@@ -1,9 +1,9 @@
-import gulp from 'gulp'
+import { esvar }     from '@flua/utils'
+import { Vinylize }  from '@flua/vinylize'
 import { initC12ns } from '@glossa/index-fin-sse'
-import { Vinylize } from '@flua/vinylize'
-import { Verse } from '@spare/verse'
-import { esvar } from '@flua/utils'
-import { DecoPale } from '@spare/deco-pale'
+import { DecoPale }  from '@spare/deco-pale'
+import { Verse }     from '@spare/verse'
+import gulp          from 'gulp'
 
 const DEST = 'packages/index/index-fin-sse/static'
 

@@ -15,21 +15,21 @@
     "test": "node -r @babel/register test/fin-insight.test.index.js"
   },
   "dependencies": {
-    "@analys/crostab": "^0.2.4",
-    "@analys/enum-mutabilities": "^0.2.4",
-    "@analys/enum-pivot-mode": "^0.2.4",
-    "@analys/table": "^0.2.4",
-    "@analys/table-merge": "^0.2.4",
-    "@aryth/comparer": "^0.1.0",
-    "@aryth/histo": "^0.1.1",
-    "@aryth/math": "^0.1.0",
-    "@aryth/rank-column": "^0.1.0",
+    "@analys/crostab": "^0.3.0",
+    "@analys/enum-mutabilities": "^0.3.0",
+    "@analys/enum-pivot-mode": "^0.3.0",
+    "@analys/table": "^0.3.0",
+    "@analys/table-merge": "^0.3.0",
+    "@aryth/comparer": "^0.1.4",
+    "@aryth/histo": "^0.1.4",
+    "@aryth/math": "^0.1.4",
+    "@aryth/rank-column": "^0.1.4",
     "@glossa/enum-fin": "^0.1.8",
-    "@spare/logger": "^0.4.13",
+    "@spare/logger": "^0.6.0",
     "@typen/num-strict": "^0.1.0"
   },
   "devDependencies": {
-    "typen": "^0.1.9"
+    "typen": "^0.2.0"
   },
   "repository": {
     "type": "git",

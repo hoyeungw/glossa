@@ -1,11 +1,12 @@
-import gulp from 'gulp'
-import { buildSSE } from './gulp/tasks/index/sse/gulpfile.prep.sse'
-import { buildHs300 } from './gulp/tasks/index/hs300/gulpfile.prep.hs300'
-import { buildShenwan } from './gulp/tasks/fin/shenwan/gulpfile.index'
-import { buildSinaAndConcepts } from './gulp/tasks/fin/sinaAndConcepts/gulpfile.index'
-import { buildTush } from './gulp/tasks/fin/tush/gulpfile.prep.tush'
-import { checkOverlap } from './gulp/tasks/fin/gulpfile.check.overlap'
-import { convertShenwan } from './gulp/tasks/primitive/gulpfile.convert.shenwan'
+import gulp                     from 'gulp'
+import { checkOverlap }         from './gulp/tasks/fin-sectors/gulpfile.check.overlap'
+import { buildShenwan }         from './gulp/tasks/fin-sectors/shenwan/gulpfile.index'
+import { buildSinaAndConcepts } from './gulp/tasks/fin-sectors/sina/gulpfile.index'
+import { buildTush }            from './gulp/tasks/fin-sectors/tush/gulpfile.prep.tush'
+import { buildHs300 }           from './gulp/tasks/index/hs300/gulpfile.prep.hs300'
+import { buildSSE }             from './gulp/tasks/index/sse/gulpfile.prep.sse'
+import { convertShenwan }       from './gulp/tasks/primitive/gulpfile.convert.shenwan'
+import {buildNtesTranslation}   from './gulp/tasks/fin-reports/gulpfile.ntes.translation'
 
 export {
   buildSSE,
@@ -15,6 +16,7 @@ export {
   buildHs300,
   checkOverlap,
   convertShenwan,
+  buildNtesTranslation
 }
 
 export default gulp.series(

@@ -1,3 +1,4 @@
+/** @deprecated use @spare/translator instead */
 export const makeReplaceable = dict => Object
   .defineProperty(dict, Symbol.replace, {
     value (word, after) {
