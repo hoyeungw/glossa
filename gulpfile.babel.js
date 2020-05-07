@@ -6,6 +6,7 @@ import { buildSinaAndConcepts } from './gulp/tasks/fin-sectors/sina/gulpfile.ind
 import { buildTush }            from './gulp/tasks/fin-sectors/tush/gulpfile.prep.tush'
 import { buildHs300 }           from './gulp/tasks/index/hs300/gulpfile.prep.hs300'
 import { buildSSE }             from './gulp/tasks/index/sse/gulpfile.prep.sse'
+import { buildFinNtesTable }    from './gulp/tasks/lab/gulpfile.table.fin.ntes.build'
 import { convertShenwan }       from './gulp/tasks/primitive/gulpfile.convert.shenwan'
 
 export {
@@ -16,7 +17,8 @@ export {
   buildHs300,
   checkOverlap,
   convertShenwan,
-  buildNtesTranslation
+  buildNtesTranslation,
+  buildFinNtesTable
 }
 
 export default gulp.series(

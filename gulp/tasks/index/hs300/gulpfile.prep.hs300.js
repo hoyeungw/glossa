@@ -32,7 +32,7 @@ import { TUSH } from '../../../constants/sources'
 const BASE = 'packages/index/index-fin-hs300'
 const RAW = 'IndexHS300.json'
 const SRC = BASE + '/static'
-const DEST = BASE + '/resources'
+const DEST = BASE + '/static'
 
 const table = new Table()
 const mem = {}

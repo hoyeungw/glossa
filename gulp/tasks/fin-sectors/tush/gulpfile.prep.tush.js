@@ -11,7 +11,7 @@ import { OBJECTIFY }               from '../../../functions/readValue'
 const BASE = 'packages/c12n/c12n-fin-tush'
 const RAW = 'Sectors.json'
 const SRC = BASE + '/static'
-const DEST = BASE + '/resources'
+const DEST = BASE + '/static'
 
 const table = new Table()
 

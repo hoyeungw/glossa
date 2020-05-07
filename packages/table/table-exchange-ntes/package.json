@@ -1,0 +1,34 @@
+{
+  "name": "@glossa/table-exchange-ntes",
+  "version": "0.1.10",
+  "description": "Glossaries",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@glossa/enum-data-scopes": "^0.1.10",
+    "@glossa/enum-general-fields": "^0.1.10",
+    "@glossa/enum-fin": "^0.1.10",
+    "@typen/enum-data-types": "^0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoyeungw/glossa.git"
+  },
+  "keywords": [
+    "glossary",
+    "financial",
+    "sse"
+  ],
+  "author": "Hoyeung Wong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hoyeungw/glossa"
+  },
+  "homepage": "https://github.com/hoyeungw/glossa#readme"
+}

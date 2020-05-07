@@ -15,7 +15,7 @@ import { Rename }                               from '@vect/rename'
 import { mapper }                               from '@vect/vector-mapper'
 import gulp                                     from 'gulp'
 
-const DEST = 'packages/i18n/i18n-fin-ntes/resources/abbr'
+const DEST = 'packages/i18n/i18n-fin-ntes/static/abbr'
 
 const mem = {}
 

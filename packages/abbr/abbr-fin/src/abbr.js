@@ -1,4 +1,5 @@
-import { acquire }          from '@vect/vector-merge'
+import { MakeReplaceable }  from '@spare/translator'
+import { acquire, merge }   from '@vect/vector-merge'
 import { balances }         from '../resources/balances'
 import { basics }           from '../resources/basics'
 import { cashflows }        from '../resources/cashflows'
@@ -14,6 +15,7 @@ export const AbbrCollection = {
   basics: basics,
   enterpriseValues: enterpriseValues
 }
+
 
 export const Abbr = (...topics) => {
   let dict = acquire([], generals)

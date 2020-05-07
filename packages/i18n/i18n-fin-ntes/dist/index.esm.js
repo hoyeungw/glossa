@@ -28,4 +28,57 @@ const ChsToAbbr = {
   basics: basics$1
 };
 
-export { ChsToAbbr, ChsToEng, balances, basics, cashflows, incomes };
+const sortKeysByLength = dict => dict.sort(([a], [b]) => String(b).length - String(a).length);
+
+const makeReplaceable = function (dict) {
+  if (this === null || this === void 0 ? void 0 : this.sort) sortKeysByLength(dict);
+  Object.defineProperty(dict, Symbol.replace, {
+    value(word, after) {
+      for (let [curr, proj] of this) word = word.replace(curr, proj);
+
+      return after ? after(word) : word;
+    },
+
+    configurable: true,
+    enumerable: false
+  });
+  return dict;
+};
+
+const MakeReplaceable = ({
+  sort = true
+} = {}) => makeReplaceable.bind({
+  sort
+});
+
+const makeReplaceable$1 = MakeReplaceable({
+  sort: true
+});
+const DictCollection = {
+  get balances() {
+    var _balances;
+
+    return _balances = balances, makeReplaceable$1(_balances);
+  },
+
+  get incomes() {
+    var _incomes;
+
+    return _incomes = incomes, makeReplaceable$1(_incomes);
+  },
+
+  get cashflows() {
+    var _cashflows;
+
+    return _cashflows = cashflows, makeReplaceable$1(_cashflows);
+  },
+
+  get basics() {
+    var _basics;
+
+    return _basics = basics, makeReplaceable$1(_basics);
+  }
+
+};
+
+export { ChsToAbbr, ChsToEng, DictCollection, balances, basics, cashflows, incomes };

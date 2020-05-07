@@ -53,6 +53,6 @@ gulp.task('default',
   gulp.series(
     CLEAN,
     gulp.parallel(LOAD_ALPHA, LOAD_BETA), // load the files in parallel
-    WRITE_BODY  // ready to write once all resources are in mem
+    WRITE_BODY  // ready to write once all static are in mem
   )
 )

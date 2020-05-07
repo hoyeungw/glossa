@@ -11,7 +11,7 @@ import { OBJECTIFY } from '../../../functions/readValue'
 const BASE = 'packages/c12n/c12n-fin-sina'
 const RAW = 'Concepts.json'
 const SRC = BASE + '/static'
-const DEST = BASE + '/resources/concepts'
+const DEST = BASE + '/static/concepts'
 
 const table = new Table()
 

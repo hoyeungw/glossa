@@ -3,6 +3,8 @@ export const exchanges = [
   [/high/gi, 'hi'],
   [/low/gi, 'lo'],
   [/close/gi, 'e'],
+  [/adjusted/gi, 'adj'],
+  [/dividend/gi, 'div'],
   [/volum([ne])/gi, 'vol'],
   [/average( ?)/gi, 'avg '],
   [/percent/gi, '%'],
