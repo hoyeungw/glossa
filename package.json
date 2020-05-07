@@ -12,7 +12,7 @@
     "build": "lerna exec --parallel -- rollup -c ../../../rollup.config.js",
     "build-specific": "lerna exec --scope=@glossa/translator -- rollup -c ../../../rollup.config.js",
     "watch": "lerna exec --parallel -- rollup -c ../../../rollup.config.js -w",
-    "watch-specific": "lerna exec --scope=@glossa/ratio-fin-cn -- rollup -c ../../../rollup.config.js -w"
+    "watch-specific": "lerna exec --scope=@glossa/abbr-fin -- rollup -c ../../../rollup.config.js -w"
   },
   "devDependencies": {
     "@analys/convert": "^0.3.0",

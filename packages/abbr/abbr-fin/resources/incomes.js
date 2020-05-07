@@ -1,9 +1,10 @@
 export const incomes = [
   [/diluted/gi, 'dil'],
   [/margin/gi, 'mrg'],
-  [/associate(s?)/gi, 'asso'],
-  [/joint venture(s?)/gi, 'jv'],
-  [/surcharge(s?)/gi, 'surc'],
+  [/surcharges?/gi, 'surc'],
+  [/associates?/gi, 'asso'],
+  [/net incomes?/gi, 'ni'],
+  [/joint ventures?/gi, 'jv'],
   [/earnings before/gi, 'eb'],
   [/earnings per share/gi, 'eps']
 ]
