@@ -11,6 +11,7 @@ export const exchanges = [
   [/change/gi, 'ch'],
   [/price/gi, 'prc'],
   [/total/gi, ''],
+  [/timestamp/gi, 'date'],
   [/circulat(e|ing)/gi, 'cir'],
   [/capitalization/gi, 'cap'],
   [/turnover/gi, 'tnv'],
