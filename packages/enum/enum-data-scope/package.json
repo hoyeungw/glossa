@@ -1,5 +1,5 @@
 {
-  "name": "@glossa/raw-fin-ntes",
+  "name": "@glossa/enum-data-scope",
   "version": "0.1.9",
   "description": "Glossaries",
   "main": "dist/index.cjs.js",
@@ -9,9 +9,6 @@
   ],
   "publishConfig": {
     "access": "public"
-  },
-  "dependencies": {
-    "@spare/translator": "^0.6.2"
   },
   "repository": {
     "type": "git",

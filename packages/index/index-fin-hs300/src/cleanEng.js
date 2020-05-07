@@ -1,8 +1,8 @@
+import { SP }              from '@spare/enum-chars'
+import { capitalize }      from '@spare/phrasing'
 import { makeReplaceable } from '@spare/translator'
-import { wordToCap } from '@spare/phrasing'
-import { SP } from '@spare/enum-chars'
 
-const EXIST_SMALL = /[a-z]/
+const SMALL = /[a-z]/
 const WORD = /[A-Za-z\d-.']+|&/g
 const LEXICON = [
   [/GUANGDONGWENSFOODSTUFFGROUPCO/i, 'Guangdong Wens Food Stuff Group Co'],
@@ -23,9 +23,9 @@ const LEXICON = [
   [/(Co)?[.,\s]+Ltd\.?/i, '']
 ] |> makeReplaceable
 
-const wordsToInitialCapital = phrase => {
+const wordsToCapitalize = phrase => {
   let ms, wd, ph = ''
-  while ((ms = WORD.exec(phrase)) && ([wd] = ms)) ph += SP + (wd |> wordToCap)
+  while ((ms = WORD.exec(phrase)) && ([wd] = ms)) ph += SP + capitalize(wd)
   return ph.trim()
 }
 
@@ -36,8 +36,8 @@ const wordsToSmooth = phrase => {
 }
 
 export const cleanEng = phrase => {
-  const words = !EXIST_SMALL.test(phrase)
-    ? wordsToInitialCapital(phrase)
+  const words = !SMALL.test(phrase)
+    ? wordsToCapitalize(phrase)
     : wordsToSmooth(phrase)
   return words.replace(LEXICON, x => x.trim())
 }
