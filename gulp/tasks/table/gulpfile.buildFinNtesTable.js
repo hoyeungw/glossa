@@ -6,6 +6,7 @@ import { DB, LITE, RATIO, RAW }                           from '@glossa/enum-dat
 import { BALANCES, BASICS, CASHFLOWS, CHS, ENG, INCOMES } from '@glossa/enum-fin'
 import { TYPE }                                           from '@glossa/enum-general-fields'
 import { DictCollection as EnglishDictCollection }        from '@glossa/i18n-fin-ntes'
+import { AbbrevCriteria }                                 from '@glossa/table-fin-ntes/static/AbbrevCriteria'
 import { TableCollection }                                from '@glossa/table-fin-ntes/static/TableCollection'
 import { says }                                           from '@palett/says'
 import { decoString, decoTable }                          from '@spare/logger'
@@ -37,6 +38,8 @@ const TranslateAbbrev = (report) => {
     const table = await mem[report], dict = await AbbrevDictCollection[report]
     const translates = table.column(ENG).map(x => x.replace(dict, x => snakeToCamel(x.trim().toLowerCase())))
     table.pushColumn(ABBR, translates)
+    const lengthCriterion = AbbrevCriteria[report]
+    table.mutateColumn(DB, (x, i) => translates[i].length > lengthCriterion ? NaN : x)
   }) |> Rename('translate abbreviation ' + says.roster(report))
 }
 
