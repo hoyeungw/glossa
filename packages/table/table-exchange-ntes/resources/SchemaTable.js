@@ -3,7 +3,7 @@ import { CHS, ENG }             from '@glossa/enum-fin'
 import { LABEL, TYPE }          from '@glossa/enum-general-fields'
 import { NUM, STR }             from '@typen/enum-data-types'
 
-export const exchange = {
+export const SchemaTable = {
   head: [TYPE, RAW, LITE, DB, RATIO, LABEL, ENG, CHS,],
   rows: [
     [STR, 100, 100, 100, 100, null, 'date', '日期',],

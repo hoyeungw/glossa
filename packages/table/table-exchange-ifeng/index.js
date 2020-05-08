@@ -1,1 +1,1 @@
-export { exchange } from './resources/exchange'
+export { SchemaTable } from './resources/SchemaTable'
