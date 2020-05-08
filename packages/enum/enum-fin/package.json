@@ -1,6 +1,6 @@
 {
   "name": "@glossa/enum-fin",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "description": "Glossaries",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
