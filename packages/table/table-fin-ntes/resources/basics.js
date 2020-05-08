@@ -1,6 +1,7 @@
 export const basics = {
   head: ['type', 'raw', 'db', 'lite', 'ratio', 'abbr', 'eng', 'chs'], 
   rows: [
+    ['string', 100, 100, 100, 100, 'symbol'   , 'symbol'                                   , 'symbol'         ], 
     ['string', 100, 100, 101, 101, 'date'     , 'date'                                     , '报告日期'           ], 
     ['number', 101, 101, 102, 102, 'eps'      , 'basic eps'                                , '基本每股收益'         ], 
     ['number', 102, 102, 103, 103, 'bvps'     , 'net assets per share'                     , '每股净资产'          ], 

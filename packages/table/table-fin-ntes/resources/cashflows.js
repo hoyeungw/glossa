@@ -1,6 +1,7 @@
 export const cashflows = {
   head: ['type', 'raw', 'db', 'lite', 'ratio', 'abbr', 'eng', 'chs'], 
   rows: [
+    ['string', 100, 100, 100, 100, 'symbol'                                , 'symbol'                                                                                                      , 'symbol'                    ], 
     ['string', 101, 101, 101, 101, 'date'                                  , 'date'                                                                                                        , '报告日期'                      ], 
     ['number', 102, 102, 102, 102, 'cFrGdSv'                               , 'cash from goods sales or services provision'                                                                 , '销售商品_提供劳务收到的现金'            ], 
     ['number', 103, 103, NaN, NaN, 'netIcCuDpoInterbkDpo'                  , 'net increase in customer deposits and interbank deposits'                                                    , '客户存款和同业存放款项净增加额'           ], 

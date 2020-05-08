@@ -6,6 +6,7 @@ import { NUM, STR }            from '@typen/enum-data-types'
 export const balances = {
   head:[TYPE, RAW, DB, LITE, RATIO, ENG,],
   rows:[
+    [STR, 100, 100, 100, 100, 'symbol'                         ,],
     [STR, 100, 100, 100, 100, 'date'                           ,],
     [NUM, 111, 111, 111, 111, 'cash and cash equivalents'      ,],
     [NUM, 111, 111, 111, 111, 'short-term investments'         ,],

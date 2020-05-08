@@ -6,6 +6,7 @@ import { NUM, STR }             from '@typen/enum-data-types'
 export const incomes = {
   head: [TYPE, RAW, DB, LITE, RATIO, CHS],
   rows: [
+    [STR, 100, 100, 100, 100, 'symbol',], // rawdata里没有
     [STR, 101, 101, 101, 101, '报告日期',],
     [NUM, 102, 102, 102, 102, '营业总收入',],
     [NUM, 103, 103, 103, 103, '营业收入',],

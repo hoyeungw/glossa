@@ -1,10 +1,9 @@
-import { balances }  from './static/balances'
-import { basics }    from './static/basics'
-import { cashflows } from './static/cashflows'
-import { incomes }   from './static/incomes'
+import { balances }  from './resources/balances'
+import { basics }    from './resources/basics'
+import { cashflows } from './resources/cashflows'
+import { incomes }   from './resources/incomes'
 
 export { ChsToEng }       from './src/chsToEng'
-export { ChsToAbbr }      from './src/chsToAbbr'
 export { DictCollection } from './src/DictCollection'
 
 export {

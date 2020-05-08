@@ -1,11 +1,12 @@
-import { RAW,DB, LITE, RATIO } from '@glossa/enum-data-scopes'
-import { CHS }             from '@glossa/enum-fin'
-import { TYPE }            from '@glossa/enum-general-fields'
-import { NUM, STR }        from '@typen/enum-data-types'
+import { DB, LITE, RATIO, RAW } from '@glossa/enum-data-scopes'
+import { CHS }                  from '@glossa/enum-fin'
+import { TYPE }                 from '@glossa/enum-general-fields'
+import { NUM, STR }             from '@typen/enum-data-types'
 
 export const basics = {
   head: [TYPE, RAW, DB, LITE, RATIO, CHS],
   rows: [
+    [STR, 100, 100, 100, 100, 'symbol',], // rawdata里没有
     [STR, 100, 100, 101, 101, '报告日期'],
     [NUM, 101, 101, 102, 102, '基本每股收益'],
     [NUM, 102, 102, 103, 103, '每股净资产'],

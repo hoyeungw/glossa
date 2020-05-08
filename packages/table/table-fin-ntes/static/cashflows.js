@@ -6,6 +6,7 @@ import { NUM, STR }        from '@typen/enum-data-types'
 export const cashflows = {
   head: [TYPE, RAW, DB, LITE, RATIO, CHS],
   rows: [
+    [STR, 100, 100, 100, 100, 'symbol',], // rawdata里没有
     [STR, 101, 101, 101, 101, '报告日期',],
     [NUM, 102, 102, 102, 102, '销售商品_提供劳务收到的现金',],
     [NUM, 103, 103, NaN, NaN, '客户存款和同业存放款项净增加额',],

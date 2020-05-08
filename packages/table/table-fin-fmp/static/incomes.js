@@ -6,6 +6,7 @@ import { NUM, STR }            from '@typen/enum-data-types'
 export const incomes = {
   head: [TYPE, RAW, DB, LITE, RATIO, ENG,],
   rows: [
+    [STR, 100, 100, 100, 100, 'symbol'                           ,],
     [STR, 100, 100, 100, 100, 'date'                             ,],
     [NUM, 101, 101, 101, 101, 'revenue'                          ,],
     [NUM, 102, 102, 102, 102, 'revenue growth'                   ,],

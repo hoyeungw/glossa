@@ -1,6 +1,7 @@
 export const balances = {
   head: ['type', 'raw', 'db', 'lite', 'ratio', 'abbr', 'eng', 'chs'], 
   rows: [
+    ['string', 100, 100, 100, 100, 'symbol'                            , 'symbol'                                                        , 'symbol'      ], 
     ['string', 100, 101, 101, 101, 'date'                              , 'date'                                                          , '报告日期'        ], 
     ['number', 100, 102, 104, 102, 'monetCap'                          , 'monetary capital'                                              , '货币资金'        ], 
     ['number', 100, 103, NaN, NaN, 'settlementProvisions'              , 'settlement provisions'                                         , '结算备付金'       ], 

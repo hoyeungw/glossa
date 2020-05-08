@@ -6,6 +6,7 @@ import { NUM, STR }             from '@typen/enum-data-types'
 export const cashflows = {
   head: [TYPE, RAW, DB, LITE, RATIO, ENG],
   rows: [
+    [STR, 100, 100, 100, 100, 'symbol',],
     [STR, 100, 100, 100, 100, 'date',],
     [NUM, 100, 100, 100, 100, 'depreciation & amortization',],
     [NUM, 100, 100, 100, 100, 'stock-based compensation',],

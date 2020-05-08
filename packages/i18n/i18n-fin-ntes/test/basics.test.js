@@ -1,4 +1,4 @@
-import { basics }                                 from '../static/basics'
+import { basics }                                 from '../resources/basics'
 import { DecoEntries, decoEntries, logger, says } from '@spare/logger'
 
 basics |> DecoEntries({}) |> says['basics']

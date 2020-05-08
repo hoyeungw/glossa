@@ -6,6 +6,7 @@ import { NUM, STR }        from '@typen/enum-data-types'
 export const balances = {
   head: [TYPE, RAW, DB, LITE, RATIO, CHS],
   rows: [
+    [STR, 100, 100, 100, 100, 'symbol',], // rawdata里没有
     [STR, 100, 101, 101, 101, '报告日期',],
     [NUM, 100, 102, 104, 102, '货币资金',],
     [NUM, 100, 103, NaN, NaN, '结算备付金',],

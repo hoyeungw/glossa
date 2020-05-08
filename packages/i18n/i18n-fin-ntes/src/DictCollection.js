@@ -1,8 +1,8 @@
 import { MakeReplaceable } from '@spare/translator'
-import { balances }        from '../static/balances'
-import { basics }          from '../static/basics'
-import { cashflows }       from '../static/cashflows'
-import { incomes }         from '../static/incomes'
+import { balances }        from '../resources/balances'
+import { basics }          from '../resources/basics'
+import { cashflows }       from '../resources/cashflows'
+import { incomes }         from '../resources/incomes'
 
 const makeReplaceable = MakeReplaceable({ sort: true })
 

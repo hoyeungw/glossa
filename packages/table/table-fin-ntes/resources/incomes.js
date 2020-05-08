@@ -1,6 +1,7 @@
 export const incomes = {
   head: ['type', 'raw', 'db', 'lite', 'ratio', 'abbr', 'eng', 'chs'], 
   rows: [
+    ['string', 100, 100, 100, 100, 'symbol'                      , 'symbol'                                              , 'symbol'         ], 
     ['string', 101, 101, 101, 101, 'date'                        , 'date'                                                , '报告日期'           ], 
     ['number', 102, 102, 102, 102, 'rev'                         , 'revenue'                                             , '营业总收入'          ], 
     ['number', 103, 103, 103, 103, 'opInc'                       , 'operating income'                                    , '营业收入'           ], 
