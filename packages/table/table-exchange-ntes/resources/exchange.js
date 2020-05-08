@@ -1,7 +1,7 @@
-import { DB, LITE, RATIO } from '@glossa/enum-data-scopes'
-import { CHS, ENG }        from '@glossa/enum-fin'
-import { LABEL, TYPE }     from '@glossa/enum-general-fields'
-import { NUM, STR }        from '@typen/enum-data-types'
+import { DB, LITE, RATIO, RAW } from '@glossa/enum-data-scopes'
+import { CHS, ENG }             from '@glossa/enum-fin'
+import { LABEL, TYPE }          from '@glossa/enum-general-fields'
+import { NUM, STR }             from '@typen/enum-data-types'
 
 export const exchange = {
   head: [TYPE, RAW, LITE, DB, RATIO, LABEL, ENG, CHS,],

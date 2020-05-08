@@ -1,4 +1,4 @@
-import { LITE, DB, RATIO } from '@glossa/enum-data-scopes';
+import { RAW, LITE, DB, RATIO } from '@glossa/enum-data-scopes';
 import { ENG, CHS } from '@glossa/enum-fin';
 import { TYPE, LABEL } from '@glossa/enum-general-fields';
 import { STR, NUM } from '@typen/enum-data-types';
