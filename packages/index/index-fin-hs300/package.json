@@ -1,6 +1,6 @@
 {
   "name": "@glossa/index-fin-hs300",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "A crawler",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",

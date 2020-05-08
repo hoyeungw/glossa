@@ -1,6 +1,6 @@
 {
   "name": "@glossa/table-fin-ntes",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "Glossaries",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -12,9 +12,9 @@
   },
   "dependencies": {
     "@analys/table": "^0.3.0",
-    "@glossa/enum-data-scopes": "^0.1.13",
-    "@glossa/enum-fin": "^0.1.13",
-    "@glossa/enum-general-fields": "^0.1.13",
+    "@glossa/enum-data-scopes": "^0.1.14",
+    "@glossa/enum-fin": "^0.1.14",
+    "@glossa/enum-general-fields": "^0.1.14",
     "@typen/enum-data-types": "^0.1.0"
   },
   "repository": {
