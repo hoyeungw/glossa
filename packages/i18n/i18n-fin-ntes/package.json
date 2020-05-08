@@ -1,6 +1,6 @@
 {
   "name": "@glossa/i18n-fin-ntes",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "Glossaries",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
