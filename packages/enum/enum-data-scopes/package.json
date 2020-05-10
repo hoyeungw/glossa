@@ -1,6 +1,6 @@
 {
   "name": "@glossa/enum-data-scopes",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "description": "Glossaries",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
