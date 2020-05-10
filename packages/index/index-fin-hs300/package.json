@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@acq/acq": "^0.2.0",
-    "@analys/enum-tabular-types": "^0.3.0",
+    "@analys/enum-tabular-types": "^0.3.2",
     "@spare/enum-encodings": "^0.6.3",
     "naivecsv": "^0.1.0",
     "xlsx": "^0.16.0"

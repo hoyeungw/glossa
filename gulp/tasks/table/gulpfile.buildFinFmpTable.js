@@ -1,16 +1,16 @@
-import { esvar }                             from '@flua/utils'
-import { Vinylize }                          from '@flua/vinylize'
-import { DictCollection }                    from '@glossa/abbr-fin'
-import { RATIO }                             from '@glossa/enum-data-scopes'
-import { BALANCES, CASHFLOWS, ENG, INCOMES } from '@glossa/enum-fin'
-import { says }                              from '@palett/says'
-import { decoTable, logger }                 from '@spare/logger'
-import { snakeToCamel }                      from '@spare/phrasing'
-import { Verse }                             from '@spare/verse'
-import { Rename }                            from '@vect/rename'
-import gulp                from 'gulp'
-import { ABBR }            from '../../constants/abbr.fields'
-import { TableCollection } from '../../../packages/table/table-fin-fmp/static/TableCollection'
+import { esvar }                                         from '@flua/utils'
+import { Vinylize }                                      from '@flua/vinylize'
+import { DictCollection }                                from '@glossa/abbr-fin'
+import { RATIO }                                         from '@glossa/enum-data-scopes'
+import { BALANCES, CASHFLOWS, ENG, ENT_VALUES, INCOMES } from '@glossa/enum-fin'
+import { TableCollection }                               from '@glossa/table-fin-fmp/static/TableCollection'
+import { says }                                          from '@palett/says'
+import { decoTable, logger }                             from '@spare/logger'
+import { snakeToCamel }                                  from '@spare/phrasing'
+import { Verse }                                         from '@spare/verse'
+import { Rename }                                        from '@vect/rename'
+import gulp                                              from 'gulp'
+import { ABBR }                                          from '../../constants/abbr.fields'
 
 const DEST = 'packages/table/table-fin-fmp/resources'
 const mem = {}
@@ -66,5 +66,11 @@ export const buildTable = gulp.parallel(
     EnglishToAbbrev(CASHFLOWS),
     LogTable(CASHFLOWS),
     SaveTable(CASHFLOWS),
+  ),
+  gulp.series(
+    LoadTable(ENT_VALUES),
+    EnglishToAbbrev(ENT_VALUES),
+    LogTable(ENT_VALUES),
+    SaveTable(ENT_VALUES),
   )
 )

@@ -1,8 +1,8 @@
-export const  enterpriseValues = [
-  [/market /gi, 'mkt'],
+export const enterpriseValues = [
   [/capitalization/gi, 'cap'],
   [/stock price/gi, 'prc'],
-  [/number of /gi, '#'],
-  [/value/gi, 'val'],
-  [/enterprise/gi, 'ent']
+  [/number of/gi, 'no'],
+  [/enterprise/gi, 'ent'],
+  [/-/gi, 'minus'],
+  [/\+/gi, 'plus'],
 ]

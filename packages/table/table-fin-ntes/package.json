@@ -11,7 +11,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@analys/table": "^0.3.0",
+    "@analys/table": "^0.3.2",
     "@glossa/enum-data-scopes": "^0.1.16",
     "@glossa/enum-fin": "^0.1.16",
     "@glossa/enum-general-fields": "^0.1.16",

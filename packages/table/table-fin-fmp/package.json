@@ -11,7 +11,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@analys/table": "^0.3.0"
+    "@analys/table": "^0.3.2"
   },
   "repository": {
     "type": "git",
