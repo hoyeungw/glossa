@@ -3,12 +3,12 @@ import { DB, LITE, RATIO, RAW } from '@glossa/enum-data-scopes'
 import { ENG }                  from '@glossa/enum-fin'
 import { TYPE }                 from '@glossa/enum-general-fields'
 import { acquire }              from '@vect/vector-merge'
-import { cashflow }             from '../static/cashflow'
-import { liability }            from '../static/liability'
-import { liquidity }            from '../static/liquidity'
-import { operation }            from '../static/operation'
-import { profitability }        from '../static/profitability'
-import { valuation }            from '../static/valuation'
+import { cashflow }             from '../resources/cashflow'
+import { liability }            from '../resources/liability'
+import { liquidity }            from '../resources/liquidity'
+import { operation }            from '../resources/operation'
+import { profitability }        from '../resources/profitability'
+import { valuation }            from '../resources/valuation'
 
 export const TableCollection = {
   get cashflow () { return cashflow |> Table.from },
