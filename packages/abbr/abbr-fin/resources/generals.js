@@ -72,7 +72,7 @@ export const generals = [
   [/comprehensive/gi, 'compr'],
   [/compensations?/gi, 'compen'],
   [/weighted[ \-]/gi, 'w'],
-  [/long[ \-]term/gi, 'lt'],
+  [/long[ \-]?term/gi, 'lt'],
   [/acquisitions?/gi, 'acq'],
   [/inventor(y|ies)/gi, 'invt'],
   [/expenditures?/gi, 'expd'],

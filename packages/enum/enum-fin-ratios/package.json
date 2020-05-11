@@ -1,5 +1,5 @@
 {
-  "name": "@glossa/abbr-fin",
+  "name": "@glossa/enum-fin-ratios",
   "version": "0.1.17",
   "description": "Glossaries",
   "main": "dist/index.cjs.js",
@@ -13,10 +13,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hoyeungw/glossa.git"
-  },
-  "dependencies": {
-    "@spare/translator": "^0.6.3",
-    "@vect/vector-merge": "^0.2.4"
   },
   "keywords": [
     "glossary",

@@ -1,5 +1,5 @@
 {
-  "name": "@glossa/abbr-fin",
+  "name": "@glossa/table-fin-fmp-ratio",
   "version": "0.1.17",
   "description": "Glossaries",
   "main": "dist/index.cjs.js",
@@ -10,13 +10,12 @@
   "publishConfig": {
     "access": "public"
   },
+  "dependencies": {
+    "@analys/table": "^0.3.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hoyeungw/glossa.git"
-  },
-  "dependencies": {
-    "@spare/translator": "^0.6.3",
-    "@vect/vector-merge": "^0.2.4"
   },
   "keywords": [
     "glossary",
@@ -28,6 +27,5 @@
   "bugs": {
     "url": "https://github.com/hoyeungw/glossa"
   },
-  "homepage": "https://github.com/hoyeungw/glossa#readme",
-  "gitHead": "58ff70d087be3945cf25a5ffed1c8ec0bb57aad0"
+  "homepage": "https://github.com/hoyeungw/glossa#readme"
 }

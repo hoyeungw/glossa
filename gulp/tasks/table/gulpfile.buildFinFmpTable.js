@@ -48,7 +48,7 @@ const SaveTable = (report) => {
   }) |> Rename('save table ' + says.roster(report))
 }
 
-export const buildTable = gulp.parallel(
+export const buildFinFmpTable = gulp.parallel(
   gulp.series(
     LoadTable(BALANCES),
     EnglishToAbbrev(BALANCES),

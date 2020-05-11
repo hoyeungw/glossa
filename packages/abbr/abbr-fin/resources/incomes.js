@@ -1,6 +1,6 @@
 export const incomes = [
   [/diluted/gi, 'dil'],
-  [/margin/gi, 'mrg'],
+  [/margin/gi, 'mg'],
   [/surcharges?/gi, 'surc'],
   [/associates?/gi, 'asso'],
   [/net incomes?/gi, 'ni'],

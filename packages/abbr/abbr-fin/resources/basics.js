@@ -1,4 +1,4 @@
-export const  basics = [
+export const basics = [
   [/basic/gi, ''],
   [/activities/gi, ''],
   [/return on/gi, 'ro'],
