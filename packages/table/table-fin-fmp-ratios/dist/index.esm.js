@@ -42,9 +42,75 @@ const TYPE = 'type';
 // export default Function.prototype.apply.bind(Array.prototype.push)
 const acquire = (va, vb) => (Array.prototype.push.apply(va, vb), va); // export default Function.prototype.call.bind(Array.prototype.concat)
 
+// from x => typeof x
+const NUM = 'number';
+const STR = 'string';
+
+const cashflow$1 = {
+  head: [TYPE, RAW, DB, LITE, RATIO, ENG],
+  rows: [[STR, 100, 100, 100, 100, 'symbol'], [STR, 100, 100, 100, 100, 'date'], [NUM, 111, 111, 111, 111, 'operatingCashFlowPerShare'], [NUM, 111, 111, 111, 111, 'freeCashFlowPerShare'], [NUM, 111, 111, 111, 111, 'cashPerShare'], [NUM, 111, 111, 111, 111, 'payoutRatio'], [NUM, 111, 111, 111, 111, 'receivablesTurnover'], [NUM, 111, 111, 111, 111, 'operatingCashFlowSalesRatio'], [NUM, 111, 111, 111, 111, 'freeCashFlowOperatingCashFlowRatio'], [NUM, 111, 111, 111, 111, 'cashFlowCoverageRatios'], [NUM, 111, 111, 111, 111, 'shortTermCoverageRatios'], [NUM, 111, 111, 111, 111, 'capitalExpenditureCoverageRatios'], [NUM, 111, 111, 111, 111, 'dividendpaidAndCapexCoverageRatios'], [NUM, 111, 111, 111, 111, 'dividendPayoutRatio']]
+};
+
+const liability$1 = {
+  head: [TYPE, RAW, DB, LITE, RATIO, ENG],
+  rows: [[STR, 100, 100, 100, 100, 'symbol'], [STR, 100, 100, 100, 100, 'date'], [NUM, 111, 111, 111, 111, 'debtRatio'], [NUM, 111, 111, 111, 111, 'debtEquityRatio'], [NUM, 111, 111, 111, 111, 'longtermDebtToCapitalization'], [NUM, 111, 111, 111, 111, 'totalDebtToCapitalization'], [NUM, 111, 111, 111, 111, 'interestCoverage'], [NUM, 111, 111, 111, 111, 'cashFlowToDebtRatio'], [NUM, 111, 111, 111, 111, 'companyEquityMultiplier']]
+};
+
+const liquidity$1 = {
+  head: [TYPE, RAW, DB, LITE, RATIO, ENG],
+  rows: [[STR, 100, 100, 100, 100, 'symbol'], [STR, 100, 100, 100, 100, 'date'], [NUM, 111, 111, 111, 111, 'currentRatio'], [NUM, 111, 111, 111, 111, 'quickRatio'], [NUM, 111, 111, 111, 111, 'cashRatio'], [NUM, 111, 111, 111, 111, 'daysOfSalesOutstanding'], [NUM, 111, 111, 111, 111, 'daysOfInventoryOutstanding'], [NUM, 111, 111, 111, 111, 'operatingCycle'], [NUM, 111, 111, 111, 111, 'daysOfPayablesOutstanding'], [NUM, 111, 111, 111, 111, 'cashConversionCycle']]
+};
+
+const operation$1 = {
+  head: [TYPE, RAW, DB, LITE, RATIO, ENG],
+  rows: [[STR, 100, 100, 100, 100, 'symbol'], [STR, 100, 100, 100, 100, 'date'], [NUM, 111, 111, 111, 111, 'receivablesTurnover'], [NUM, 111, 111, 111, 111, 'payablesTurnover'], [NUM, 111, 111, 111, 111, 'inventoryTurnover'], [NUM, 111, 111, 111, 111, 'fixedAssetTurnover'], [NUM, 111, 111, 111, 111, 'assetTurnover']]
+};
+
+const profitability$1 = {
+  head: [TYPE, RAW, DB, LITE, RATIO, ENG],
+  rows: [[STR, 100, 100, 100, 100, 'symbol'], [STR, 100, 100, 100, 100, 'date'], [NUM, 111, 111, 111, 111, 'ebitperRevenue'], [NUM, 111, 111, 111, 111, 'ebtperEBIT'], [NUM, 111, 111, 111, 111, 'niperEBT'], [NUM, 111, 111, 111, 111, 'grossProfitMargin'], [NUM, 111, 111, 111, 111, 'operatingProfitMargin'], [NUM, 111, 111, 111, 111, 'pretaxProfitMargin'], [NUM, 111, 111, 111, 111, 'netProfitMargin'], [NUM, 111, 111, 111, 111, 'effectiveTaxRate'], [NUM, 111, 111, 111, 111, 'returnOnAssets'], [NUM, 111, 111, 111, 111, 'returnOnEquity'], [NUM, 111, 111, 111, 111, 'returnOnCapitalEmployed'], [NUM, 111, 111, 111, 111, 'nIperEBT'], [NUM, 111, 111, 111, 111, 'eBTperEBIT'], [NUM, 111, 111, 111, 111, 'eBITperRevenue']]
+};
+
+const valuation$1 = {
+  head: [TYPE, RAW, DB, LITE, RATIO, ENG],
+  rows: [[STR, 100, 100, 100, 100, 'symbol'], [STR, 100, 100, 100, 100, 'date'], [NUM, 111, 111, 111, 111, 'priceBookValueRatio'], [NUM, 111, 111, 111, 111, 'priceToBookRatio'], [NUM, 111, 111, 111, 111, 'priceToSalesRatio'], [NUM, 111, 111, 111, 111, 'priceEarningsRatio'], [NUM, 111, 111, 111, 111, 'receivablesTurnover'], [NUM, 111, 111, 111, 111, 'priceToFreeCashFlowsRatio'], [NUM, 111, 111, 111, 111, 'priceToOperatingCashFlowsRatio'], [NUM, 111, 111, 111, 111, 'priceCashFlowRatio'], [NUM, 111, 111, 111, 111, 'priceEarningsToGrowthRatio'], [NUM, 111, 111, 111, 111, 'priceSalesRatio'], [NUM, 111, 111, 111, 111, 'dividendYield'], [NUM, 111, 111, 111, 111, 'enterpriseValueMultiple'], [NUM, 111, 111, 111, 111, 'priceFairValue']]
+};
+
 const TableCollection = {
-  get balances() {
-    return Table.from(balances);
+  get cashflow() {
+    var _cashflow;
+
+    return _cashflow = cashflow$1, Table.from(_cashflow);
+  },
+
+  get liability() {
+    var _liability;
+
+    return _liability = liability$1, Table.from(_liability);
+  },
+
+  get liquidity() {
+    var _liquidity;
+
+    return _liquidity = liquidity$1, Table.from(_liquidity);
+  },
+
+  get operation() {
+    var _operation;
+
+    return _operation = operation$1, Table.from(_operation);
+  },
+
+  get profitability() {
+    var _profitability;
+
+    return _profitability = profitability$1, Table.from(_profitability);
+  },
+
+  get valuation() {
+    var _valuation;
+
+    return _valuation = valuation$1, Table.from(_valuation);
   },
 
   build(...topics) {
