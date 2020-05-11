@@ -1,0 +1,20 @@
+export const valuation = {
+  head: ['type', 'raw', 'db', 'lite', 'ratio', 'abbr', 'eng'], 
+  rows: [
+    ['string', 100, 100, 100, 100, 'symbol'  , 'symbol'                        ], 
+    ['string', 100, 100, 100, 100, 'date'    , 'date'                          ], 
+    ['number', 111, 111, 111, 111, 'pBV'     , 'priceBookValueRatio'           ], 
+    ['number', 111, 111, 111, 111, 'pB'      , 'priceToBookRatio'              ], 
+    ['number', 111, 111, 111, 111, 'pSa'     , 'priceToSalesRatio'             ], 
+    ['number', 111, 111, 111, 111, 'pE'      , 'priceEarningsRatio'            ], 
+    ['number', 111, 111, 111, 111, 'tnRecv'  , 'receivablesTurnover'           ], 
+    ['number', 111, 111, 111, 111, 'pFreeCfs', 'priceToFreeCashFlowsRatio'     ], 
+    ['number', 111, 111, 111, 111, 'pOpCfs'  , 'priceToOperatingCashFlowsRatio'], 
+    ['number', 111, 111, 111, 111, 'pCf'     , 'priceCashFlowRatio'            ], 
+    ['number', 111, 111, 111, 111, 'pEToGr'  , 'priceEarningsToGrowthRatio'    ], 
+    ['number', 111, 111, 111, 111, 'pSa'     , 'priceSalesRatio'               ], 
+    ['number', 111, 111, 111, 111, 'divYield', 'dividendYield'                 ], 
+    ['number', 111, 111, 111, 111, 'entVMul' , 'enterpriseValueMultiple'       ], 
+    ['number', 111, 111, 111, 111, 'pFairV'  , 'priceFairValue'                ], 
+  ], 
+}

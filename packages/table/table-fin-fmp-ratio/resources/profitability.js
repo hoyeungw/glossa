@@ -1,0 +1,21 @@
+export const profitability = {
+  head: ['type', 'raw', 'db', 'lite', 'ratio', 'abbr', 'eng'], 
+  rows: [
+    ['string', 100, 100, 100, 100, 'symbol'   , 'symbol'                 ], 
+    ['string', 100, 100, 100, 100, 'date'     , 'date'                   ], 
+    ['number', 111, 111, 111, 111, 'ebitToRev', 'ebitperRevenue'         ], 
+    ['number', 111, 111, 111, 111, 'ebtToEbit', 'ebtperEBIT'             ], 
+    ['number', 111, 111, 111, 111, 'niToEbt'  , 'niperEBT'               ], 
+    ['number', 111, 111, 111, 111, 'gPfMg'    , 'grossProfitMargin'      ], 
+    ['number', 111, 111, 111, 111, 'opPfMg'   , 'operatingProfitMargin'  ], 
+    ['number', 111, 111, 111, 111, 'pfbtMg'   , 'pretaxProfitMargin'     ], 
+    ['number', 111, 111, 111, 111, 'netPfMg'  , 'netProfitMargin'        ], 
+    ['number', 111, 111, 111, 111, 'rEffTx'   , 'effectiveTaxRate'       ], 
+    ['number', 111, 111, 111, 111, 'roAst'    , 'returnOnAssets'         ], 
+    ['number', 111, 111, 111, 111, 'roEqt'    , 'returnOnEquity'         ], 
+    ['number', 111, 111, 111, 111, 'roCapEmp' , 'returnOnCapitalEmployed'], 
+    ['number', 111, 111, 111, 111, 'niEbt'    , 'nIperEBT'               ], 
+    ['number', 111, 111, 111, 111, 'ebtEbit'  , 'eBTperEBIT'             ], 
+    ['number', 111, 111, 111, 111, 'ebitRev'  , 'eBITperRevenue'         ], 
+  ], 
+}
