@@ -1,4 +1,4 @@
-# @glossa/abbr-fin-ratio
+# @glossa/abbr-fin-ratios
 
 [![npm version][badge-npm-version]][url-npm]
 [![npm download monthly][badge-npm-download-monthly]][url-npm]
@@ -10,18 +10,18 @@
 [![github commit total][badge-github-commit-count]][url-github]
 
 [//]: <> (Shields)
-[badge-npm-version]: https://flat.badgen.net/npm/v/@glossa/abbr-fin-ratio
-[badge-npm-download-monthly]: https://flat.badgen.net/npm/dm/@glossa/abbr-fin-ratio
-[badge-npm-download-total]:https://flat.badgen.net/npm/dt/@glossa/abbr-fin-ratio
-[badge-npm-dependents]: https://flat.badgen.net/npm/dependents/@glossa/abbr-fin-ratio
-[badge-npm-license]: https://flat.badgen.net/npm/license/@glossa/abbr-fin-ratio
-[badge-pp-install-size]: https://flat.badgen.net/packagephobia/install/@glossa/abbr-fin-ratio
+[badge-npm-version]: https://flat.badgen.net/npm/v/@glossa/abbr-fin-ratios
+[badge-npm-download-monthly]: https://flat.badgen.net/npm/dm/@glossa/abbr-fin-ratios
+[badge-npm-download-total]:https://flat.badgen.net/npm/dt/@glossa/abbr-fin-ratios
+[badge-npm-dependents]: https://flat.badgen.net/npm/dependents/@glossa/abbr-fin-ratios
+[badge-npm-license]: https://flat.badgen.net/npm/license/@glossa/abbr-fin-ratios
+[badge-pp-install-size]: https://flat.badgen.net/packagephobia/install/@glossa/abbr-fin-ratios
 [badge-github-last-commit]: https://flat.badgen.net/github/last-commit/hoyeungw/glossa
 [badge-github-commit-count]: https://flat.badgen.net/github/commits/hoyeungw/glossa
 
 [//]: <> (Link)
-[url-npm]: https://npmjs.org/package/@glossa/abbr-fin-ratio
-[url-pp]: https://packagephobia.now.sh/result?p=@glossa/abbr-fin-ratio
+[url-npm]: https://npmjs.org/package/@glossa/abbr-fin-ratios
+[url-pp]: https://packagephobia.now.sh/result?p=@glossa/abbr-fin-ratios
 [url-github]: https://github.com/hoyeungw/glossa
 
 ##### Glossaries
@@ -31,7 +31,7 @@
 
 #### Install
 ```console
-$ npm install @glossa/abbr-fin-ratio
+$ npm install @glossa/abbr-fin-ratios
 ```
 
 #### Usage
