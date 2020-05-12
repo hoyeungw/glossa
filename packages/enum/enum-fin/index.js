@@ -4,6 +4,7 @@ export {
   INCOMES,
   CASHFLOWS,
   BASICS,
+  VALUATIONS,
   ENT_VALUES
 } from './resources/reports'
 

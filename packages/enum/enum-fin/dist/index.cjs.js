@@ -7,6 +7,7 @@ const GENERALS = 'generals',
       CASHFLOWS = 'cashflows',
       INCOMES = 'incomes',
       BASICS = 'basics',
+      VALUATIONS = 'valuations',
       ENT_VALUES = 'enterpriseValues';
 
 const SYMBOL = 'symbol',
@@ -49,4 +50,5 @@ exports.SECTOR = SECTOR;
 exports.SECTORS = SECTORS;
 exports.START = START;
 exports.SYMBOL = SYMBOL;
+exports.VALUATIONS = VALUATIONS;
 exports.WEIGHT = WEIGHT;
