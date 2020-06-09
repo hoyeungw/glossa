@@ -11,7 +11,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@vect/vector-merge": "^0.2.4"
+    "@vect/vector-merge": "^0.2.5"
   },
   "repository": {
     "type": "git",

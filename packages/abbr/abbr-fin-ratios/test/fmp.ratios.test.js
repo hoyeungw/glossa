@@ -1,10 +1,10 @@
-import { DictCollection }             from '@glossa/abbr-fin'
-import { says }                       from '@palett/says'
-import { decoSamples }                from '@spare/logger'
-import { camelToSnake, snakeToCamel } from '@spare/phrasing'
-import { makeReplaceable }            from '@spare/translator'
-import { acquire }                    from '@vect/vector-merge'
-import { ratios }                     from '../index'
+import { DictCollection }                         from '@glossa/abbr-fin'
+import { says }                                   from '@palett/says'
+import { decoSamples }                            from '@spare/logger'
+import { camelToSnake, capitalize, snakeToCamel } from '@spare/phrasing'
+import { makeReplaceable }                        from '@spare/translator'
+import { acquire }                                from '@vect/vector-merge'
+import { ratios }                                 from '../index'
 
 const nestedFields = {
   investmentValuationRatios: [
@@ -79,8 +79,6 @@ const nestedFields = {
     'dividendPayoutRatio',
   ],
 }
-
-const capitalize = word => word[0].toUpperCase() + word.substring(1)
 
 export const test = () => {
   const lex = acquire(

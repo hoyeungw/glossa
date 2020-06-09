@@ -1,21 +1,21 @@
-import gulp from 'gulp'
+import { Table }                                                   from '@analys/table'
+import { distinct }                                                from '@aryth/distinct-vector'
+import { Clean }                                                   from '@flua/clean'
+import { DynamicImport }                                           from '@flua/dynamic-import'
+import { AssignTable }                                             from '@flua/gulp-init'
+import { TableChips, TableLookup }                                 from '@flua/table-gulp'
+import { esvar }                                                   from '@flua/utils'
+import { Vinylize }                                                from '@flua/vinylize'
 import { AREA, CHS, CODE, CONCEPTS, ENG, SECTOR, SECTORS, WEIGHT } from '@glossa/enum-fin'
-import { cleanEng } from '@glossa/index-fin-hs300/src/cleanEng'
-import { FinInsight } from '@glossa/fin-insight'
-import { AssignTable } from '@flua/gulp-init'
-import { TableChips, TableLookup } from '@flua/table-gulp'
-import { DynamicImport } from '@flua/dynamic-import'
-import { Clean } from '@flua/clean'
-import { deca, logger } from '@spare/logger'
-import { Table } from '@analys/table'
-import { Verse } from '@spare/verse'
-import { mapper as mapperObject } from '@vect/object-mapper'
-import { Rename } from '@vect/rename'
-import { quote } from '@spare/quote'
-import { Vinylize } from '@flua/vinylize'
-import { esvar } from '@flua/utils'
-import { intersect } from '@vect/vector-algebra'
-import { distinct } from '@aryth/distinct-vector'
+import { FinInsight }                                              from '@glossa/fin-insight'
+import { cleanEng }                                                from '@glossa/index-fin-hs300/src/cleanEng'
+import { deca, logger }                                            from '@spare/logger'
+import { quote }                                                   from '@spare/quote'
+import { Verse }                                                   from '@spare/verse'
+import { mapper as mapperObject }                                  from '@vect/object-mapper'
+import { Rename }                                                  from '@vect/rename'
+import { intersect }                                               from '@vect/vector-algebra'
+import gulp                                                        from 'gulp'
 import {
   CODE_AREA,
   CODE_CONCEPTS,
@@ -23,16 +23,16 @@ import {
   CODE_SECTORS,
   CONCEPT_CODES,
   SECTOR_CODES
-} from '../../../constants/projections'
-import { OBJECTIFY } from '../../../functions/readValue'
-import { Insight } from '../../../functions/Insight'
-import { MakeTable } from '../../../utils/MakeTable'
-import { TUSH } from '../../../constants/sources'
+}                                                                  from '../../../constants/projections'
+import { TUSH }                                                    from '../../../constants/sources'
+import { Insight }                                                 from '../../../functions/Insight'
+import { OBJECTIFY }                                               from '../../../functions/readValue'
+import { MakeTable }                                               from '../../../utils/MakeTable'
 
 const BASE = 'packages/index/index-fin-hs300'
 const RAW = 'IndexHS300.json'
 const SRC = BASE + '/static'
-const DEST = BASE + '/static'
+const DEST = BASE + '/resources'
 
 const table = new Table()
 const mem = {}

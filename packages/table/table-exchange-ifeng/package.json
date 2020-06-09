@@ -14,7 +14,7 @@
     "@glossa/enum-data-scopes": "^0.2.5",
     "@glossa/enum-fin": "^0.2.5",
     "@glossa/enum-general-fields": "^0.2.5",
-    "@typen/enum-data-types": "^0.1.0"
+    "@typen/enum-data-types": "^0.1.5"
   },
   "repository": {
     "type": "git",
