@@ -5,4 +5,5 @@ export const
   INCOMES = 'incomes',
   BASICS = 'basics',
   VALUATIONS = 'valuations',
+  EXCHANGES = 'exchanges',
   ENT_VALUES = 'enterpriseValues'

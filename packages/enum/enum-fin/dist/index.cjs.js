@@ -8,6 +8,7 @@ const GENERALS = 'generals',
       INCOMES = 'incomes',
       BASICS = 'basics',
       VALUATIONS = 'valuations',
+      EXCHANGES = 'exchanges',
       ENT_VALUES = 'enterpriseValues';
 
 const SYMBOL = 'symbol',
@@ -42,6 +43,7 @@ exports.ENG = ENG;
 exports.ENT_VALUES = ENT_VALUES;
 exports.EST = EST;
 exports.EXCHANGE = EXCHANGE;
+exports.EXCHANGES = EXCHANGES;
 exports.GENERALS = GENERALS;
 exports.INCOMES = INCOMES;
 exports.INDUSTRY = INDUSTRY;
