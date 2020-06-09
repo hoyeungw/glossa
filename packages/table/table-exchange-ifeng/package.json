@@ -1,6 +1,6 @@
 {
   "name": "@glossa/table-exchange-ifeng",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Glossaries",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -11,9 +11,9 @@
     "access": "public"
   },
   "dependencies": {
-    "@glossa/enum-data-scopes": "^0.2.5",
-    "@glossa/enum-fin": "^0.2.5",
-    "@glossa/enum-general-fields": "^0.2.5",
+    "@glossa/enum-data-scopes": "^0.2.6",
+    "@glossa/enum-fin": "^0.2.6",
+    "@glossa/enum-general-fields": "^0.2.6",
     "@typen/enum-data-types": "^0.1.5"
   },
   "repository": {

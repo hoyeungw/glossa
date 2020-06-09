@@ -1,6 +1,6 @@
 {
   "name": "@glossa/enum-fin-ratios",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Glossaries",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
