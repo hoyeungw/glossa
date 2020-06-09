@@ -1,7 +1,7 @@
+import { TABLE }               from '@analys/enum-tabular-types'
 import { DecoTable, delogger } from '@spare/logger'
-import { TABLE } from '@analys/enum-tabular-types'
-import { promises } from 'fs'
-import { C12nSina } from '../src/C12nSina'
+import { promises }            from 'fs'
+import { C12nSina }            from '../src/C12nSina'
 
 C12nSina
   .sectors({ format: TABLE })
@@ -10,7 +10,8 @@ C12nSina
     return table
   })
   .then(async table => {
-    await promises.writeFile(__dirname + '/../static/Sectors.json', JSON.stringify(table))
+    await promises.writeFile(__dirname + '/../static/Sectors.json',
+      JSON.stringify(table))
   })
 
 C12nSina
