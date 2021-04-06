@@ -1,6 +1,6 @@
 {
   "name": "@glossa/i18n-fin-qtx",
-  "version": "0.2.6",
+  "version": "0.2.8",
   "description": "Glossaries",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
