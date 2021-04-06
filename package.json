@@ -7,7 +7,7 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "prewatch": "npm run bootstrap",
-    "upint": "yarn upgrade-interactive --latest",
+    "upint": "yarn upgrade-interactive",
     "pub": "lerna publish --force-publish",
     "build": "lerna exec --concurrency 4 --stream -- rollup -c ../../../rollup.config.js",
     "build-specific": "lerna exec --scope=@glossa/abbr-fin -- rollup -c ../../../rollup.config.js",
