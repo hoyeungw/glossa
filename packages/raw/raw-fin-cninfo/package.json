@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/hoyeungw/glossa#readme",
   "dependencies": {
-    "naivecsv": "^0.1.0"
+    "naivecsv": "^0.2.0"
   },
   "gitHead": "58ff70d087be3945cf25a5ffed1c8ec0bb57aad0"
 }

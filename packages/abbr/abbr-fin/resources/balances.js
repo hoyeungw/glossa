@@ -10,7 +10,7 @@ export const balances = [
   [/shareholders'? equity/gi, 'eqt'],
   [/retained earnings( ?\(deficit\))?/gi, 're'],
   [/construction in progress/gi, 'cip'],
-  [/property,? plant (&|and) equipment/gi, 'ppe']
+  [/property,? plant (&|and)? equipment/gi, 'ppe']
 ]
 
 

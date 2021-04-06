@@ -1,0 +1,16 @@
+export const grammatic = [
+  [ / {2}/g, ' ' ],
+  [ /the/g, '' ],
+  [ /bank/gi, 'bk' ],
+  [ /from/gi, 'fr' ],
+  [ /other/gi, 'o' ],
+  [ /to be/gi, 'tb' ],
+  [ /non([ \-])/gi, 'n' ],
+  [ /\b&\b/gi, '' ],
+  [ /\bor\b/gi, '' ],
+  [ /\band\b/gi, '' ],
+  [ /\bbut\b/gi, '' ],
+  [ /but not/gi, 'wo' ],
+  [ /including(ing)?/gi, 'icl' ],
+  [ /excluding(ing)?/gi, 'exl' ],
+]
