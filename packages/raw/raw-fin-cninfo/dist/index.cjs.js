@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-var zh = [
+var zh$3 = [
 	"证券简称",
 	"证券代码",
 	"机构名称",
@@ -129,7 +129,7 @@ var zh = [
 	"租赁负债"
 ];
 
-var zh$1 = [
+var zh$2 = [
 	"证券代码",
 	"证券简称",
 	"机构名称",
@@ -199,7 +199,7 @@ var zh$1 = [
 	"资产减值损失（2019格式）"
 ];
 
-var zh$2 = [
+var zh$1 = [
 	"证券简称",
 	"证券代码",
 	"机构名称",
@@ -295,7 +295,7 @@ var zh$2 = [
 	"现金及现金等价物净增加额2"
 ];
 
-var zh$3 = [
+var zh = [
 	"机构名称",
 	"证券代码",
 	"证券简称",
@@ -429,14 +429,14 @@ var zh$3 = [
 ];
 
 const Raw = {
-  balances: zh,
-  incomes: zh$1,
-  cashflows: zh$2,
-  ratios: zh$3
+  balances: zh$3,
+  incomes: zh$2,
+  cashflows: zh$1,
+  ratios: zh
 };
 
 exports.Raw = Raw;
-exports.balances = zh;
-exports.cashflows = zh$2;
-exports.incomes = zh$1;
-exports.ratios = zh$3;
+exports.balances = zh$3;
+exports.cashflows = zh$1;
+exports.incomes = zh$2;
+exports.ratios = zh;

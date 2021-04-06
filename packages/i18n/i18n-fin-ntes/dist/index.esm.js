@@ -15,8 +15,8 @@ const ChsToEng = {
 
 const sortKeysByLength = dict => dict.sort(([a], [b]) => String(b).length - String(a).length);
 
-const makeReplaceable = function (dict) {
-  if (this === null || this === void 0 ? void 0 : this.sort) sortKeysByLength(dict);
+const makeReplaceable$1 = function (dict) {
+  if (this !== null && this !== void 0 && this.sort) sortKeysByLength(dict);
   Object.defineProperty(dict, Symbol.replace, {
     value(word, after) {
       for (let [curr, proj] of this) word = word.replace(curr, proj);
@@ -32,36 +32,36 @@ const makeReplaceable = function (dict) {
 
 const MakeReplaceable = ({
   sort = true
-} = {}) => makeReplaceable.bind({
+} = {}) => makeReplaceable$1.bind({
   sort
 });
 
-const makeReplaceable$1 = MakeReplaceable({
+const makeReplaceable = MakeReplaceable({
   sort: true
 });
 const DictCollection = {
   get balances() {
     var _balances;
 
-    return _balances = balances, makeReplaceable$1(_balances);
+    return _balances = balances, makeReplaceable(_balances);
   },
 
   get incomes() {
     var _incomes;
 
-    return _incomes = incomes, makeReplaceable$1(_incomes);
+    return _incomes = incomes, makeReplaceable(_incomes);
   },
 
   get cashflows() {
     var _cashflows;
 
-    return _cashflows = cashflows, makeReplaceable$1(_cashflows);
+    return _cashflows = cashflows, makeReplaceable(_cashflows);
   },
 
   get basics() {
     var _basics;
 
-    return _basics = basics, makeReplaceable$1(_basics);
+    return _basics = basics, makeReplaceable(_basics);
   }
 
 };

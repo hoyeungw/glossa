@@ -13,7 +13,7 @@ import { deca, logger }                                            from '@spare/
 import { quote }                                                   from '@spare/quote'
 import { Verse }                                                   from '@spare/verse'
 import { mapper as mapperObject }                                  from '@vect/object-mapper'
-import { Rename }                                                  from '@vect/rename'
+import { Rename }                                                  from '@ject/rename'
 import { intersect }                                               from '@vect/vector-algebra'
 import gulp                                                        from 'gulp'
 import {
@@ -41,12 +41,12 @@ const MergeTable = (table) => {
   return (async () => {
     mem |> deca({ hi: 1 }) |> logger
     const codes = table.column(CODE)
-    for (let [key, label] of [
-      [CODE_SECTOR + TUSH, SECTOR + TUSH],
-      [CODE_SECTOR, SECTOR],
-      [CODE_SECTORS, SECTORS],
-      [CODE_CONCEPTS, CONCEPTS],
-      [CODE_AREA, AREA],
+    for (let [ key, label ] of [
+      [ CODE_SECTOR + TUSH, SECTOR + TUSH ],
+      [ CODE_SECTOR, SECTOR ],
+      [ CODE_SECTORS, SECTORS ],
+      [ CODE_CONCEPTS, CONCEPTS ],
+      [ CODE_AREA, AREA ],
     ]) {
       const dict = mem[key]
       table.pushColumn(label, codes.map(x => dict[x]))

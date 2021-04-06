@@ -1,4 +1,4 @@
-var zh = [
+var zh$3 = [
 	"证券简称",
 	"证券代码",
 	"机构名称",
@@ -125,7 +125,7 @@ var zh = [
 	"租赁负债"
 ];
 
-var zh$1 = [
+var zh$2 = [
 	"证券代码",
 	"证券简称",
 	"机构名称",
@@ -195,7 +195,7 @@ var zh$1 = [
 	"资产减值损失（2019格式）"
 ];
 
-var zh$2 = [
+var zh$1 = [
 	"证券简称",
 	"证券代码",
 	"机构名称",
@@ -291,7 +291,7 @@ var zh$2 = [
 	"现金及现金等价物净增加额2"
 ];
 
-var zh$3 = [
+var zh = [
 	"机构名称",
 	"证券代码",
 	"证券简称",
@@ -425,10 +425,10 @@ var zh$3 = [
 ];
 
 const Raw = {
-  balances: zh,
-  incomes: zh$1,
-  cashflows: zh$2,
-  ratios: zh$3
+  balances: zh$3,
+  incomes: zh$2,
+  cashflows: zh$1,
+  ratios: zh
 };
 
-export { Raw, zh as balances, zh$2 as cashflows, zh$1 as incomes, zh$3 as ratios };
+export { Raw, zh$3 as balances, zh$1 as cashflows, zh$2 as incomes, zh as ratios };
